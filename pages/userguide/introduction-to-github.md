@@ -44,5 +44,17 @@ Public GitHub repositories also contain (typically) at least three core files:
 
 Another norm is to write using a [markup language](https://en.wikipedia.org/wiki/Markup_language) known as [Markdown](https://daringfireball.net/projects/markdown/). Markup languages allow users to specify exactly how they want their text to appear when it is parsed and processed by special software. This is different from, say, Microsoft Word, which is known as a "what you see is what you get" or **WYSIWYG** editor, which uses a graphical interface for constructing documents.
 
+### Storing GitHub Repositories
+When you clone your repositories, you will be prompted to save them on your computer. There are a number of ways in which this process can introduce sources for trouble down the road:
+
+  1. External media - storing data on devices like thumb drives or external hard drives can be a part of a [backup workflow](protecting-your-work.html). However, I have seen issues where this has appeared to contribute to sync errors with GitHub Desktop, particularly on Windows.
+  2. Cloud storage services (Dropbox, Google Drive, etc.)  - like external drives, these services can be a part of a [backup workflow](protecting-your-work.html). However, like external drives, I have seen issues whee this has to contribute to sync errors with GitHub Desktop.
+
+In order to avoid any issues, I suggest storing GitHub repositories on your computer's hard drive and not a thumb drive or other external device. Make sure your are saving your files in a place not backed up to Dropbox or another cloud storage service.
+
 ### Learning More
 GitHub has a [resources page](https://help.github.com/articles/good-resources-for-learning-git-and-github/) with links to websites that are great for helping you learn more about how Git and GitHub work!
+
+----
+
+##### [Back to User's Guide Cover Page]({{ base }}/pages/user-guide.html)

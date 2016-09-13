@@ -102,3 +102,7 @@ Throughout the semester, I will give you examples both in lecture slides and in 
 ```
 
 Examples will almost always use the file `auto.dta`, which comes pre-installed with Stata. To open it, use the `sysuse` command: `sysuse auto.dta, clear`. This allows you to easily recreate examples by minimizing dependencies within do-files.
+
+----
+
+##### [Back to User's Guide Cover Page]({{ base }}/pages/user-guide.html)

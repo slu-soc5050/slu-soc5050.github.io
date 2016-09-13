@@ -183,3 +183,7 @@ Cloud backup services like [Backblaze](https://www.backblaze.com) or [Crashplan]
 
 #### A Workflow for Backups
 Just as we need a workflow for approaching file management, it is also important to establish a routine for backups. With backups, the most successful workflows are those that require next to no effort on your part. If you primarily use a desktop, this can be as simple as leaving two external hard drives plugged into your computer since most backup software can be set to run automatically. If you have tasks that require you to manually do something (plug an external hard drive into your computer, for instance), create a reminder for yourself on a paper calendar or a digital calendar or to-do list application.
+
+----
+
+##### [Back to User's Guide Cover Page]({{ base }}/pages/user-guide.html)
