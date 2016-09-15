@@ -6,7 +6,7 @@ tags: [GitHub]
 description:
 ---
 
-Much of our interaction this semester outside of class will utilize GitHub.com (or just "GitHub"). GitHub is a web service that is a social network for programmers, developers, data scientists, researchers, and academics. It is also a tool for collaborating on projects, especially projects that involve writing code.
+Much of our interaction this semester outside of class will utilize [GitHub.com](https://github.com) (or just "GitHub"). GitHub is a web service that is a social network for programmers, developers, data scientists, researchers, and academics. It is also a tool for collaborating on projects, especially projects that involve writing code.
 
 ### Git
 GitHub is a web application that utilizes [Git](https://git-scm.com):
