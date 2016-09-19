@@ -17,4 +17,6 @@ If you want offline copies of the User Guide, clone the repository [`slu-soc5050
   3. [Introduction to GitHub](userguide/introduction-to-github.html)
   4. [Structuring Do-files for Replication](userguide/structuring-do-files.html)
   5. [Structuring the Master Do-file](userguide/structuring-master-file.html)
-  6. [The Zen of Stata](userguide/zen-of-stata.html)
+  6. [Structuring the Data Do-file](userguide/structuring-data-file.html)
+  7. [Structuring the Analysis Do-file](userguide/structuring-analysis-file.html)
+  8. [The Zen of Stata](userguide/zen-of-stata.html)
