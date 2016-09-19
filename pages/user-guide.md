@@ -15,3 +15,4 @@ If you want offline copies of the User Guide, clone the repository [`slu-soc5050
   1. [Introduction](userguide/introduction.html)
   2. [Protecting Your Work](userguide/protecting-your-work.html)
   3. [Introduction to GitHub](userguide/introduction-to-github.html)
+  4. [Structuring Do-files](userguide/structuring-do-files.html)
