@@ -3,7 +3,7 @@ title: "About the Course"
 date: "2017-06-22T21:48:51-07:00"
 ---
 
-SOC 4930 & 5050 is [Saint Louis University](https://www.slu.edu/) [Sociology's](https://www.slu.edu/department-of-sociology-and-anthropology) undergraduate and graduate introductory statistics course, which is currently taught by Assistant Professor [Christopher Prener](https://chris-prener.github.io).
+SOC 4930 & 5050 is [Saint Louis University](https://www.slu.edu/) [Sociology's](https://www.slu.edu/department-of-sociology-and-anthropology) undergraduate and graduate introductory statistics course, which will next be offered in Fall, 2017. This site is for sections taught by Assistant Professor [Christopher Prener](https://chris-prener.github.io). 
 
 ## Course Description
 This course provides an introduction to applied statistical analysis for both undergraduate and graduate students with an emphasis placed on statistical techniques that are most common in the sociological literature. The statistical techniques introduced include measures of central tendency and dispersion as well as measures of bivariate association. Multivariate statistical analyses are also introduced along with essential skills for cleaning data, creating plots, and reporting results. While the examples may be specific to the social sciences, the theories and skills that are covered are broadly applicable across academic disciplines.
