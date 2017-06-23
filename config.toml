@@ -1,8 +1,8 @@
 baseurl = "/"
 relativeurls = true
 languageCode = "en-us"
-title = "A Hugo website"
-theme = "hugo-lithium-theme"
+title = "SLU SOC 4930 & 5050"
+theme = "hyde"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
@@ -11,17 +11,29 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
-[[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
+    url = "https://github.com/slu-soc5050/"
+
 [[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    name = "Slack"
+    url = "https://slu-soc5050.slack.com/"
+
+[[menu.main]]
+    name = "Syllabus"
+    url = "https://github.com/slu-soc5050/Core-Documents/"
+
+[[menu.main]]
+    name = "User's Guide"
+    url = "https://slu-soc5050.github.io/User-Guide/index.html"
+    
+[[menu.main]]
+    name = "Wiki"
+    url = "https://github.com/slu-soc5050/Core-Documents/wiki/"
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "Quantitative Analysis - Applied Inferential Statistics"
+    
+    themeColor = "theme-base-0b"
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.11.0"
