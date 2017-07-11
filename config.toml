@@ -30,6 +30,10 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     name = "Wiki"
     url = "https://github.com/slu-soc5050/Core-Documents/wiki/"
 
+[[menu.main]]
+    name = "R for Data Science"
+    url = "http://r4ds.had.co.nz"
+
 [params]
     description = "Quantitative Analysis - Applied Inferential Statistics"
     
