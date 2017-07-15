@@ -37,6 +37,10 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 [[menu.main]]
     name = "Polls"
     url = "https://pollev.com/chrisprener541"
+    
+[[menu.main]]
+    name = "ShareLaTeX"
+    url = "https://www.sharelatex.com/"
 
 [params]
     description = "Quantitative Analysis - Applied Inferential Statistics"
