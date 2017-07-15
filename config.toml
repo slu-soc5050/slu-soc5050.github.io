@@ -3,7 +3,7 @@ relativeurls = true
 languageCode = "en-us"
 title = "SLU SOC 4930 & 5050"
 theme = "hyde"
-googleAnalytics = ""
+googleAnalytics = "UA-102425513-2"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
