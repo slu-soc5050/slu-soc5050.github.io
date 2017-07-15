@@ -33,6 +33,10 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 [[menu.main]]
     name = "R for Data Science"
     url = "http://r4ds.had.co.nz"
+    
+[[menu.main]]
+    name = "Polls"
+    url = "https://pollev.com/chrisprener541"
 
 [params]
     description = "Quantitative Analysis - Applied Inferential Statistics"
