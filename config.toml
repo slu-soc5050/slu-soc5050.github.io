@@ -27,7 +27,7 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     url = "https://slu-soc5050.github.io/User-Guide/index.html"
     
 [[menu.main]]
-    name = "Wiki"
+    name = "Wiki/Jotter"
     url = "https://github.com/slu-soc5050/Core-Documents/wiki/"
 
 [[menu.main]]
