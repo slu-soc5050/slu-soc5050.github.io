@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Week-02s on SOC 4930 &amp; SOC 5050</title>
-    <link>https://slu-soc5050.github.io/week-02/</link>
+    <link>/week-02/</link>
     <description>Recent content in Week-02s on SOC 4930 &amp; SOC 5050</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license</copyright>
     <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5050.github.io/week-02/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/week-02/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Week 02 - Working with Data (Part 1)</title>
-      <link>https://slu-soc5050.github.io/week-02/</link>
+      <link>/week-02/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/week-02/</guid>
+      <guid>/week-02/</guid>
       <description>Lecture 02a - Introducing ggplot2 Slides  Video Lecture   Lecture 02b - Grammar of Graphics Slides  Video Lecture   Lecture 03 - Verbs for Cleaning Data Slides  Video Lecture   Lecture 04 - Structuring Notebooks Slides  Video Lecture   Data for Assignments The data that you need for many of the assignments this semester is available as an R package named testDriveR.</description>
     </item>
     

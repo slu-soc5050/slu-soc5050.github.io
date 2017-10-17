@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Week-06s on SOC 4930 &amp; SOC 5050</title>
-    <link>https://slu-soc5050.github.io/week-06/</link>
+    <link>/week-06/</link>
     <description>Recent content in Week-06s on SOC 4930 &amp; SOC 5050</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Released under the MIT license</copyright>
     <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5050.github.io/week-06/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/week-06/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Week 06 - Foundations for Inference</title>
-      <link>https://slu-soc5050.github.io/week-06/</link>
+      <link>/week-06/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/week-06/</guid>
+      <guid>/week-06/</guid>
       <description> Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-06 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
 Replication    </description>
     </item>
