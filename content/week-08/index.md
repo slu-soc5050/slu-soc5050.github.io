@@ -35,18 +35,4 @@ devtools::install_github("chris-prener/testDriveR")
 ## Recodes from the Lecture
 We need a binary outcome to work though the examples in the lecture that use the `mpg` data. We'll make a variable called `foreign` that is `TRUE` if the vehicle is produced by a manufacturer whose headquarters is in another country.
 
-```r
-library(tidyverse)
-
-mpg %>%
-  mutate(foreign = ifelse(manufacturer == "audi" |
-                           manufacturer == "honda" |
-                           manufacturer == "hyundai" |
-                           manufacturer == "land rover" |
-                           manufacturer == "nissan" |
-                           manufacturer == "subaru" |
-                           manufacturer == "toyota" |
-                           manufacturer == "volkswagen",
-                         TRUE, FALSE)) %>%
-  select(manufacturer, model, cty, hwy, foreign) -> autoData
-```
+{{< gist chris-prener ce737d7cfb4c8b1a2ab137c3e89d1349 >}}

@@ -474,20 +474,7 @@ devtools::install_github(&quot;chris-prener/testDriveR&quot;)
 
 <p>We need a binary outcome to work though the examples in the lecture that use the <code>mpg</code> data. We&rsquo;ll make a variable called <code>foreign</code> that is <code>TRUE</code> if the vehicle is produced by a manufacturer whose headquarters is in another country.</p>
 
-<pre><code class="language-r">library(tidyverse)
-
-mpg %&gt;%
-  mutate(foreign = ifelse(manufacturer == &quot;audi&quot; |
-                           manufacturer == &quot;honda&quot; |
-                           manufacturer == &quot;hyundai&quot; |
-                           manufacturer == &quot;land rover&quot; |
-                           manufacturer == &quot;nissan&quot; |
-                           manufacturer == &quot;subaru&quot; |
-                           manufacturer == &quot;toyota&quot; |
-                           manufacturer == &quot;volkswagen&quot;,
-                         TRUE, FALSE)) %&gt;%
-  select(manufacturer, model, cty, hwy, foreign) -&gt; autoData
-</code></pre>
+<script src="//gist.github.com/chris-prener/ce737d7cfb4c8b1a2ab137c3e89d1349.js"></script>
 
 
 			<aside class="copyright" role="note">
