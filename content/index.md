@@ -30,6 +30,10 @@ Both the [**Syllabus**](https://github.com/slu-soc5050/Core-Documents/blob/maste
 
 ## Acknowledgements
 
-Last but not least a big thank you to [Martin Donath](https://github.com/squidfunk). He created the original [Material theme](https://github.com/squidfunk/mkdocs-material) for Hugo's companion [MkDocs](http://www.mkdocs.org/). This port wouldn't be possible without him.
+Like many things in academia, the "final" product here is the result of others' hard work as well as my own. I owe gratitude and thanks to [Hadley Wickham](http://hadley.nz), whose data science tools are heavily featured as part of this course. I also draw significant inspiration from [Jenny Bryan](https://www.stat.ubc.ca/~jenny/), whose [Stat 545 course](http://stat545.com) has served as a significant resource and a model for my own teaching. 
 
-Furthermore, thanks to [Steve Francia](https://gihub.com/spf13) for creating Hugo and the [awesome community](https://github.com/spf13/hugo/graphs/contributors) around the project.
+This website itself is the product of [Yihui Xie's](https://yihui.name) work on the [blogdown](https://bookdown.org/yihui/blogdown/) package for `R` as well as [Digitalcraftsman's](https://github.com/digitalcraftsman) port of [Martin Donath's](https://github.com/squidfunk) [Material theme](https://github.com/squidfunk/mkdocs-material).
+
+Finally, I must acknowledge my now six semesters' worth of students, whose collective feedback and experiences have helped dramatically reshape the course content and how I teach. I am immensely grateful for each of your contributions to my courses.
+
+
