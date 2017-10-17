@@ -11,7 +11,7 @@ googleAnalytics = ""
 	# General information
 	author = "Christopher Prener, Ph.D."
 	description = "SOC 4930 & SOC 5050: Quantiative Analysis - Applied Inferential Statistics"
-	copyright = "Released under the MIT license"
+	copyright = "Licensed under a Creative Commons Attribution 4.0 International License"
 
 	# Repository
 	provider = "GitHub"
@@ -99,6 +99,11 @@ googleAnalytics = ""
 	name   = "Week 08 - Mean Difference (2)"
 	url    = "week-08/"
 	weight = 27
+
+[[menu.main]]
+	name   = "License"
+	url    = "license/"
+	weight = 40
 	
 [blackfriday]
 	smartypants	= true

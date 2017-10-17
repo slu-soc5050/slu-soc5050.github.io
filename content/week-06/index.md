@@ -1,7 +1,7 @@
 ---
 date: 2016-03-08T21:07:13+01:00
 title: Week 06 - Foundations for Inference
-weight: 0
+weight: 25
 ---
 
 ## Lecture Slides

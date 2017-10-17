@@ -1,7 +1,7 @@
 ---
 date: 2016-03-08T21:07:13+01:00
 title: Week 07 - Difference of Means (Part 1)
-weight: 0
+weight: 26
 ---
 
 ## Lecture Slides

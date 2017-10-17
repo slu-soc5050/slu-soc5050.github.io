@@ -1,7 +1,7 @@
 ---
 date: 2016-03-09T00:11:02+01:00
 title: Course Resources
-weight: 0
+weight: 2
 ---
 
 In addition to the [**Syllabus**](https://github.com/slu-soc5050/Core-Documents/blob/master/syllabus.pdf) and the [**Reading List**](https://github.com/slu-soc5050/Core-Documents/blob/master/reading-list.pdf), there are a number of other course resources you should be aware of.

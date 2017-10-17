@@ -6,7 +6,7 @@
     <description>Recent content on SOC 4930 &amp; SOC 5050</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Released under the MIT license</copyright>
+    <copyright>Licensed under a Creative Commons Attribution 4.0 International License</copyright>
     <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -21,6 +21,17 @@
       <description>Currently Offered
 SOC 4930 &amp;amp; 5050 is Saint Louis University Sociology&amp;rsquo;s undergraduate and graduate introductory statistics course, which is currently being offered for Fall, 2017. This site is for sections taught by Assistant Professor Christopher Prener.
  Course Description This course provides an introduction to applied statistical analysis for both undergraduate and graduate students with an emphasis placed on statistical techniques that are most common in the sociological literature. The statistical techniques introduced include measures of central tendency and dispersion as well as measures of bivariate association.</description>
+    </item>
+    
+    <item>
+      <title>Course Resources</title>
+      <link>/course-resources/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>/course-resources/</guid>
+      <description>In addition to the Syllabus and the Reading List, there are a number of other course resources you should be aware of.
+Course Website This course website will be updated regularly throughout the semester. I&amp;rsquo;ll add a page on the menu for each week, and include links to lecture slides, YouTube videos, and notes about specific topics.
+User&amp;rsquo;s Guide The User&amp;rsquo;s Guide is a companion document for the course that covers applications and processes not covered by one of the course textbooks.</description>
     </item>
     
     <item>
@@ -60,28 +71,6 @@ I have also posted a quick reference sheet for relevant R functions for the week
       <guid>/week-03/</guid>
       <description>Lecture Slides  Using GitHub to Store Working Files for the Course If you want to GitHub to store your working files (as opposed to the finish submission versions you submit via your Assignments repository), you can sign-up for a discounted student plan here. Choose &amp;ldquo;Student&amp;rdquo; and &amp;ldquo;Individual Account&amp;rdquo;, and answer any additional prompts they have. Be prepared to attach a photo of your student ID.
 If you do this, you want to be sure to include a .</description>
-    </item>
-    
-    <item>
-      <title>License</title>
-      <link>/license/</link>
-      <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
-      
-      <guid>/license/</guid>
-      <description>Copyright &amp;copy; 2016 Digitalcraftsman digitalcraftsman@protonmail.com
-Copyright &amp;copy; 2016 Martin Donath martin.donath@squidfunk.com
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</description>
-    </item>
-    
-    <item>
-      <title>Course Resources</title>
-      <link>/course-resources/</link>
-      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
-      
-      <guid>/course-resources/</guid>
-      <description>In addition to the Syllabus and the Reading List, there are a number of other course resources you should be aware of.
-Course Website This course website will be updated regularly throughout the semester. I&amp;rsquo;ll add a page on the menu for each week, and include links to lecture slides, YouTube videos, and notes about specific topics.
-User&amp;rsquo;s Guide The User&amp;rsquo;s Guide is a companion document for the course that covers applications and processes not covered by one of the course textbooks.</description>
     </item>
     
     <item>
@@ -134,6 +123,18 @@ Replication   YAML Headers for RMarkdown Documents The area at the top of your R
       <description>Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-08 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
 Replication   New and Updated Packages for Class We are going to be using a bunch of new packages this week! Here is a list of packages to install using install.packages():
  car effsize gapminder ggridges pwr stargazer  You will also need to install a new package, stlData, from GitHub and update the testDriveR package:</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>/license/</link>
+      <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
+      
+      <guid>/license/</guid>
+      <description>Copyright &amp;copy; 2016-2017 Christopher G. Prener
+This work is licensed under a Creative Commons Attribution 4.0 International License.
+This is a human-readable summary of (and not a substitute for) the license.
+You are free to: - Share — copy and redistribute the material in any medium or format - Adapt — remix, transform, and build upon the material for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms.</description>
     </item>
     
   </channel>

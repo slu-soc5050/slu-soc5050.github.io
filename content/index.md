@@ -2,7 +2,7 @@
 date: 2016-03-08T21:07:13+01:00
 title: Quantiative Analysis - Applied Inferential Statistics
 type: index
-weight: 5
+weight: 1
 ---
 
 {{< note title="Currently Offered" >}}

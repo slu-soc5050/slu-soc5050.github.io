@@ -1,7 +1,7 @@
 ---
 date: 2016-03-08T21:07:13+01:00
 title: Week 04 - Probability and Bayes' Theorem
-weight: 0
+weight: 23
 ---
 
 ## Lecture Slides
