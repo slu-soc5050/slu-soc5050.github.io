@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+  
+  
+  
+  
+   <html class="no-js"> 
+
+  <head lang="en-us">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>Week 03 - Describing Distributions - SOC 4930 &amp; SOC 5050</title>
+    <meta name="generator" content="Hugo 0.30" />
+
+    
+    <meta name="description" content="SOC 4930 &amp; SOC 5050: Quantiative Analysis - Applied Inferential Statistics">
+    
+    <link rel="canonical" href="https://slu-soc5050.github.io/week-03/">
+    
+    <meta name="author" content="Christopher Prener, Ph.D.">
+    
+
+    <meta property="og:url" content="https://slu-soc5050.github.io/week-03/">
+    <meta property="og:title" content="SOC 4930 &amp; SOC 5050">
+    <meta property="og:image" content="https://slu-soc5050.github.io/images/logo.png">
+    <meta name="apple-mobile-web-app-title" content="SOC 4930 &amp; SOC 5050">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://slu-soc5050.github.io/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://slu-soc5050.github.io/images/favicon.ico">
+
+    <style>
+      @font-face {
+        font-family: 'Icon';
+        src: url('https://slu-soc5050.github.io/fonts/icon.eot');
+        src: url('https://slu-soc5050.github.io/fonts/icon.eot')
+               format('embedded-opentype'),
+             url('https://slu-soc5050.github.io/fonts/icon.woff')
+               format('woff'),
+             url('https://slu-soc5050.github.io/fonts/icon.ttf')
+               format('truetype'),
+             url('https://slu-soc5050.github.io/fonts/icon.svg')
+               format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <link rel="stylesheet" href="https://slu-soc5050.github.io/stylesheets/application.css">
+    <link rel="stylesheet" href="https://slu-soc5050.github.io/stylesheets/temporary.css">
+    <link rel="stylesheet" href="https://slu-soc5050.github.io/stylesheets/palettes.css">
+    <link rel="stylesheet" href="https://slu-soc5050.github.io/stylesheets/highlight/highlight.css">
+
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+    
+    <script src="https://slu-soc5050.github.io/javascripts/modernizr.js"></script>
+
+    
+
+  </head>
+  <body class="palette-primary-deep-orange palette-accent-blue">
+
+
+
+	
+	
+
+
+<div class="backdrop">
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	<nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        Week 03 - Describing Distributions
+      </div>
+    </div>
+
+    
+
+    
+    <div class="button button-github" role="button" aria-label="GitHub">
+      <a href="https://github.com/slu-soc5050" title="@slu-soc5050 on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+    </div>
+    
+    
+        
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+	<div class="drawer">
+		<nav aria-label="Navigation">
+  <a href="https://github.com/slu-soc5050/Core-Documents" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="https://slu-soc5050.github.io/images/logo.png">
+        </div>
+      
+      <div class="name">
+        <strong>SOC 4930 &amp; SOC 5050 </strong>
+        
+          <br>
+          slu-soc5050/Core-Documents
+        
+      </div>
+    </div>
+  </a>
+
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-download">
+            <a href="https://github.com/slu-soc5050/Core-Documents/archive/master.zip" target="_blank" title="Download" data-action="download">
+              <i class="icon icon-download"></i> Download
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/slu-soc5050/Core-Documents/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+
+      <div class="toc">
+        
+        <ul>
+          
+
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="About" href="https://slu-soc5050.github.io/">
+	
+	About
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Course Resources" href="https://slu-soc5050.github.io/course-resources/">
+	
+	Course Resources
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Getting Started" href="https://slu-soc5050.github.io/getting-started/">
+	
+	Getting Started
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Week 01 - Course Introduction" href="https://slu-soc5050.github.io/week-01/">
+	
+	Week 01 - Course Introduction
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Week 02 - Working with Data (1)" href="https://slu-soc5050.github.io/week-02/">
+	
+	Week 02 - Working with Data (1)
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a class="current" title="Week 03 - Distributions" href="https://slu-soc5050.github.io/week-03/">
+	
+	Week 03 - Distributions
+</a>
+
+
+<ul id="scrollspy">
+</ul>
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Week 04 - Probability" href="https://slu-soc5050.github.io/week-04/">
+	
+	Week 04 - Probability
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Week 05 - Random Variables" href="https://slu-soc5050.github.io/week-05/">
+	
+	Week 05 - Random Variables
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Week 06 - Inference" href="https://slu-soc5050.github.io/week-06/">
+	
+	Week 06 - Inference
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Week 07 - Mean Difference (1)" href="https://slu-soc5050.github.io/week-07/">
+	
+	Week 07 - Mean Difference (1)
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Week 08 - Mean Difference (2)" href="https://slu-soc5050.github.io/week-08/">
+	
+	Week 08 - Mean Difference (2)
+</a>
+
+
+
+  
+</li>
+
+
+        </ul>
+        
+
+        
+        <hr>
+        <span class="section">The author</span>
+        
+        <ul>
+          
+
+          
+          <li>
+            <a href="https://github.com/slu-soc5050" target="_blank" title="@slu-soc5050 on GitHub">
+              @slu-soc5050 on GitHub
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="mailto:chris.prener@slu.edu" title="Email of chris.prener@slu.edu">
+              Contact via email
+            </a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			<h1>Week 03 - Describing Distributions </h1>
+
+			
+
+<h2 id="lecture-slides">Lecture Slides</h2>
+
+<script async class='speakerdeck-embed' data-id='5d53b03d17064cce9cea2d119ed1cbbe' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
+
+<h2 id="using-github-to-store-working-files-for-the-course">Using GitHub to Store Working Files for the Course</h2>
+
+<p>If you want to GitHub to store your working files (as opposed to the finish submission versions you submit via your Assignments repository), you can sign-up for a discounted student plan <a href="https://education.github.com/discount_requests/new">here</a>. Choose &ldquo;Student&rdquo; and &ldquo;Individual Account&rdquo;, and answer any additional prompts they have. Be prepared to attach a photo of your student ID.</p>
+
+<p>If you do this, you want to be sure to include a <code>.gitignore</code> file in each of your repositories. These are simple, often hidden files that prevent certain types of system files from being tracked by git and uploaded to GitHub. Each of the public-facing GitHub repos for the course and your Assignments repo have one of these - they are all identical. Use Atom to copy-and-paste a <code>.gitignore</code> file from one of these repos into your personal repositories (Atom can &ldquo;see&rdquo; hidden files!). Make sure you do this before commiting anything else to each new repository. See me if you have questions!</p>
+
+<h2 id="sync-your-work">Sync Your Work!</h2>
+
+<p>If you are using <em>multiple</em> computers and have your GitHub assignments repository stored on multiple computers, please sync that repository each time you <em>begin</em> working to ensure that you have the latest updates. If you don&rsquo;t do this, you will get errors when you go to commit changes!</p>
+
+<h2 id="dealing-with-missing-values">Dealing with Missing Values</h2>
+
+<p>As a number of you have discovered, there is missing data in the homework data set for <code>PS-02</code>. To extract descriptive statistics, you&rsquo;ll need to include a bit of extra code:</p>
+
+<pre><code class="language-r">&gt; library(testDriveR)
+&gt; gss &lt;- gss16
+&gt; mean(gss$INCOME16)
+[1] NA
+&gt; mean(gss$INCOME16, na.rm=TRUE)
+[1] 17.36556
+</code></pre>
+
+<p>Adding the <code>na.rm=TRUE</code> option will give you the appropriate output! We&rsquo;ll talk more about missing data in the coming weeks.</p>
+
+<h2 id="using-latex-in-r-notebooks">Using LaTeX in R Notebooks</h2>
+
+<p>If you check out the replication notebook for this week&rsquo;s lab, you will notice dollar signs used around references to particular variables like this - <code>$x_1$</code>. This is your first exposure to LaTeX syntax. The dollar signs instructs LaTeX/knitr to enter &ldquo;math mode&rdquo;, which displays equations and mathematical notation. The underscore instructs LaTeX/knitr that the &ldquo;1&rdquo; should be treated as a subscript (i.e. &ldquo;x sub 1&rdquo;). <strong>Note that this does not look great when you look at the html output&rsquo;s headers. So, it may take some experimentation to get it working perfectly.</strong></p>
+
+<h2 id="extra-information">Extra Information</h2>
+
+<p>This week, I mentioned a number of important statisticians. If you want more information, you can check out these Wikipedia pages:</p>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Friedrich_Bessel">Friedrich Bessel</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ronald_Fisher">Ronald Fisher</a></li>
+<li><a href="https://en.wikipedia.org/wiki/William_Sealy_Gosset">William Sealy Gosset</a></li>
+</ul>
+
+<p>I also included code for replicating the Anscombe&rsquo;s Quartet plots from the last lecture slide for Week-03. This code can be found at the end of the lab replication file.</p>
+
+
+			<aside class="copyright" role="note">
+				
+				&copy; 2017 Released under the MIT license &ndash;
+				
+				Documentation built with
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+				using the
+				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+			</aside>
+
+			<footer class="footer">
+				
+
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  
+      <a href="https://slu-soc5050.github.io/week-02/" title="Week 02 - Working with Data (Part 1)">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              Week 02 - Working with Data (Part 1)
+            </div>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+
+  <div class="next">
+  
+      <a href="https://slu-soc5050.github.io/license/" title="License">
+        <span class="direction">
+          Next
+        </span>
+        <div class="page">
+          <div class="stretch">
+            <div class="title">
+              License
+            </div>
+          </div>
+          <div class="button button-next" role="button" aria-label="Next">
+            <i class="icon icon-forward"></i>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+</nav>
+
+
+
+
+
+			</footer>
+		</div>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script>
+    
+      var base_url = 'https:\/\/slu-soc5050.github.io\/';
+      var repo_id  = 'slu-soc5050\/Core-Documents';
+    
+    </script>
+
+    <script src="https://slu-soc5050.github.io/javascripts/application.js"></script>
+    
+
+    <script>
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+      if(scrollspy) {
+        if(headers.length > 0) {
+          for(var i = 0; i < headers.length; i++) {
+            var li = document.createElement("li");
+            li.setAttribute("class", "anchor");
+
+            var a  = document.createElement("a");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", headers[i].innerHTML);
+            a.innerHTML = headers[i].innerHTML;
+
+            li.appendChild(a)
+            scrollspy.appendChild(li);
+          }
+        } else {
+          scrollspy.parentElement.removeChild(scrollspy)
+        }
+
+
+        /* Add permanent link next to the headers */
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "#";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
