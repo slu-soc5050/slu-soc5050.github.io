@@ -13,8 +13,7 @@
 # GitHub username
 USERNAME=slu-soc5050
 # Name of the branch containing the Hugo source files.
-# Name of the branch containing the Hugo source files.
-SOURCE=hugo
+SOURCE=newTheme
 
 msg() {
     printf "\033[1;32m :: %s\n\033[0m" "$1"
