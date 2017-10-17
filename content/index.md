@@ -10,7 +10,7 @@ SOC 4930 & 5050 is Saint Louis University Sociology's undergraduate and graduate
 {{< /note >}}
 
 ## Course Description
-
+<img src="/images/logo.png" align="right" />
 This course provides an introduction to applied statistical analysis for both undergraduate and graduate students with an emphasis placed on statistical techniques that are most common in the sociological literature. The statistical techniques introduced include measures of central tendency and dispersion as well as measures of bivariate association. Multivariate statistical analyses are also introduced along with essential skills for cleaning data, creating plots, and reporting results. While the examples may be specific to the social sciences, the theories and skills that are covered are broadly applicable across academic disciplines.
 
 ## Course Objectives
