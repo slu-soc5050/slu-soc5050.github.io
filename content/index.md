@@ -34,6 +34,6 @@ Like many things in academia, the "final" product here is the result of others' 
 
 This website itself is the product of [Yihui Xie's](https://yihui.name) work on the [blogdown](https://bookdown.org/yihui/blogdown/) package for `R` as well as [Digitalcraftsman's](https://github.com/digitalcraftsman) port of [Martin Donath's](https://github.com/squidfunk) [Material theme](https://github.com/squidfunk/mkdocs-material).
 
-Finally, I must acknowledge my now six semesters' worth of students, whose collective feedback and experiences have helped dramatically reshape the course content and how I teach. I am immensely grateful for each of your contributions to my courses.
+Finally, I want to acknowledge my now six semesters' worth of students, whose collective feedback and experiences have helped dramatically reshape the course content and how I teach. I am immensely grateful for each of your contributions to my statistics courses.
 
 
