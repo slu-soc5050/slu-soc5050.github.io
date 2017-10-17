@@ -35,4 +35,4 @@ devtools::install_github("chris-prener/testDriveR")
 ## Recodes from the Lecture
 We need a binary outcome to work though the examples in the lecture that use the `mpg` data. We'll make a variable called `foreign` that is `TRUE` if the vehicle is produced by a manufacturer whose headquarters is in another country.
 
-{{< gist chris-prener ce737d7cfb4c8b1a2ab137c3e89d1349 >}}
+<script data-gist-id="ce737d7cfb4c8b1a2ab137c3e89d1349"></script>
