@@ -1,6 +1,6 @@
-baseurl = "https://slu-soc5050.github.io/"
+baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "SOC 4930 & SOC 5050"
+title = "Material Docs"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = true
@@ -9,15 +9,15 @@ googleAnalytics = ""
 
 [params]
 	# General information
-	author = "Christopher Prener, Ph.D."
-	description = "SOC 4930 & SOC 5050: Quantiative Analysis - Applied Inferential Statistics"
+	author = "Digitalcraftsman"
+	description = "A material design theme for documentations."
 	copyright = "Released under the MIT license"
 
 	# Repository
 	provider = "GitHub"
-	repo_url = "https://github.com/slu-soc5050/Core-Documents"
+	repo_url = "https://github.com/digitalcraftsman/hugo-material-docs"
 
-	version = ""
+	version = "1.0.0"
 	logo = "images/logo.png"
 	favicon = ""
 
@@ -31,8 +31,8 @@ googleAnalytics = ""
 	highlight_css  = ""
 
 	[params.palette]
-    	primary = "deep-orange"
-    	accent  = "blue"
+    	primary = "red"
+    	accent  = "teal"
 
     [params.font]
     	text = "Ubuntu"
@@ -41,25 +41,36 @@ googleAnalytics = ""
 
 [social]
 	twitter = ""
-	github  = "slu-soc5050"
-	email   = "chris.prener@slu.edu"
+	github  = "digitalcraftsman"
+	email   = "hello@email.com"
 
 
 [[menu.main]]
-	name   = "About"
+	name   = "Material"
 	url    = "/"
-	weight = 1
+	weight = 0
 
 [[menu.main]]
-	name   = "Getting Started"
+	name   = "Getting started"
 	url    = "getting-started/"
 	weight = 10
 
 [[menu.main]]
-	name   = "Week 01 - Course Introduction"
-	url    = "week-01/"
+	name   = "Adding content"
+	url    = "adding-content/"
 	weight = 20
-	
+
+[[menu.main]]
+	name   = "Roadmap"
+	url    = "roadmap/"
+	weight = 30
+
+[[menu.main]]
+	name   = "License"
+	url    = "license/"
+	weight = 40
+
+
 [blackfriday]
 	smartypants	= true
 	fractions = true
