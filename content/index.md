@@ -25,6 +25,9 @@ This course has four intertwined objectives. After completing the course, studen
 4. *Quantitative research synthesis*:  Plan, implement (using `R`), and present (using LaTeX and the presentation software of your choice) a research project that uses linear regression to answer a research question. 
 
 
+## Core Documents
+Both the [**Syllabus**](https://github.com/slu-soc5050/Core-Documents/blob/master/syllabus.pdf) and the [**Reading List**](https://github.com/slu-soc5050/Core-Documents/blob/master/reading-list.pdf) can be viewed online or downloaded via the `Download` button on this site's main menu.
+
 ## Acknowledgements
 
 Last but not least a big thank you to [Martin Donath](https://github.com/squidfunk). He created the original [Material theme](https://github.com/squidfunk/mkdocs-material) for Hugo's companion [MkDocs](http://www.mkdocs.org/). This port wouldn't be possible without him.

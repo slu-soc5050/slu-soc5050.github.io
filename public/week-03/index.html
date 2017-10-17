@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Week 01 - Course Introduction - SOC 4930 &amp; SOC 5050</title>
+    <title>Week 03 - Describing Distributions - SOC 4930 &amp; SOC 5050</title>
     <meta name="generator" content="Hugo 0.30" />
 
     
     <meta name="description" content="SOC 4930 &amp; SOC 5050: Quantiative Analysis - Applied Inferential Statistics">
     
-    <link rel="canonical" href="/week-01/">
+    <link rel="canonical" href="/week-03/">
     
     <meta name="author" content="Christopher Prener, Ph.D.">
     
 
-    <meta property="og:url" content="/week-01/">
+    <meta property="og:url" content="/week-03/">
     <meta property="og:title" content="SOC 4930 &amp; SOC 5050">
     <meta property="og:image" content="/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="SOC 4930 &amp; SOC 5050">
@@ -97,7 +97,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Week 01 - Course Introduction
+        Week 03 - Describing Distributions
       </div>
     </div>
 
@@ -234,14 +234,11 @@
 
 
 
-<a class="current" title="Week 01 - Course Introduction" href="/week-01/">
+<a  title="Week 01 - Course Introduction" href="/week-01/">
 	
 	Week 01 - Course Introduction
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -273,11 +270,14 @@
 
 
 
-<a  title="Week 03 - Distributions" href="/week-03/">
+<a class="current" title="Week 03 - Distributions" href="/week-03/">
 	
 	Week 03 - Distributions
 </a>
 
+
+<ul id="scrollspy">
+</ul>
 
 
   
@@ -410,29 +410,53 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Week 01 - Course Introduction </h1>
+			<h1>Week 03 - Describing Distributions </h1>
 
 			
 
 <h2 id="lecture-slides">Lecture Slides</h2>
 
-<script async class='speakerdeck-embed' data-id='35432b57f3884b2c91c9e7ace2c87c50' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
+<script async class='speakerdeck-embed' data-id='5d53b03d17064cce9cea2d119ed1cbbe' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
 
-<h2 id="introducing-r-and-rstudio">Introducing R and RStudio</h2>
+<h2 id="using-github-to-store-working-files-for-the-course">Using GitHub to Store Working Files for the Course</h2>
 
+<p>If you want to GitHub to store your working files (as opposed to the finish submission versions you submit via your Assignments repository), you can sign-up for a discounted student plan <a href="https://education.github.com/discount_requests/new">here</a>. Choose &ldquo;Student&rdquo; and &ldquo;Individual Account&rdquo;, and answer any additional prompts they have. Be prepared to attach a photo of your student ID.</p>
 
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/eQRjfpoFP0U" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
- </div>
+<p>If you do this, you want to be sure to include a <code>.gitignore</code> file in each of your repositories. These are simple, often hidden files that prevent certain types of system files from being tracked by git and uploaded to GitHub. Each of the public-facing GitHub repos for the course and your Assignments repo have one of these - they are all identical. Use Atom to copy-and-paste a <code>.gitignore</code> file from one of these repos into your personal repositories (Atom can &ldquo;see&rdquo; hidden files!). Make sure you do this before commiting anything else to each new repository. See me if you have questions!</p>
 
+<h2 id="sync-your-work">Sync Your Work!</h2>
 
-<p>At the very end of our first class, I introduced some basic aspects of R and RStudio. Since it was rushed, I&rsquo;ve put together a quick video that summarizes what we went over and introduces some new functions as well. Please watch this before tackling the week two materials.</p>
+<p>If you are using <em>multiple</em> computers and have your GitHub assignments repository stored on multiple computers, please sync that repository each time you <em>begin</em> working to ensure that you have the latest updates. If you don&rsquo;t do this, you will get errors when you go to commit changes!</p>
 
-<p>I have also posted a <a href="https://github.com/slu-soc5050/Week-01/tree/master/Functions">quick reference sheet</a> for relevant <code>R</code> functions for the week. <strong>This was updated on September 10, 2017.</strong> If you want an additional resource, RStudio has published a <a href="https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/rstudio-IDE-cheatsheet.pdf">cheatsheet</a> that covers the basics of their software.</p>
+<h2 id="dealing-with-missing-values">Dealing with Missing Values</h2>
 
-<h3 id="slides-from-the-video">Slides from the Video</h3>
+<p>As a number of you have discovered, there is missing data in the homework data set for <code>PS-02</code>. To extract descriptive statistics, you&rsquo;ll need to include a bit of extra code:</p>
 
-<p><script async class='speakerdeck-embed' data-id='b809593f52054eb090cc1265098b97b5' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script></p>
+<pre><code class="language-r">&gt; library(testDriveR)
+&gt; gss &lt;- gss16
+&gt; mean(gss$INCOME16)
+[1] NA
+&gt; mean(gss$INCOME16, na.rm=TRUE)
+[1] 17.36556
+</code></pre>
+
+<p>Adding the <code>na.rm=TRUE</code> option will give you the appropriate output! We&rsquo;ll talk more about missing data in the coming weeks.</p>
+
+<h2 id="using-latex-in-r-notebooks">Using LaTeX in R Notebooks</h2>
+
+<p>If you check out the replication notebook for this week&rsquo;s lab, you will notice dollar signs used around references to particular variables like this - <code>$x_1$</code>. This is your first exposure to LaTeX syntax. The dollar signs instructs LaTeX/knitr to enter &ldquo;math mode&rdquo;, which displays equations and mathematical notation. The underscore instructs LaTeX/knitr that the &ldquo;1&rdquo; should be treated as a subscript (i.e. &ldquo;x sub 1&rdquo;). <strong>Note that this does not look great when you look at the html output&rsquo;s headers. So, it may take some experimentation to get it working perfectly.</strong></p>
+
+<h2 id="extra-information">Extra Information</h2>
+
+<p>This week, I mentioned a number of important statisticians. If you want more information, you can check out these Wikipedia pages:</p>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Friedrich_Bessel">Friedrich Bessel</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ronald_Fisher">Ronald Fisher</a></li>
+<li><a href="https://en.wikipedia.org/wiki/William_Sealy_Gosset">William Sealy Gosset</a></li>
+</ul>
+
+<p>I also included code for replicating the Anscombe&rsquo;s Quartet plots from the last lecture slide for Week-03. This code can be found at the end of the lab replication file.</p>
 
 
 			<aside class="copyright" role="note">
@@ -451,7 +475,7 @@
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="/getting-started/" title="Getting Started">
+      <a href="/week-02/" title="Week 02 - Working with Data (Part 1)">
         <span class="direction">
           Previous
         </span>
@@ -461,7 +485,7 @@
           </div>
           <div class="stretch">
             <div class="title">
-              Getting Started
+              Week 02 - Working with Data (Part 1)
             </div>
           </div>
         </div>
@@ -471,14 +495,14 @@
 
   <div class="next">
   
-      <a href="/week-02/" title="Week 02 - Working with Data (Part 1)">
+      <a href="/license/" title="License">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Week 02 - Working with Data (Part 1)
+              License
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">

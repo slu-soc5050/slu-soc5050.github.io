@@ -51,6 +51,11 @@ googleAnalytics = ""
 	weight = 1
 
 [[menu.main]]
+	name   = "Course Resources"
+	url    = "course-resources/"
+	weight = 2
+
+[[menu.main]]
 	name   = "Getting Started"
 	url    = "getting-started/"
 	weight = 10
@@ -60,8 +65,45 @@ googleAnalytics = ""
 	url    = "week-01/"
 	weight = 20
 	
+[[menu.main]]
+	name   = "Week 02 - Working with Data (1)"
+	url    = "week-02/"
+	weight = 21
+	
+[[menu.main]]
+	name   = "Week 03 - Distributions"
+	url    = "week-03/"
+	weight = 22
+
+[[menu.main]]
+	name   = "Week 04 - Probability"
+	url    = "week-04/"
+	weight = 23
+	
+[[menu.main]]
+	name   = "Week 05 - Random Variables"
+	url    = "week-05/"
+	weight = 24
+
+[[menu.main]]
+	name   = "Week 06 - Inference"
+	url    = "week-06/"
+	weight = 25
+
+[[menu.main]]
+	name   = "Week 07 - Mean Difference (1)"
+	url    = "week-07/"
+	weight = 26
+
+[[menu.main]]
+	name   = "Week 08 - Mean Difference (2)"
+	url    = "week-08/"
+	weight = 27
+	
 [blackfriday]
 	smartypants	= true
 	fractions = true
 	smartDashes = true
 	plainIDAnchors = true
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]

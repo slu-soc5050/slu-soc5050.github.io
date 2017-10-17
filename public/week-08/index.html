@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Week 01 - Course Introduction - SOC 4930 &amp; SOC 5050</title>
+    <title>Week 08 - Difference of Means (Part 2) - SOC 4930 &amp; SOC 5050</title>
     <meta name="generator" content="Hugo 0.30" />
 
     
     <meta name="description" content="SOC 4930 &amp; SOC 5050: Quantiative Analysis - Applied Inferential Statistics">
     
-    <link rel="canonical" href="/week-01/">
+    <link rel="canonical" href="/week-08/">
     
     <meta name="author" content="Christopher Prener, Ph.D.">
     
 
-    <meta property="og:url" content="/week-01/">
+    <meta property="og:url" content="/week-08/">
     <meta property="og:title" content="SOC 4930 &amp; SOC 5050">
     <meta property="og:image" content="/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="SOC 4930 &amp; SOC 5050">
@@ -97,7 +97,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Week 01 - Course Introduction
+        Week 08 - Difference of Means (Part 2)
       </div>
     </div>
 
@@ -234,14 +234,11 @@
 
 
 
-<a class="current" title="Week 01 - Course Introduction" href="/week-01/">
+<a  title="Week 01 - Course Introduction" href="/week-01/">
 	
 	Week 01 - Course Introduction
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -363,11 +360,14 @@
 
 
 
-<a  title="Week 08 - Mean Difference (2)" href="/week-08/">
+<a class="current" title="Week 08 - Mean Difference (2)" href="/week-08/">
 	
 	Week 08 - Mean Difference (2)
 </a>
 
+
+<ul id="scrollspy">
+</ul>
 
 
   
@@ -410,29 +410,66 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Week 01 - Course Introduction </h1>
+			<h1>Week 08 - Difference of Means (Part 2) </h1>
 
 			
 
 <h2 id="lecture-slides">Lecture Slides</h2>
 
-<script async class='speakerdeck-embed' data-id='35432b57f3884b2c91c9e7ace2c87c50' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
+<script async class='speakerdeck-embed' data-id='6f5a77f5d7144394b05b2f08f6e0d844' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
 
-<h2 id="introducing-r-and-rstudio">Introducing R and RStudio</h2>
+<h2 id="weekly-prep">Weekly Prep</h2>
+
+<h3 id="instructions">Instructions</h3>
+
+<p>The instructions for this week&rsquo;s weekly prep are available in the <a href="https://github.com/slu-soc5050/Week-08/blob/master/WeeklyPrep/week-08-prep.pdf"><code>Week-08</code> GitHub repository</a>. Make sure you submit your work and answers by the beginning of class on Monday!</p>
+
+<h3 id="replication">Replication</h3>
 
 
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/eQRjfpoFP0U" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+  <iframe src="//www.youtube.com/embed/X4S7wIyLFTs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
  </div>
 
 
-<p>At the very end of our first class, I introduced some basic aspects of R and RStudio. Since it was rushed, I&rsquo;ve put together a quick video that summarizes what we went over and introduces some new functions as well. Please watch this before tackling the week two materials.</p>
+<h2 id="new-and-updated-packages-for-class">New and Updated Packages for Class</h2>
 
-<p>I have also posted a <a href="https://github.com/slu-soc5050/Week-01/tree/master/Functions">quick reference sheet</a> for relevant <code>R</code> functions for the week. <strong>This was updated on September 10, 2017.</strong> If you want an additional resource, RStudio has published a <a href="https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/rstudio-IDE-cheatsheet.pdf">cheatsheet</a> that covers the basics of their software.</p>
+<p>We are going to be using a bunch of new packages this week! Here is a list of packages to install using <code>install.packages()</code>:</p>
 
-<h3 id="slides-from-the-video">Slides from the Video</h3>
+<ul>
+<li><code>car</code></li>
+<li><code>effsize</code></li>
+<li><code>gapminder</code></li>
+<li><code>ggridges</code></li>
+<li><code>pwr</code></li>
+<li><code>stargazer</code></li>
+</ul>
 
-<p><script async class='speakerdeck-embed' data-id='b809593f52054eb090cc1265098b97b5' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script></p>
+<p>You will also need to install a new package, <code>stlData</code>, from GitHub and update the <code>testDriveR</code> package:</p>
+
+<pre><code class="language-r">library(devtools)
+devtools::install_github(&quot;chris-prener/stlData&quot;)
+devtools::install_github(&quot;chris-prener/testDriveR&quot;)
+</code></pre>
+
+<h2 id="recodes-from-the-lecture">Recodes from the Lecture</h2>
+
+<p>We need a binary outcome to work though the examples in the lecture that use the <code>mpg</code> data. We&rsquo;ll make a variable called <code>foreign</code> that is <code>TRUE</code> if the vehicle is produced by a manufacturer whose headquarters is in another country.</p>
+
+<pre><code class="language-r">library(tidyverse)
+
+mpg %&gt;%
+  mutate(foreign = ifelse(manufacturer == &quot;audi&quot; |
+                           manufacturer == &quot;honda&quot; |
+                           manufacturer == &quot;hyundai&quot; |
+                           manufacturer == &quot;land rover&quot; |
+                           manufacturer == &quot;nissan&quot; |
+                           manufacturer == &quot;subaru&quot; |
+                           manufacturer == &quot;toyota&quot; |
+                           manufacturer == &quot;volkswagen&quot;,
+                         TRUE, FALSE)) %&gt;%
+  select(manufacturer, model, cty, hwy, foreign) -&gt; autoData
+</code></pre>
 
 
 			<aside class="copyright" role="note">
@@ -451,7 +488,7 @@
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="/getting-started/" title="Getting Started">
+      <a href="/week-07/" title="Week 07 - Difference of Means (Part 1)">
         <span class="direction">
           Previous
         </span>
@@ -461,7 +498,7 @@
           </div>
           <div class="stretch">
             <div class="title">
-              Getting Started
+              Week 07 - Difference of Means (Part 1)
             </div>
           </div>
         </div>
@@ -470,22 +507,6 @@
   </div>
 
   <div class="next">
-  
-      <a href="/week-02/" title="Week 02 - Working with Data (Part 1)">
-        <span class="direction">
-          Next
-        </span>
-        <div class="page">
-          <div class="stretch">
-            <div class="title">
-              Week 02 - Working with Data (Part 1)
-            </div>
-          </div>
-          <div class="button button-next" role="button" aria-label="Next">
-            <i class="icon icon-forward"></i>
-          </div>
-        </div>
-      </a>
   
   </div>
 </nav>

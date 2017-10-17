@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Week 01 - Course Introduction - SOC 4930 &amp; SOC 5050</title>
+    <title>Week 07 - Difference of Means (Part 1) - SOC 4930 &amp; SOC 5050</title>
     <meta name="generator" content="Hugo 0.30" />
 
     
     <meta name="description" content="SOC 4930 &amp; SOC 5050: Quantiative Analysis - Applied Inferential Statistics">
     
-    <link rel="canonical" href="/week-01/">
+    <link rel="canonical" href="/week-07/">
     
     <meta name="author" content="Christopher Prener, Ph.D.">
     
 
-    <meta property="og:url" content="/week-01/">
+    <meta property="og:url" content="/week-07/">
     <meta property="og:title" content="SOC 4930 &amp; SOC 5050">
     <meta property="og:image" content="/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="SOC 4930 &amp; SOC 5050">
@@ -97,7 +97,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Week 01 - Course Introduction
+        Week 07 - Difference of Means (Part 1)
       </div>
     </div>
 
@@ -234,14 +234,11 @@
 
 
 
-<a class="current" title="Week 01 - Course Introduction" href="/week-01/">
+<a  title="Week 01 - Course Introduction" href="/week-01/">
 	
 	Week 01 - Course Introduction
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -345,11 +342,14 @@
 
 
 
-<a  title="Week 07 - Mean Difference (1)" href="/week-07/">
+<a class="current" title="Week 07 - Mean Difference (1)" href="/week-07/">
 	
 	Week 07 - Mean Difference (1)
 </a>
 
+
+<ul id="scrollspy">
+</ul>
 
 
   
@@ -410,29 +410,55 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Week 01 - Course Introduction </h1>
+			<h1>Week 07 - Difference of Means (Part 1) </h1>
 
 			
 
 <h2 id="lecture-slides">Lecture Slides</h2>
 
-<script async class='speakerdeck-embed' data-id='35432b57f3884b2c91c9e7ace2c87c50' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
+<script async class='speakerdeck-embed' data-id='cc160bd374244d7c90f71d86d2bf9c6f' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script>
 
-<h2 id="introducing-r-and-rstudio">Introducing R and RStudio</h2>
+<h2 id="weekly-prep">Weekly Prep</h2>
+
+<h3 id="instructions">Instructions</h3>
+
+<p>The instructions for this week&rsquo;s weekly prep are available in the <a href="https://github.com/slu-soc5050/Week-07/blob/master/WeeklyPrep/week-07-prep.pdf"><code>Week-07</code> GitHub repository</a>. Make sure you submit your work and answers by the beginning of class on Monday!</p>
+
+<h3 id="replication">Replication</h3>
 
 
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/eQRjfpoFP0U" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+  <iframe src="//www.youtube.com/embed/elqbSD1dGy8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
  </div>
 
 
-<p>At the very end of our first class, I introduced some basic aspects of R and RStudio. Since it was rushed, I&rsquo;ve put together a quick video that summarizes what we went over and introduces some new functions as well. Please watch this before tackling the week two materials.</p>
+<h2 id="yaml-headers-for-rmarkdown-documents">YAML Headers for RMarkdown Documents</h2>
 
-<p>I have also posted a <a href="https://github.com/slu-soc5050/Week-01/tree/master/Functions">quick reference sheet</a> for relevant <code>R</code> functions for the week. <strong>This was updated on September 10, 2017.</strong> If you want an additional resource, RStudio has published a <a href="https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/rstudio-IDE-cheatsheet.pdf">cheatsheet</a> that covers the basics of their software.</p>
+<p>The area at the top of your RMarkdown documents is known as a YAML header (<a href="https://en.wikipedia.org/wiki/YAML">Wikipedia site</a> and <a href="http://www.yaml.org">YAML project homepage</a>). YAML stands for &ldquo;YAML Ain&rsquo;t Markup Language&rdquo; (a bit of nerdy humor!), and is designed to provide human readable metadata about text files. This interest in human readable metadata is consistent with our more general interest in writing computer files that are useful for computers but also readable by people. In the past, I had only asked you to edit the title of your document.</p>
 
-<h3 id="slides-from-the-video">Slides from the Video</h3>
+<p>This week, I introduced two complications. First, I noted the ability to add an author field:</p>
 
-<p><script async class='speakerdeck-embed' data-id='b809593f52054eb090cc1265098b97b5' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'></script></p>
+<pre><code>author: &quot;Christopher Prener, Ph.D.&quot;
+</code></pre>
+
+<p>You could take this even further using Markdown if you wanted. For instance, we could include a hyperlink to my website in the author field:</p>
+
+<pre><code>author: &quot;[Christopher Prener, Ph.D.](https://chris-prener.github.io)&quot;
+</code></pre>
+
+<p>This will render as nicely formatted html when you export it, with the link embedded in the text of my name.</p>
+
+<p>The second complication I introduced this week was the ability to add a date to your documents. This can be done statically if you wish:</p>
+
+<pre><code>date: &quot;01 Oct 2017&quot;
+</code></pre>
+
+<p>However, it is more useful to set the date dynamically. You can include this bit of <code>R</code> code in your header to do so:</p>
+
+<pre><code>date: &quot;`r Sys.Date()`&quot;
+</code></pre>
+
+<p>This field will automatically update every time you save your document, meaning that the header will always reflect the date you last made changes.</p>
 
 
 			<aside class="copyright" role="note">
@@ -451,7 +477,7 @@
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="/getting-started/" title="Getting Started">
+      <a href="/week-06/" title="Week 06 - Foundations for Inference">
         <span class="direction">
           Previous
         </span>
@@ -461,7 +487,7 @@
           </div>
           <div class="stretch">
             <div class="title">
-              Getting Started
+              Week 06 - Foundations for Inference
             </div>
           </div>
         </div>
@@ -471,14 +497,14 @@
 
   <div class="next">
   
-      <a href="/week-02/" title="Week 02 - Working with Data (Part 1)">
+      <a href="/week-08/" title="Week 08 - Difference of Means (Part 2)">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Week 02 - Working with Data (Part 1)
+              Week 08 - Difference of Means (Part 2)
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">

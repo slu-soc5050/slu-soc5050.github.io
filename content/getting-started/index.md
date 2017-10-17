@@ -4,7 +4,7 @@ title: Getting Started
 weight: 10
 ---
 
-Before you begin the semester, there are a number of things that I recommend that you do to help set yourself up for success. Before you do *anything* else, you should read through the [**Syllabus**](https://cdn.rawgit.com/slu-soc5050/Core-Documents/bdcce556/syllabus.pdf) and the [**Reading List**](https://cdn.rawgit.com/slu-soc5050/Core-Documents/bdcce556/reading-list.pdf). Make sure you have a good sense of what is *required* for the course. If you have questions, bring them to the first day of class!
+Before you begin the semester, there are a number of things that I recommend that you do to help set yourself up for success. Before you do *anything* else, you should read through the [**Syllabus**](https://github.com/slu-soc5050/Core-Documents/blob/master/syllabus.pdf) and the [**Reading List**](https://github.com/slu-soc5050/Core-Documents/blob/master/reading-list.pdf). Make sure you have a good sense of what is *required* for the course. If you have questions, bring them to the first day of class!
 
 ## Account Signups
 ### Get Started with Slack

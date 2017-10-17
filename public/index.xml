@@ -44,6 +44,25 @@ I have also posted a quick reference sheet for relevant R functions for the week
     </item>
     
     <item>
+      <title>Week 02 - Working with Data (Part 1)</title>
+      <link>/week-02/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      
+      <guid>/week-02/</guid>
+      <description>Lecture 02a - Introducing ggplot2 Slides  Video Lecture   Lecture 02b - Grammar of Graphics Slides  Video Lecture   Lecture 03 - Verbs for Cleaning Data Slides  Video Lecture   Lecture 04 - Structuring Notebooks Slides  Video Lecture   Data for Assignments The data that you need for many of the assignments this semester is available as an R package named testDriveR.</description>
+    </item>
+    
+    <item>
+      <title>Week 03 - Describing Distributions</title>
+      <link>/week-03/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      
+      <guid>/week-03/</guid>
+      <description>Lecture Slides  Using GitHub to Store Working Files for the Course If you want to GitHub to store your working files (as opposed to the finish submission versions you submit via your Assignments repository), you can sign-up for a discounted student plan here. Choose &amp;ldquo;Student&amp;rdquo; and &amp;ldquo;Individual Account&amp;rdquo;, and answer any additional prompts they have. Be prepared to attach a photo of your student ID.
+If you do this, you want to be sure to include a .</description>
+    </item>
+    
+    <item>
       <title>License</title>
       <link>/license/</link>
       <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
@@ -52,6 +71,69 @@ I have also posted a quick reference sheet for relevant R functions for the week
       <description>Copyright &amp;copy; 2016 Digitalcraftsman digitalcraftsman@protonmail.com
 Copyright &amp;copy; 2016 Martin Donath martin.donath@squidfunk.com
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</description>
+    </item>
+    
+    <item>
+      <title>Course Resources</title>
+      <link>/course-resources/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>/course-resources/</guid>
+      <description>In addition to the Syllabus and the Reading List, there are a number of other course resources you should be aware of.
+Course Website This course website will be updated regularly throughout the semester. I&amp;rsquo;ll add a page on the menu for each week, and include links to lecture slides, YouTube videos, and notes about specific topics.
+User&amp;rsquo;s Guide The User&amp;rsquo;s Guide is a companion document for the course that covers applications and processes not covered by one of the course textbooks.</description>
+    </item>
+    
+    <item>
+      <title>Week 04 - Probability and Bayes&#39; Theorem</title>
+      <link>/week-04/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      
+      <guid>/week-04/</guid>
+      <description>Lecture Slides  Weekly Prep Instructions I&amp;rsquo;ve posted the first weekly prep of the semester. The instructions are available in the Week-04 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
+Replication   Probability in the News FiveThirtyEight just published a great article on the use probability in news media coverage. The article raises important points about how error in public polling is communicated:</description>
+    </item>
+    
+    <item>
+      <title>Week 05 - The Distribution of Random Variables</title>
+      <link>/week-05/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      
+      <guid>/week-05/</guid>
+      <description>Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-05 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
+Replication   Grappling with p-values Here are a couple of links for digging further into what p-values are and how we explain them:
+ American Statistical Association&amp;rsquo;s Statement on p-values ``Mission Improbable: A Concise and Precise Definition of P-Value&amp;rdquo; - Science Magazine interview with Victor De Gruttola ``Science Isn&amp;rsquo;t Broken&amp;rdquo; - FiveThirtyEight article on p-values ``Not Even Scientists Can Easily Explain P-values&amp;rdquo; - FiveThirtyEight article on p-values, includes the video I mentioned in class Andrew Gelman&amp;rsquo;s views on p-values ``Abandon Statistical Significance&amp;rdquo; - Andrew Gelman and others Gelman and John Carlin suggest some solutions for the ``p-value communication problem&amp;rdquo; ``It will be much harder to call new findings ‘significant’ if this team gets its way&amp;rdquo; - Science Magazine article on changing culture around p-values  Histograms with the Normal Distribution Overlaid in ggplot2 I introduced the idea of a histogram with a normal distribution overlaid during this week&amp;rsquo;s lecture, but purposely did not include the syntax on our quick reference sheet for R functions.</description>
+    </item>
+    
+    <item>
+      <title>Week 06 - Foundations for Inference</title>
+      <link>/week-06/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      
+      <guid>/week-06/</guid>
+      <description> Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-06 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
+Replication    </description>
+    </item>
+    
+    <item>
+      <title>Week 07 - Difference of Means (Part 1)</title>
+      <link>/week-07/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      
+      <guid>/week-07/</guid>
+      <description>Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-07 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
+Replication   YAML Headers for RMarkdown Documents The area at the top of your RMarkdown documents is known as a YAML header (Wikipedia site and YAML project homepage). YAML stands for &amp;ldquo;YAML Ain&amp;rsquo;t Markup Language&amp;rdquo; (a bit of nerdy humor!</description>
+    </item>
+    
+    <item>
+      <title>Week 08 - Difference of Means (Part 2)</title>
+      <link>/week-08/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      
+      <guid>/week-08/</guid>
+      <description>Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-08 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
+Replication   New and Updated Packages for Class We are going to be using a bunch of new packages this week! Here is a list of packages to install using install.packages():
+ car effsize gapminder ggridges pwr stargazer  You will also need to install a new package, stlData, from GitHub and update the testDriveR package:</description>
     </item>
     
   </channel>

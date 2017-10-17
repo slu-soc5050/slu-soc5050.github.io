@@ -17,12 +17,58 @@
   </url>
   
   <url>
+    <loc>/week-02/</loc>
+    <lastmod>2016-03-08T21:07:13+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/week-03/</loc>
+    <lastmod>2016-03-08T21:07:13+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/license/</loc>
     <lastmod>2016-03-09T20:10:46+01:00</lastmod>
   </url>
   
   <url>
+    <loc>/course-resources/</loc>
+    <lastmod>2016-03-09T00:11:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/week-04/</loc>
+    <lastmod>2016-03-08T21:07:13+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/week-05/</loc>
+    <lastmod>2016-03-08T21:07:13+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/week-06/</loc>
+    <lastmod>2016-03-08T21:07:13+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/week-07/</loc>
+    <lastmod>2016-03-08T21:07:13+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/week-08/</loc>
+    <lastmod>2016-03-08T21:07:13+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/course-resources/</loc>
+    <lastmod>2016-03-09T00:11:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -51,6 +97,48 @@
   
   <url>
     <loc>/week-01/</loc>
+    <lastmod>2016-03-08T21:07:13+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/week-02/</loc>
+    <lastmod>2016-03-08T21:07:13+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/week-03/</loc>
+    <lastmod>2016-03-08T21:07:13+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/week-04/</loc>
+    <lastmod>2016-03-08T21:07:13+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/week-05/</loc>
+    <lastmod>2016-03-08T21:07:13+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/week-06/</loc>
+    <lastmod>2016-03-08T21:07:13+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/week-07/</loc>
+    <lastmod>2016-03-08T21:07:13+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/week-08/</loc>
     <lastmod>2016-03-08T21:07:13+01:00</lastmod>
     <priority>0</priority>
   </url>
