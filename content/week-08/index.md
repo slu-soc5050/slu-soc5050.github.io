@@ -42,7 +42,9 @@ The lab and the problem set for this week both include paired data, and you may 
 
 <script data-gist-id="cc9eeccf29e437025049026f8faf9a88"></script>
 
-`incomeLong` has appropriately arranged long data, with two observations for each census tract. `incomeWide` has the outcome of converting `incomeLong` to wide.
+`incomeLong` has appropriately arranged long data, with two observations for each census tract. `incomeWide` has the outcome of converting `incomeLong` to wide. 
+
+As an aside, this code also includes examples of how to further tidy data after gathering it - I rename the `key` variable's values, and I arrange the data so that pairs of `geoID` data are arranged one after the other in the tibble.
 
 ### Issues with Plots
 The first issue that may arise is related to plotting data that are long. Following the examples from class, you may be tempted to use the code under `plot 1`. It will produce the following plot:
