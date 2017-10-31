@@ -20,6 +20,11 @@ The instructions for this week's weekly prep are available in the [`Week-10` Git
 ### Replication
 {{< youtube cjQvhIMBIw8 >}}
 
+## Correlation with Binary Variables
+There is one point missing from today's lecture that comes up on the lab. I mentioned that the assumptions of correlation are that `x` and `y` are continous. Given some of the details we've already covered with the binomial distribution, we can extend Pearson's *r* to binary variables as well. These are interpretd slightly differently, since there is not "increase" in the binary variable in practical terms. We interpret them in relation to the `1` or `TRUE` category:
+
+> The correlation (r = .54, p < .001) between x, a binary variable, and y, suggests that the TRUE category is associated with an increase in y.
+
 ## PS-07
 As we discussed in class this week, the deadline on PS-07 has been extended until Monday, November 6 at 4:15pm. Folks have had a range of issues with the assignment, and I want to provide some advice to everyone for successfully navigating it.
 
