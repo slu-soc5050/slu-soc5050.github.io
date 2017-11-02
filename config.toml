@@ -104,6 +104,11 @@ googleAnalytics = ""
 	name   = "Week 10 - Correlation (1)"
 	url    = "week-10/"
 	weight = 28
+	
+[[menu.main]]
+	name   = "Week 11 - Correlation (2)"
+	url    = "week-11/"
+	weight = 29
 
 [[menu.main]]
 	name   = "License"
