@@ -684,7 +684,7 @@ pre span {
     color: #e84e40
 }
 .article code {
-    background: #eee
+    background: #F2F2F2
 }
 .article kbd {
     color: #555;
@@ -1465,6 +1465,10 @@ h1 .article .headerlink {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.gist {
+    margin-top: 15px;
 }
 
 .gist-data {
