@@ -886,17 +886,18 @@ h1 .article .headerlink {
     padding-left: 16px
 }
 .article .data {
-    margin: 1.5em -16px;
-    padding: 1.5em 0;
+    margin: 0 0;
+    padding: 0 0;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
     text-align: center
 }
 .article .data table {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 0;
     text-align: left
 }
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -1279,10 +1280,10 @@ h1 .article .headerlink {
         padding: 128px 24px 96px
     }
     .article .data {
-        margin: 1.5em -24px
+        margin: 0 0
     }
     .article .data table {
-        margin: 0 24px
+        margin: 0 0
     }
     .article h2 {
         padding-top: 100px;
@@ -1460,4 +1461,8 @@ h1 .article .headerlink {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.gist-data {
+  max-height: 500px
 }
