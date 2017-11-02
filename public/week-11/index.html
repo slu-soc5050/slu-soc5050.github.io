@@ -472,22 +472,23 @@
 
 <h2 id="creating-correlation-tables">Creating Correlation Tables</h2>
 
-<p>As we discuss this week, <code>R</code>&rsquo;s correlation output leaves much to be desired relative to statistical software applications like Stata or SAS. I&rsquo;ve written a function (based on a few others that are floating around) that adds a bit of flexibility and precision to the correlation calculation process, and returns output with correlation coefficients and statistical significance values combined.
-<br>
-<br>
-<script data-gist-id="d9e63958439685d8764f1cf4a744da8e"></script></p>
+<p>As we discuss this week, <code>R</code>&rsquo;s correlation output leaves much to be desired relative to statistical software applications like Stata or SAS. I&rsquo;ve written a function (based on a few others that are floating around) that adds a bit of flexibility and precision to the correlation calculation process, and returns output with correlation coefficients and statistical significance values combined.</p>
+
+<script data-gist-id="d9e63958439685d8764f1cf4a744da8e"></script>
 
 <p>To download this, right click on <code>View Raw</code> and download the linked file.</p>
 
 <h3 id="tweaking-correlation-tables-in-latex">Tweaking Correlation Tables in LaTeX</h3>
 
-<p>The output produced by the table above works great with the stargazer package:</p>
+<p>The output produced by the table above works great with the <code>stargazer</code> package:</p>
 
 <pre><code>library(ggplot2)
 autoData &lt;- mpg
 corrs &lt;- corrTable(autoData, coef = &quot;pearson&quot;, listwise = TRUE, round = 3, pStar = TRUE, hwy, cty, displ)
 stargazer(corrs, summary = FALSE)
 </code></pre>
+
+<p>The <code>FALSE</code> parameter on the <code>stargazer()</code> function will give you a table that reflects the arrangement of the data frame rows created by <code>corrTable</code>. There are a couple of additional tweaks you can make to the LaTeX output to improve the display of the table that are covered in the lecture.</p>
 
 
 			<aside class="copyright" role="note">

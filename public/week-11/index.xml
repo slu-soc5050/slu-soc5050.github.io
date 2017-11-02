@@ -18,8 +18,8 @@
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
       <guid>/week-11/</guid>
-      <description>Creating Correlation Tables As we discuss this week, R&amp;rsquo;s correlation output leaves much to be desired relative to statistical software applications like Stata or SAS. I&amp;rsquo;ve written a function (based on a few others that are floating around) that adds a bit of flexibility and precision to the correlation calculation process, and returns output with correlation coefficients and statistical significance values combined. 
-To download this, right click on View Raw and download the linked file.</description>
+      <description>Creating Correlation Tables As we discuss this week, R&amp;rsquo;s correlation output leaves much to be desired relative to statistical software applications like Stata or SAS. I&amp;rsquo;ve written a function (based on a few others that are floating around) that adds a bit of flexibility and precision to the correlation calculation process, and returns output with correlation coefficients and statistical significance values combined.
+ To download this, right click on View Raw and download the linked file.</description>
     </item>
     
   </channel>
