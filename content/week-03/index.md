@@ -8,7 +8,7 @@ weight: 22
 
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-03/blob/master/Equations/week-03-equations.pdf" target="_blank"> Equations </a>
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-03/blob/master/Functions/week-03-lecture-02a-rQuickref.pdf" target="_blank"> Functions </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-03/blob/master/Lab/week-03-lab.pdf" target="_blank"> Lab-03 </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-03/blob/master/Lab/week-03-lab.pdf" target="_blank"> Lab </a>
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-03/blob/master/PS-02/PS-02.pdf" target="_blank"> Problem Set 02 </a>
 
 ## Lecture Slides

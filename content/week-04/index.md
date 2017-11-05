@@ -7,7 +7,7 @@ weight: 23
 ## Handouts
 
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-04/blob/master/Equations/week-04-equations.pdf" target="_blank"> Equations </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-04/blob/master/Lab/week-04-lab.pdf" target="_blank"> Lab-04 </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-04/blob/master/Lab/week-04-lab.pdf" target="_blank"> Lab </a>
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-04/blob/master/PS-03/ps-03.pdf" target="_blank"> Problem Set 02 </a>
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-04/blob/master/WeeklyPrep/week-04-prep.pdf" target="_blank"> Weekly Prep </a>
 

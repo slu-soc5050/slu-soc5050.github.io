@@ -6,7 +6,7 @@ weight: 21
 
 ## General Handouts
 
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/Lab/week-02-lab.pdf" target="_blank"> Lab-02 </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/Lab/week-02-lab.pdf" target="_blank"> Lab </a>
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/PS-01/PS-01.pdf" target="_blank"> Problem Set 01 </a>
 
 ## Lecture 02a - Introducing `ggplot2`
