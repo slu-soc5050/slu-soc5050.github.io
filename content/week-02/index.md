@@ -4,7 +4,15 @@ title: Week 02 - Working with Data (Part 1)
 weight: 21
 ---
 
+## General Handouts
+
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/Lab/week-02-lab.pdf" target="_blank"> Lab-02 </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/PS-01/PS-01.pdf" target="_blank"> Problem Set 01 </a>
+
 ## Lecture 02a - Introducing `ggplot2`
+### Lecture Handouts
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/Functions/week-02-lecture-02a-rQuickref.pdf" target="_blank"> Functions </a>
+
 ### Slides
 {{< speakerdeck 235fdb303a2e40f4a24f9961f166cbea >}}
 
@@ -12,6 +20,10 @@ weight: 21
 {{< youtube eT_6tw4fWRE >}}
 
 ## Lecture 02b - Grammar of Graphics
+### Lecture Handouts
+
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/Functions/week-02-lecture-02b-rQuickref.pdf" target="_blank"> Functions </a> 
+
 ### Slides
 {{< speakerdeck 8c95934676fe4601bcadcfd45011632c >}}
 
@@ -19,6 +31,10 @@ weight: 21
 {{< youtube EHZ2JtVCDCQ >}}
 
 ## Lecture 03 - Verbs for Cleaning Data
+### Lecture Handouts
+
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/Functions/week-02-lecture-03-rQuickref.pdf" target="_blank"> Functions </a> 
+
 ### Slides
 {{< speakerdeck cc90cd776dbb49c5a285aaa464abc4a8 >}}
 
@@ -26,6 +42,11 @@ weight: 21
 {{< youtube txSNKb6Akgs >}}
 
 ## Lecture 04 - Structuring Notebooks
+### Lecture Handouts
+
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/Functions/week-02-lecture-04-rQuickref.pdf" target="_blank"> Functions </a> 
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/NotebookSample/week02.Rmd" target="_blank"> Notebook Sample </a> 
+
 ### Slides
 {{< speakerdeck eda0ada395544af7bb08b271ce7dbf67 >}}
 
