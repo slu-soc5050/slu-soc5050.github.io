@@ -12,8 +12,6 @@ weight: 26
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-07/blob/master/Lab/week-07-lab.pdf" target="_blank"> Lab </a>
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-07/blob/master/WeeklyPrep/week-07-prep.pdf" target="_blank"> Weekly Prep </a>
 
-
-
 ## Lecture Slides
 {{< speakerdeck cc160bd374244d7c90f71d86d2bf9c6f >}}
 
