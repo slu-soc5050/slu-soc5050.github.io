@@ -4,6 +4,15 @@ title: Week 08 - Difference of Means (Part 2)
 weight: 27
 ---
 
+## Handouts
+
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-08/blob/master/Exercise/week-08-exercise.pdf" target="_blank"> Exercise </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-08/blob/master/Functions/week-08-rQuickRef.pdf" target="_blank"> Functions </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-08/blob/master/Lab/week-08-lab.pdf" target="_blank"> Lab </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-08/blob/master/LaTeX/week-08-latexQuickRef.pdf" target="_blank"> LaTeX </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-08/blob/master/PS-06/ps-06.pdf" target="_blank"> Problem Set 06 </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-08/blob/master/WeeklyPrep/week-08-prep.pdf" target="_blank"> Weekly Prep </a>
+
 ## Lecture Slides
 {{< speakerdeck 6f5a77f5d7144394b05b2f08f6e0d844 >}}
 
