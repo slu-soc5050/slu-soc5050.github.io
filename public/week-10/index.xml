@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Week-10s on SOC 4930 &amp; SOC 5050</title>
-    <link>https://slu-soc5050.github.io/week-10/</link>
+    <link>/week-10/</link>
     <description>Recent content in Week-10s on SOC 4930 &amp; SOC 5050</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License</copyright>
     <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5050.github.io/week-10/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/week-10/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Week 10 - Correlation (Part 1)</title>
-      <link>https://slu-soc5050.github.io/week-10/</link>
+      <link>/week-10/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/week-10/</guid>
-      <description>Handouts Equations  Functions  Lab 
+      <guid>/week-10/</guid>
+      <description>Handouts Equations  Functions  Lab  LaTeX  Sample Handout  Weekly Prep 
 Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-10 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
-Replication   Correlation with Binary Variables There is one point missing from today&amp;rsquo;s lecture that comes up on the lab. I mentioned that the assumptions of correlation are that x and y are continous.</description>
+Replication   Correlation with Binary Variables There is one point missing from today&amp;rsquo;s lecture that comes up on the lab.</description>
     </item>
     
   </channel>
