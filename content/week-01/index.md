@@ -4,6 +4,12 @@ title: Week 01 - Course Introduction
 weight: 20
 ---
 
+## Handouts
+
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-01/blob/master/Exercises/exerciseValues.pdf" target="_blank"> Exercise - Values </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-01/blob/master/Exercises/exerciseEmail.pdf" target="_blank"> Exercise - Email </a> 
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-01/blob/master/Functions/week-01-rQuickref.pdf" target="_blank"> Functions </a>
+
 ## Lecture Slides
 {{< speakerdeck 35432b57f3884b2c91c9e7ace2c87c50 >}}
 
