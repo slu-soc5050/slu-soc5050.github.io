@@ -4,6 +4,16 @@ title: Week 07 - Difference of Means (Part 1)
 weight: 26
 ---
 
+## Handouts
+
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-07/blob/master/Equations/week-07-equations.pdf" target="_blank"> Equations </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-07/blob/master/Exercise/week-07-exercise.pdf" target="_blank"> Exercise </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-07/blob/master/Functions/week-07-rQuickRef.pdf" target="_blank"> Functions </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-07/blob/master/Lab/week-07-lab.pdf" target="_blank"> Lab </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-07/blob/master/WeeklyPrep/week-07-prep.pdf" target="_blank"> Weekly Prep </a>
+
+
+
 ## Lecture Slides
 {{< speakerdeck cc160bd374244d7c90f71d86d2bf9c6f >}}
 
