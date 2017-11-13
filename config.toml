@@ -111,6 +111,11 @@ googleAnalytics = ""
 	weight = 29
 
 [[menu.main]]
+	name   = "Week 12 - Bivariate Regression"
+	url    = "week-12/"
+	weight = 29
+
+[[menu.main]]
 	name   = "License"
 	url    = "license/"
 	weight = 40
