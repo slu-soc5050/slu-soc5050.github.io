@@ -124,6 +124,11 @@ googleAnalytics = ""
 	name   = "Week 14 - Multiple Regression (2)"
 	url    = "week-14/"
 	weight = 32
+	
+[[menu.main]]
+	name   = "Week 15 - ANOVA"
+	url    = "week-15/"
+	weight = 33
 
 [[menu.main]]
 	name   = "License"
