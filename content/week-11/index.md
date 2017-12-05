@@ -9,6 +9,7 @@ weight: 29
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-11/blob/master/Functions/week-11-r.pdf" target="_blank"> Functions </a>
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-11/blob/master/Lab/week-11-lab.pdf" target="_blank"> Lab </a>
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-11/blob/master/LaTeX/week-11-latex.pdf" target="_blank"> LaTeX </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-11/blob/master/PS-08/ps-08.pdf" target="_blank"> PS-08 </a>
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-11/blob/master/WeeklyPrep/week-11-prep.pdf" target="_blank"> Weekly Prep </a>
 
 ## Lecture Slides
