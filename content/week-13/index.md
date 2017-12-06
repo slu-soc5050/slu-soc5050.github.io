@@ -10,6 +10,7 @@ weight: 31
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-13/blob/master/Lab/week-13-lab.pdf" target="_blank"> Lab </a>
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-13/blob/master/LaTeX/week-13-latex.pdf" target="_blank"> LaTeX </a>
 <a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-13/blob/master/Workflow/week-13-workflow.pdf" target="_blank"> Workflow </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-13/blob/master/WeeklyPrep/week-13-prep.pdf" target="_blank"> Weekly Prep </a>
 
 ## Lecture Slides
 {{< speakerdeck 03f31eaca678478ebcd3027780c59776 >}}
