@@ -131,6 +131,11 @@ googleAnalytics = ""
 	weight = 33
 
 [[menu.main]]
+	name   = "Week 16 - Chi-Squared"
+	url    = "week-16/"
+	weight = 34
+	
+[[menu.main]]
 	name   = "License"
 	url    = "license/"
 	weight = 40
