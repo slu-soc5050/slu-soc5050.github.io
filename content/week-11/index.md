@@ -25,3 +25,8 @@ To download this, right click on `View Raw` and download the linked file.
 ## Some Example Data for Class
 
 <script data-gist-id="eff7358f57c492ce2ea58c67470de9fa"></script>
+
+## Creating a Scale
+During the lecture, we discussed how to test a group of variables to see if they made a good scale. The code below takes that example a step further. If you would like to use the scale as a dependent or independent variable in an analysis, you have to store the scale results in a variable in your data frame. This can be done by following these steps:
+
+<script data-gist-id="e8db299364b5ffbee68b960b71bd9d55"></script>
