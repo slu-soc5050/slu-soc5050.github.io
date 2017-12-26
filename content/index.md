@@ -1,17 +1,17 @@
 ---
 date: 2016-03-08T21:07:13+01:00
-title: Quantiative Analysis - Applied Inferential Statistics
+title: Quantitative Analysis - Applied Inferential Statistics
 type: index
 weight: 1
 ---
 
-{{< note title="Currently Offered" >}}
-SOC 4930 & 5050 is Saint Louis University Sociology's undergraduate and graduate introductory statistics course, which is *currently being offered* for Fall, 2017. This site is for sections taught by Assistant Professor Christopher Prener. 
-{{< /note >}}
+{{< warning title="Not Currently Offered" >}}
+SOC 4930 & 5050 is Saint Louis University Sociology's undergraduate and graduate introductory statistics course, which is *planned to next be offered* for Fall, 2018. Minor revisions to the curriculum are planned for the next edition of the course. Documents should not be considered current if their date is for 2017. This site is for sections taught by Assistant Professor Christopher Prener. 
+{{< /warning >}}
 
 ## Course Description
 <img src="/images/logo.png" align="right" />
-This course provides an introduction to applied statistical analysis for both undergraduate and graduate students with an emphasis placed on statistical techniques that are most common in the sociological literature. The statistical techniques introduced include measures of central tendency and dispersion as well as measures of bivariate association. Multivariate statistical analyses are also introduced along with essential skills for cleaning data, creating plots, and reporting results. While the examples may be specific to the social sciences, the theories and skills that are covered are broadly applicable across academic disciplines.
+This course provides an introduction to applied statistical analysis for both undergraduate and graduate students with an emphasis placed on statistical techniques that are most common in the sociological literature. The statistical techniques introduced include measures of central tendency and dispersion as well as measures of bi-variate association. Multivariate statistical analyses are also introduced along with essential skills for cleaning data, creating plots, and reporting results. While the examples may be specific to the social sciences, the theories and skills that are covered are broadly applicable across academic disciplines.
 
 ## Course Objectives
 This course has four intertwined objectives. After completing the course, students will be able to:
