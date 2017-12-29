@@ -3,6 +3,7 @@ date: 2016-03-08T21:07:13+01:00
 title: Week 02 - Working with Data (Part 1)
 weight: 21
 ---
+![](https://img.shields.io/badge/semester-Fall%2C%202017-blue.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) 
 
 ## General Handouts
 

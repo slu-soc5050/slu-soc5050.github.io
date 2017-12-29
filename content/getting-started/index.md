@@ -3,6 +3,7 @@ date: 2016-03-09T00:11:02+01:00
 title: Getting Started
 weight: 10
 ---
+![](https://img.shields.io/badge/semester-Fall%2C%202017-blue.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) 
 
 Before you begin the semester, there are a number of things that I recommend that you do to help set yourself up for success. Before you do *anything* else, you should read through the [**Syllabus**](https://github.com/slu-soc5050/Core-Documents/blob/master/syllabus.pdf) and the [**Reading List**](https://github.com/slu-soc5050/Core-Documents/blob/master/reading-list.pdf). Make sure you have a good sense of what is *required* for the course. If you have questions, bring them to the first day of class!
 

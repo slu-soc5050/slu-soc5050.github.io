@@ -3,6 +3,7 @@ date: 2016-03-08T21:07:13+01:00
 title: Week 16 - Chi-Squared
 weight: 34
 ---
+![](https://img.shields.io/badge/semester-Fall%2C%202017-blue.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) 
 
 ## Handouts
 
