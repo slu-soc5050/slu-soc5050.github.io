@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture-02s on SOC 4930 &amp; SOC 5050</title>
+    <link>/lecture-02/</link>
+    <description>Recent content in Lecture-02s on SOC 4930 &amp; SOC 5050</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Licensed under a Creative Commons Attribution 4.0 International License</copyright>
+    <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
+    
+	<atom:link href="/lecture-02/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Week 02 - Working with Data (Part 1)</title>
+      <link>/lecture-02/</link>
+      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      
+      <guid>/lecture-02/</guid>
+      <description>General Handouts Lab  Problem Set 01 
+Lecture 02a - Introducing ggplot2 Lecture Handouts Functions 
+Slides  Video Lecture   Lecture 02b - Grammar of Graphics Lecture Handouts Functions 
+Slides  Video Lecture   Lecture 03 - Verbs for Cleaning Data Lecture Handouts Functions 
+Slides  Video Lecture   Lecture 04 - Structuring Notebooks Lecture Handouts Functions  Notebook Sample 
+Slides  Video Lecture   Data for Assignments The data that you need for many of the assignments this semester is available as an R package named testDriveR.</description>
+    </item>
+    
+  </channel>
+</rss>
