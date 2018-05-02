@@ -25,9 +25,6 @@ This course has four intertwined objectives. After completing the course, studen
 4. *Quantitative research synthesis*:  Plan, implement (using `R`), and present (using LaTeX and the presentation software of your choice) a research project that uses linear regression to answer a research question. 
 
 
-## Core Documents
-Both the [**Syllabus**](https://github.com/slu-soc5050/Core-Documents/blob/master/syllabus.pdf) and the [**Reading List**](https://github.com/slu-soc5050/Core-Documents/blob/master/reading-list.pdf) can be viewed online or downloaded via the `Download` button on this site's main menu.
-
 ## Acknowledgements
 
 Like many things in academia, the "final" product here is the result of others' hard work as well as my own. I owe gratitude and thanks to [Hadley Wickham](http://hadley.nz), whose data science tools are heavily featured as part of this course. I also draw significant inspiration from [Jenny Bryan](https://www.stat.ubc.ca/~jenny/), whose [Stat 545 course](http://stat545.com) has served as a significant resource and a model for my own teaching. 

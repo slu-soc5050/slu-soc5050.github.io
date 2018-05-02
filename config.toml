@@ -1,6 +1,6 @@
 baseurl = "https://slu-soc5050.github.io/"
 languageCode = "en-us"
-title = "SOC 4930 & SOC 5050"
+title = "SOC 4015 & SOC 5050"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = true
@@ -10,7 +10,7 @@ googleAnalytics = ""
 [params]
 	# General information
 	author = "Christopher Prener, Ph.D."
-	description = "SOC 4930 & SOC 5050: Quantiative Analysis - Applied Inferential Statistics"
+	description = "SOC 4015 & SOC 5050: Quantiative Analysis - Applied Inferential Statistics"
 	copyright = "Licensed under a Creative Commons Attribution 4.0 International License"
 
 	# Repository
@@ -56,7 +56,7 @@ googleAnalytics = ""
 	weight = 2
 
 [[menu.main]]
-	name   = "Getting Started"
+	name   = "Course Onboarding"
 	url    = "getting-started/"
 	weight = 10
 
