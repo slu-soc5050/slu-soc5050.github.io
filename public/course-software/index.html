@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>SOC 4015 &amp; SOC 5050</title>
+    <title>Course Software - SOC 4015 &amp; SOC 5050</title>
     <meta name="generator" content="Hugo 0.30" />
 
     
     <meta name="description" content="SOC 4015 &amp; SOC 5050: Quantiative Analysis - Applied Inferential Statistics">
     
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/course-software/">
     
     <meta name="author" content="Christopher Prener, Ph.D.">
     
 
-    <meta property="og:url" content="/">
+    <meta property="og:url" content="/course-software/">
     <meta property="og:title" content="SOC 4015 &amp; SOC 5050">
     <meta property="og:image" content="/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="SOC 4015 &amp; SOC 5050">
@@ -69,9 +69,6 @@
     <script src="/javascripts/modernizr.js"></script>
 
     
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="SOC 4015 &amp; SOC 5050" />
-    <link href="/index.xml" rel="feed" type="application/rss+xml" title="SOC 4015 &amp; SOC 5050" />
-    
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
 
@@ -104,7 +101,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        SOC 4015 &amp; SOC 5050
+        Course Software
       </div>
     </div>
 
@@ -181,14 +178,11 @@
 
 
 
-<a class="current" title="About" href="/">
+<a  title="About" href="/">
 	
 	About
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -238,11 +232,14 @@
 
 
 
-<a  title="Course Software" href="/course-software/">
+<a class="current" title="Course Software" href="/course-software/">
 	
 	Course Software
 </a>
 
+
+<ul id="scrollspy">
+</ul>
 
 
   
@@ -573,52 +570,45 @@
 
 	<article class="article">
 		<div class="wrapper">
+			<h1>Course Software </h1>
+
 			
-				<h1>Quantitative Analysis - Applied Inferential Statistics </h1>
 
-				
+<p>This course is built primarily around a trio of software applications - the programming language <code>R</code>, the graphical user interface for <code>R</code> called RStudio, and GitHub Desktop. As I noted on the <a href="/getting-started/#course-software">course onboarding page</a>, there are two choices for <em>accessing</em> software and two choices for <em>installing</em> software. Please read through the <a href="/getting-started/#course-software">course onboarding page</a> page carefully and make the decisions you think are best for you. Feel free to shoot me a message on Slack or via email if you have questions about what approach is best.</p>
 
-<div class="admonition note">
-<p class="admonition-title">Enrollment Open</p>
-<p>SOC 4930 &amp; 5050 is Saint Louis University Sociology&rsquo;s undergraduate and graduate introductory statistics course, which will be offered during the Fall 2018 semester. <strong>There are currently 4 undergraduate and 4 graduate seats remaining in the course. If you are interested in the course, please enroll soon!</strong></p>
-</div>
+<h2 id="coursework-with-docker">Coursework with Docker</h2>
 
-<div class="admonition warning">
-<p class="admonition-title">Updates Planned</p>
-<p>Minor revisions to the curriculum are planned for the next edition of the course. General topics will remain the same, but repos will be re-organized and additional resources will be provided. Existing resources should not be considered current if their date is for 2017.</p>
-</div>
+<h2 id="coursework-local-installations-of-r">Coursework Local Installations of <code>R</code></h2>
 
-<p></br>
-This site is for sections of SOC 4015 and SOC 5050 taught by Assistant Professor <a href="https://chris-prener.github.io">Christopher Prener</a>.</p>
+<p>If you decide to manage your own local installation of <code>R</code> this semester.</p>
 
-<h2 id="course-description">Course Description</h2>
+<h3 id="software-downloads">Software Downloads</h3>
 
-<p><img src="/images/logo.png" align="right" />
-This course provides an introduction to applied statistical analysis for both undergraduate and graduate students with an emphasis placed on statistical techniques that are most common in the sociological literature. The statistical techniques introduced include measures of central tendency and dispersion as well as measures of bi-variate association. Multivariate statistical analyses are also introduced along with essential skills for cleaning data, creating plots, and reporting results. While the examples may be specific to the social sciences, the theories and skills that are covered are broadly applicable across academic disciplines.</p>
-
-<h2 id="course-objectives">Course Objectives</h2>
-
-<p>This course has four intertwined objectives. After completing the course, students will be able to:</p>
+<p>There are two applications you will need to download and install.</p>
 
 <ol>
-<li><p><em>Fundamentals of inferential statistics</em>:  Describe the use of various statistical tests, their requirements and assumptions, and their interpretation; execute these tests both by hand and programmatically using <code>R</code>.</p></li>
+<li><p>The computing language <code>R</code> needs to be downloaded and installed. You can download it from the <a href="https://cloud.r-project.org"><code>R</code>&rsquo;s website</a>. Choose &ldquo;Download R for (Mac) OS X&rdquo; or &ldquo;Download R for Windows&rdquo;. Windows users should look for a link that says &ldquo;install R for the first time&rdquo;. Both macOS and Windows users should install <code>R</code> version 3.5.0, known as &ldquo;Joy in Playing&rdquo;.<sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup> <strong>If you already have <code>R</code> installed on your computer, make sure you are running version 3.5.0.</strong></p></li>
 
-<li><p><em>Fundamentals of data analysis</em>:  Perform basic data cleaning and analysis tasks programmatically using <code>R</code> in ways that support high quality documentation and replication.</p></li>
-
-<li><p><em>Fundamentals of data visualization</em>:  Create and present publication quality plots programmatically using <code>R</code> and <code>ggplot2</code>.</p></li>
-
-<li><p><em>Quantitative research synthesis</em>:  Plan, implement (using <code>R</code>), and present (using LaTeX and the presentation software of your choice) a research project that uses linear regression to answer a research question.</p></li>
+<li><p>RStudio is a graphical user interface for <code>R</code> that will make learning the language and using it much, much easier. You should download the <em>free</em> version of RStudio from <a href="https://www.rstudio.com/products/rstudio/download/#download">their website</a>. Choose the appropriate installer for your platform. Make sure <code>R</code> is already installed before installing RStudio. <strong>If you already have RStudio installed on your computer, make sure you are running version 1.1.477.</strong></p></li>
 </ol>
 
-<h2 id="acknowledgements">Acknowledgements</h2>
+<h3 id="install-r-packages">Install <code>R</code> Packages</h3>
 
-<p>Like many things in academia, the &ldquo;final&rdquo; product here is the result of others&rsquo; hard work as well as my own. I owe gratitude and thanks to <a href="http://hadley.nz">Hadley Wickham</a>, whose data science tools are heavily featured as part of this course. I also draw significant inspiration from <a href="https://www.stat.ubc.ca/~jenny/">Jenny Bryan</a>, whose <a href="http://stat545.com">Stat 545 course</a> has served as a significant resource and a model for my own teaching.</p>
+<p>There are a number of <code>R</code> packages that you will need for this semester.</p>
 
-<p>This website itself is the product of <a href="https://yihui.name">Yihui Xie&rsquo;s</a> work on the <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> package for <code>R</code> as well as <a href="https://github.com/digitalcraftsman">Digitalcraftsman&rsquo;s</a> port of <a href="https://github.com/squidfunk">Martin Donath&rsquo;s</a> <a href="https://github.com/squidfunk/mkdocs-material">Material theme</a>.</p>
+<h2 id="github-desktop">GitHub Desktop</h2>
 
-<p>Finally, I want to acknowledge my now nine semesters&rsquo; worth of research methods students, whose collective feedback and experiences have helped dramatically reshape the course content and how I teach. I am immensely grateful for each of your contributions to my methods courses.</p>
+<p>In addition to the applications above, everyone will need a local installation of GitHub Desktop, which is a graphical user interface for accessing Git and GitHub.com. It can be downloaded for free from the application&rsquo;s <a href="https://desktop.github.com">website</a>. You will need to download and run the installer. Once it is complete, you will need to login to the application with your <a href="/getting-started/#account-signups">GitHub.com username and password</a>.</p>
+<div class="footnotes">
 
-			
+<hr />
+
+<ol>
+<li id="fn:1">All of <code>R</code>&rsquo;s version names are taken from the <a href="http://livefreeordichotomize.com/2017/09/28/r-release-names/">Peanuts comic strip</a>.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
 
 			<aside class="copyright" role="note">
 				
@@ -633,23 +623,37 @@ This course provides an introduction to applied statistical analysis for both un
 			<footer class="footer">
 				
 
-
-
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
+  
+      <a href="/getting-started/" title="Course Onboarding">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              Course Onboarding
+            </div>
+          </div>
+        </div>
+      </a>
+  
   </div>
 
-  
-  
   <div class="next">
-      <a href="/tags/" title="Tags">
+  
+      <a href="/course-software/docker-kitematic/" title="Docker via Kitematic">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Tags
+              Docker via Kitematic
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
@@ -657,8 +661,11 @@ This course provides an introduction to applied statistical analysis for both un
           </div>
         </div>
       </a>
+  
   </div>
 </nav>
+
+
 
 
 
