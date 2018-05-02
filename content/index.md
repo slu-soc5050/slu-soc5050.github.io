@@ -5,9 +5,9 @@ type: index
 weight: 1
 ---
 
-{{< warning title="Not Currently Offered" >}}
-SOC 4930 & 5050 is Saint Louis University Sociology's undergraduate and graduate introductory statistics course, which is *planned to next be offered* for Fall, 2018. Minor revisions to the curriculum are planned for the next edition of the course. Documents should not be considered current if their date is for 2017. This site is for sections taught by Assistant Professor Christopher Prener. 
-{{< /warning >}}
+{{< note title="Enrollment Open" >}}
+SOC 4930 & 5050 is Saint Louis University Sociology's undergraduate and graduate introductory statistics course, which will be offered during the Fall 2018 semester. **There are currently 4 undergraduate and 4 graduate seats remaining in the course. If you are interested in the course, please enroll soon!** Minor revisions to the curriculum are planned for the next edition of the course. Documents should not be considered current if their date is for 2017. This site is for sections taught by Assistant Professor Christopher Prener. 
+{{< /note >}}
 
 ## Course Description
 <img src="/images/logo.png" align="right" />
