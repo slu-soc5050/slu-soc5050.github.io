@@ -6,8 +6,15 @@ weight: 1
 ---
 
 {{< note title="Enrollment Open" >}}
-SOC 4930 & 5050 is Saint Louis University Sociology's undergraduate and graduate introductory statistics course, which will be offered during the Fall 2018 semester. **There are currently 4 undergraduate and 4 graduate seats remaining in the course. If you are interested in the course, please enroll soon!** Minor revisions to the curriculum are planned for the next edition of the course. Documents should not be considered current if their date is for 2017. This site is for sections taught by Assistant Professor Christopher Prener. 
+SOC 4930 & 5050 is Saint Louis University Sociology's undergraduate and graduate introductory statistics course, which will be offered during the Fall 2018 semester. **There are currently 4 undergraduate and 4 graduate seats remaining in the course. If you are interested in the course, please enroll soon!**
 {{< /note >}}
+
+{{< warning title="Updates Planned" >}}
+Minor revisions to the curriculum are planned for the next edition of the course. General topics will remain the same, but repos will be re-organized and additional resources will be provided. Existing resources should not be considered current if their date is for 2017.
+{{< /warning >}}
+
+</br>
+This site is for sections of SOC 4015 and SOC 5050 taught by Assistant Professor [Christopher Prener](https://chris-prener.github.io).
 
 ## Course Description
 <img src="/images/logo.png" align="right" />
@@ -31,6 +38,4 @@ Like many things in academia, the "final" product here is the result of others' 
 
 This website itself is the product of [Yihui Xie's](https://yihui.name) work on the [blogdown](https://bookdown.org/yihui/blogdown/) package for `R` as well as [Digitalcraftsman's](https://github.com/digitalcraftsman) port of [Martin Donath's](https://github.com/squidfunk) [Material theme](https://github.com/squidfunk/mkdocs-material).
 
-Finally, I want to acknowledge my now six semesters' worth of students, whose collective feedback and experiences have helped dramatically reshape the course content and how I teach. I am immensely grateful for each of your contributions to my statistics courses.
-
-
+Finally, I want to acknowledge my now nine semesters' worth of research methods students, whose collective feedback and experiences have helped dramatically reshape the course content and how I teach. I am immensely grateful for each of your contributions to my methods courses.

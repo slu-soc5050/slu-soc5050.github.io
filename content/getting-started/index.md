@@ -25,11 +25,7 @@ This section provides details on completing the following steps:
 * [Get access to books](/getting-started/#get-access-to-books)
 * [Purchase other required materials](/getting-started/#other-materials)
 * Complete the [student information sheet and diagnostic assessment](/getting-started/#administrative-tasks)
-* [Complete the initial coursework](/getting-started/#coursework):
-  * Complete the Lecture Prep 01 form that shows you have completed the course onboarding process
-  * Watch the posted videos
-  * Answer and submit the questions for Lecture Prep 02
-  * Complete the readings for Lecture 01
+* [Complete the initial coursework](/getting-started/#coursework)
 
 ## Account Signups
 ### Get Started with Slack
@@ -93,4 +89,9 @@ There are two forms that all students must fill out by Tuesday, September 5th:
 2. the un-graded [Diagnostic Assessment](https://goo.gl/forms/a), which is designed to get a sense of where each student's math skills are currently. Please don't consult outside materials as you do this - if you are not sure how to answer, please choose "I'm not sure" insteading of guessing. If you look answers up it defeats the purpose of this exercise!
 
 ## Coursework
+Coursework tasks that need to be completed are listed on the syllabus under [Course Preview](https://slu-soc5050.github.io/syllabus/course-preview.html):
 
+* Complete the [Lecture Prep 01](https://goo.gl/forms/a) form that shows you have completed the course onboarding process. Do this *after* you have finished the course onboarding process.
+* Watch the posted videos on the [course preview page](/course-preview/)
+* Answer and submit the questions for Lecture Prep 02 linked to from the [course preview page](/course-preview/)
+* Complete the readings for [Lecture 01](https://slu-soc5050.github.io/syllabus/lecture-01-course-introduction.html)
