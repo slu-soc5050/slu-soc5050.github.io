@@ -61,78 +61,78 @@ googleAnalytics = ""
 	weight = 10
 
 [[menu.main]]
-	name   = "Week 01 - Course Introduction"
-	url    = "week-01/"
+	name   = "Lecture 01 - Course Introduction"
+	url    = "lecture-01/"
 	weight = 20
 	
 [[menu.main]]
-	name   = "Week 02 - Working with Data (1)"
-	url    = "week-02/"
+	name   = "Lecture 02 - Working with Data (1)"
+	url    = "lecture-02/"
 	weight = 21
 	
 [[menu.main]]
-	name   = "Week 03 - Distributions"
-	url    = "week-03/"
+	name   = "Lecture 03 - Distributions"
+	url    = "lecture-03/"
 	weight = 22
 
 [[menu.main]]
-	name   = "Week 04 - Probability"
-	url    = "week-04/"
+	name   = "Lecture 04 - Probability"
+	url    = "lecture-04/"
 	weight = 23
 	
 [[menu.main]]
-	name   = "Week 05 - Random Variables"
-	url    = "week-05/"
+	name   = "Lecture 05 - Random Variables"
+	url    = "lecture-05/"
 	weight = 24
 
 [[menu.main]]
-	name   = "Week 06 - Inference"
-	url    = "week-06/"
+	name   = "Lecture 06 - Inference"
+	url    = "lecture-06/"
 	weight = 25
 
 [[menu.main]]
-	name   = "Week 07 - Mean Difference (1)"
-	url    = "week-07/"
+	name   = "Lecture 07 - Mean Difference (1)"
+	url    = "lecture-07/"
 	weight = 26
 
 [[menu.main]]
-	name   = "Week 08 - Mean Difference (2)"
-	url    = "week-08/"
+	name   = "Lecture 08 - Mean Difference (2)"
+	url    = "lecture-08/"
 	weight = 27
 
 [[menu.main]]
-	name   = "Week 10 - Correlation (1)"
-	url    = "week-10/"
+	name   = "Lecture 10 - Correlation (1)"
+	url    = "lecture-10/"
 	weight = 28
 	
 [[menu.main]]
-	name   = "Week 11 - Correlation (2)"
-	url    = "week-11/"
+	name   = "Lecture 11 - Correlation (2)"
+	url    = "lecture-11/"
 	weight = 29
 
 [[menu.main]]
-	name   = "Week 12 - Bivariate Regression"
-	url    = "week-12/"
+	name   = "Lecture 12 - OLS Regression (1)"
+	url    = "lecture-12/"
 	weight = 30
 
 [[menu.main]]
-	name   = "Week 13 - Multiple Regression (1)"
-	url    = "week-13/"
+	name   = "Lecture 13 - OLS Regression (2)"
+	url    = "lecture-13/"
 	weight = 31
 	
 [[menu.main]]
-	name   = "Week 14 - Multiple Regression (2)"
-	url    = "week-14/"
+	name   = "Lecture 14 - OLS Regression (3)"
+	url    = "lecture-14/"
 	weight = 32
 	
 [[menu.main]]
-	name   = "Week 15 - ANOVA"
-	url    = "week-15/"
+	name   = "Lecture 15 - ANOVA"
+	url    = "lecture-15/"
 	weight = 33
 
 [[menu.main]]
-	name   = "Week 16 - Chi-Squared"
-	url    = "week-16/"
+	name   = "Lecture 16 - Chi-Squared"
+	url    = "lecture-16/"
 	weight = 34
 	
 [[menu.main]]
