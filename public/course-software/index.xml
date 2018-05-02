@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Course-softwares on SOC 4015 &amp; SOC 5050</title>
-    <link>/course-software/</link>
+    <link>https://slu-soc5050.github.io/course-software/</link>
     <description>Recent content in Course-softwares on SOC 4015 &amp; SOC 5050</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="/course-software/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://slu-soc5050.github.io/course-software/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Course Software</title>
-      <link>/course-software/</link>
+      <link>https://slu-soc5050.github.io/course-software/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>/course-software/</guid>
+      <guid>https://slu-soc5050.github.io/course-software/</guid>
       <description>This course is built primarily around a trio of software applications - the programming language R, the graphical user interface for R called RStudio, and GitHub Desktop. As I noted on the course onboarding page, there are two choices for accessing software and two choices for installing software. Please read through the course onboarding page page carefully and make the decisions you think are best for you. Feel free to shoot me a message on Slack or via email if you have questions about what approach is best.</description>
     </item>
     
     <item>
       <title>Docker via Kitematic</title>
-      <link>/course-software/docker-kitematic/</link>
+      <link>https://slu-soc5050.github.io/course-software/docker-kitematic/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>/course-software/docker-kitematic/</guid>
+      <guid>https://slu-soc5050.github.io/course-software/docker-kitematic/</guid>
       <description>Docker!</description>
     </item>
     
     <item>
       <title>Docker via the Command Line</title>
-      <link>/course-software/docker-cl/</link>
+      <link>https://slu-soc5050.github.io/course-software/docker-cl/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>/course-software/docker-cl/</guid>
+      <guid>https://slu-soc5050.github.io/course-software/docker-cl/</guid>
       <description>Docker!</description>
     </item>
     
