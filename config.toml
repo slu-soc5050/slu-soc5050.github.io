@@ -151,6 +151,11 @@ googleAnalytics = ""
 	weight = 40
 
 [[menu.main]]
+	name   = "Topic Index"
+	url    = "topic-index/"
+	weight = 41
+
+[[menu.main]]
 	name   = "Package Index"
 	url    = "package-index/"
 	weight = 42

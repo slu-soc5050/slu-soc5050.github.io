@@ -122,6 +122,11 @@
   </url>
   
   <url>
+    <loc>/topic-index/</loc>
+    <lastmod>2016-03-09T00:11:02+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/package-index/</loc>
     <lastmod>2016-03-09T00:11:02+01:00</lastmod>
   </url>
@@ -271,6 +276,12 @@
   
   <url>
     <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/topic-index/</loc>
+    <lastmod>2016-03-09T00:11:02+01:00</lastmod>
     <priority>0</priority>
   </url>
   
