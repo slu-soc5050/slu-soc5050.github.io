@@ -1454,7 +1454,7 @@ h1 .article .headerlink {
 .btn {
     background-color: white;
     border-radius: 2px;
-    border: 2px solid #fb8c00;
+    border: 2px solid #FF641E;
     color: white;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -1481,9 +1481,9 @@ h1 .article .headerlink {
 }
 
 .keyword {
-    background-color: #259b24;
+    background-color: #FF641E;
     border-radius: 2px;
-    border: 2px solid #259b24;
+    border: 2px solid #FF641E;
     color: white;
     margin-top: 5px;
     margin-bottom: 5px;

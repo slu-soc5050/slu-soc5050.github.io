@@ -7,9 +7,9 @@ weight: 10
 ## Meta
 
 ![](https://img.shields.io/badge/semester-fall%202018-yellow.svg) ![](https://img.shields.io/badge/release-draft-red.svg) 
-![](https://img.shields.io/badge/last%20update-2018--05--02-brightgreen.svg)
+![](https://img.shields.io/badge/last%20update-2018--05--03-brightgreen.svg)
 
-## Introduction
+## Overview
 
 Before you begin the semester, there are a number of things that you should do to help set yourself up for success. **All of the applicable sections below should be completed before our first class on August 27th.** Before you do *anything* else, though, you should read through the [**Syllabus**](https://slu-soc5050.github.io/syllabus/). Make sure you have a good sense of what is *required* for the course. If you have questions, bring them to the first day of class!
 
@@ -93,7 +93,7 @@ There are two forms that all students must fill out by Tuesday, September 5th:
 ## Coursework
 Coursework tasks that need to be completed are listed on the syllabus under [Course Preview](https://slu-soc5050.github.io/syllabus/course-preview.html):
 
-* Complete the [Lecture Prep 01](https://goo.gl/forms/a) form that shows you have completed the course onboarding process. Do this *after* you have finished the course onboarding process.
+* Complete the [Lecture Prep 01](https://goo.gl/forms/a) form that shows you have completed this course onboarding process. Do this *after* you have finished the course onboarding process.
 * Watch the posted videos on the [course preview page](/course-preview/)
 * Answer and submit the questions for Lecture Prep 02 linked to from the [course preview page](/course-preview/)
 * Complete the readings for [Lecture 01](https://slu-soc5050.github.io/syllabus/lecture-01-course-introduction.html)

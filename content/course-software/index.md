@@ -7,11 +7,11 @@ weight: 11
 ## Meta 
 
 ![](https://img.shields.io/badge/semester-fall%202018-yellow.svg) ![](https://img.shields.io/badge/release-draft-red.svg) 
-![](https://img.shields.io/badge/last%20update-2018--05--02-brightgreen.svg)
+![](https://img.shields.io/badge/last%20update-2018--05--03-brightgreen.svg)
 
 ## Overview
 
-This course is built primarily around a trio of software applications - the programming language `R`, the graphical user interface for `R` called RStudio, and GitHub Desktop. As I noted on the [course onboarding page](/getting-started/#course-software), there are two choices for *accessing* software and two choices for *installing* software. Please read through the [course onboarding page](/getting-started/#course-software) page carefully and make the decisions you think are best for you. Feel free to shoot me a message on Slack or via email if you have questions about what approach is best.
+This course is built primarily around a trio of software applications - the programming language `R`, the graphical user interface for `R` called RStudio, and GitHub Desktop. As I noted on the [course onboarding page](/getting-started/#course-software), there are two choices for *accessing* software and two choices for *installing* software. Please read through the [course onboarding page](/getting-started/#course-software) page carefully and make the decisions you think are best for you. Feel free to shoot me a message on Slack or via email if you have questions about which approach is best.
 
 ## Coursework with Docker
 If you decide to use a virtual installation, there are a couple of steps you will have to complete. 

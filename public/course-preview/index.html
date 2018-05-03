@@ -595,9 +595,68 @@
 <h2 id="meta">Meta</h2>
 
 <p><img src="https://img.shields.io/badge/semester-fall%202018-yellow.svg" alt="" /> <img src="https://img.shields.io/badge/release-draft-red.svg" alt="" />
-<img src="https://img.shields.io/badge/last%20update-2018--05--02-brightgreen.svg" alt="" /></p>
+<img src="https://img.shields.io/badge/last%20update-2018--05--03-brightgreen.svg" alt="" /></p>
+
+<h2 id="key-topics">Key Topics</h2>
+
+<p><a href="/topic-index/#a-d"><i class="keyword"><i class="fas fa-tags"></i> Analysis development</i> </a>
+<a href="/topic-index/#e-h"><i class="tool"><i class="fas fa-desktop"></i> GitHub</i></a>
+<a href="/topic-index/#q-t"><i class="tool"><i class="fas fa-desktop"></i> R</i></a>
+<a href="/topic-index/#q-t"><i class="keyword"><i class="fas fa-tags"></i> RMarkdown</i> </a>
+<a href="/topic-index/#q-t"><i class="keyword"><i class="fas fa-tags"></i> Reproducibility</i> </a>
+<a href="/topic-index/#u-x"><i class="keyword"><i class="fas fa-tags"></i> Version Control</i> </a>
+<a href="/topic-index/#u-x"><i class="keyword"><i class="fas fa-tags"></i> Workflow</i> </a></p>
 
 <h2 id="overview">Overview</h2>
+
+<p>To set the stage for this semester, please watch the two videos below. These will take approximately 45 minutes to view. Once you have finished these videos, follow the link at the bottom of the page to answer a few short questions about what you saw. Before you begin, please make sure you have completed the <a href="/getting-started/">course onboarding</a> process and Lecture Prep 01! You won&rsquo;t need any of the <a href="/course-software/">course software</a> for this Course Preview, however, so there is no need to have installed softwrae at this stage.</p>
+
+<h2 id="plain-text-science">Plain Text Science</h2>
+
+<p>To begin, please watch the first few sections of a recent talk by <a href="https://en.wikipedia.org/wiki/Hadley_Wickham">Hadley Wickham</a>. He is the Chief Scientist for RStudio and developer of the <a href="http://tidyverse.org"><code>tidyverse</code></a>, which is a family of packages we&rsquo;ll be using this semester. In fact, the original name of this family of packages was the <code>hadleyverse</code>. Hadley is also the author of <a href="http://r4ds.had.co.nz"><em>R for Data Science</em></a>, one of the books we&rsquo;ll be reading this semester. In this video, Hadley speaks about why using a programming language to express yourself for data science and statistical work can be so valuable. Please watch up to 18:30, when the &ldquo;Why Program in R?&rdquo; slide comes up.</p>
+
+<p> </p>
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/cpbtcsGE0OA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+ </div>
+
+<p> </p>
+
+<p>Here are links to the two GitHub repositories Hadley referenced during the talk:</p>
+
+<ul>
+<li><a href="https://github.com/bcgov/bc-population-indicator">BC Population Indicator</a>
+
+<ul>
+<li>The history that Wickham references can be viewed <a href="https://github.com/bcgov/bc-population-indicator/commits/master">here</a>, and you can click on any of the commit messages or numbers to view how specific files have changed. <a href="https://github.com/bcgov/bc-population-indicator/commit/53608ab2142f541d6794c26144e1f868bdec37db">This</a> is one example from March 2018. Red text indicates deletions, and green text indicates additions.</li>
+</ul></li>
+<li><a href="https://github.com/jennybc/frogs">Calaveras Jumping Frog Jubilee</a></li>
+</ul>
+
+<p>Many (but not all of you) will have experienced some parts of these processes before. Perhaps you&rsquo;ve used Microsoft Excel to organize some information or used SPSS to analyze some quantitative data. We won&rsquo;t be using those tools. Instead, this course will emphasize the use of other tools that support reproducibile, accurate, and collaborative data analysis. Thoughout the semester, we&rsquo;ll discuss why these tools are important and the advantages they have over other products that are out there.</p>
+
+<h2 id="analysis-development">Analysis Development</h2>
+
+<p>The workflow that Hadley introduced in the first video, and the idea that you cannot do data science in a <a href="https://en.wikipedia.org/wiki/Graphical_user_interface">GUI</a>, is opinionated - there is a strong premise that underlies the workflow about the ways in which spatial data (and data more generally) should be obtained, stored, modified, and mapped. Hilary Parker is a data scientist at <a href="http://stitchfix.com">Stichfix</a> and also runs a data science podcast called <a href="http://nssdeviations.com">Not So Standard Deviations</a>. She has been speaking recently about an idea called opionated analysis development. The <a href="https://www.rstudio.com/resources/videos/opinionated-analysis-development/">video</a> linked to below is a 25 minute talk she gave on this idea last year, and she now has a <a href="https://peerj.com/preprints/3210/">draft paper</a> out on the topic as well. Our workflow for this semester is closely linked to the ideas she discusses in this talk.</p>
+
+<p> </p>
+
+<p><a href="https://www.rstudio.com/resources/videos/opinionated-analysis-development/"><img src="/images/opinionatedAnalysis.png" alt="opinionatedAnalysis" /></a></p>
+
+<p> </p>
+
+<p>Inspired by Hilary&rsquo;s idea of opinionated analysis development, our goal each week will be to focus on the <em>processes</em> that can be used to increase the reproducibility and accuracy of our statistical work.</p>
+
+<h2 id="lecture-prep-02">Lecture Prep 02</h2>
+
+<p>The lecture prep for the first week asks three follow-up questions about these videos. Please answer these questions and submit them before class on <strong>August 27th</strong>. Answers <strong>must</strong> be submitted through <a href="https://goo.gl/forms/a">Google Forms</a> and each response should be three to four sentances in length. The questions are provided here for reference:</p>
+
+<ol>
+<li>Hadley Wickham introduces the idea of a workflow. In your own words, describe what you think a workflow is.</li>
+<li>What are some of the advantages of using plain text for a data analysis that Hadley cites?</li>
+<li>In your own words, what are the key aspects of opinionated analysis development as described by Hilary Parker?</li>
+</ol>
 
 
 			<aside class="copyright" role="note">
