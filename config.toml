@@ -144,11 +144,16 @@ googleAnalytics = ""
 	name   = "Lecture 16 - Chi-Squared"
 	url    = "lecture-16/"
 	weight = 34
+
+[[menu.main]]
+	name   = "Final Project"
+	url    = "final-project/"
+	weight = 40
 	
 [[menu.main]]
 	name   = "License"
 	url    = "license/"
-	weight = 40
+	weight = 45
 	
 [blackfriday]
 	smartypants	= true
