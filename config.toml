@@ -66,7 +66,7 @@ googleAnalytics = ""
 	weight = 11
 
 [[menu.main]]
-	name   = "Course Preivew"
+	name   = "Course Preview"
 	url    = "course-preview/"
 	weight = 12
 	

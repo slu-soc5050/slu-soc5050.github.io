@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lecture-07s on SOC 4015 &amp; SOC 5050</title>
-    <link>https://slu-soc5050.github.io/lecture-07/</link>
+    <link>/lecture-07/</link>
     <description>Recent content in Lecture-07s on SOC 4015 &amp; SOC 5050</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License</copyright>
     <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5050.github.io/lecture-07/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/lecture-07/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Week 07 - Difference of Means (Part 1)</title>
-      <link>https://slu-soc5050.github.io/lecture-07/</link>
+      <link>/lecture-07/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-07/</guid>
+      <guid>/lecture-07/</guid>
       <description>Handouts Equations  Exercise  Functions  Lab  Weekly Prep 
 Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-07 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
 Replication   YAML Headers for RMarkdown Documents The area at the top of your RMarkdown documents is known as a YAML header (Wikipedia site and YAML project homepage).</description>
