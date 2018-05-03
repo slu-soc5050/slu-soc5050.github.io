@@ -698,11 +698,17 @@
 
 <p>There are a number of <code>R</code> packages that you will need for this semester. The following code snipped can be pasted into your <code>R</code> console to install all of these required packages.</p>
 
-<pre><code class="language-r">install.packages(c(&quot;tidyverse&quot;, &quot;car&quot;, &quot;Hmisc&quot;, 
-    &quot;knitr&quot;, &quot;ggridges&quot;, &quot;ggthemes&quot;, &quot;janitor&quot;, 
-    &quot;lmtest&quot;, &quot;moments&quot;, &quot;naniar&quot;, &quot;nortest&quot;, 
-    &quot;psych&quot;, &quot;pwr&quot;, &quot;sandwich&quot;, &quot;stargazer&quot;, 
-    &quot;rmarkdown&quot;, &quot;skimr&quot;))
+<pre><code class="language-r">install.packages(c(&quot;tidyverse&quot;, &quot;car&quot;, &quot;devtools&quot;, 
+    &quot;Hmisc&quot;,&quot;knitr&quot;, &quot;gapminder&quot;, &quot;ggridges&quot;, 
+    &quot;ggthemes&quot;, &quot;janitor&quot;, &quot;lmtest&quot;, &quot;moments&quot;, 
+    &quot;naniar&quot;, &quot;nortest&quot;,  &quot;psych&quot;, &quot;pwr&quot;, 
+    &quot;sandwich&quot;, &quot;stargazer&quot;, &quot;rmarkdown&quot;, &quot;skimr&quot;))
+</code></pre>
+
+<p>Once these packages are installed, you will also need to install additional packages with a different approach. The <code>testDriveR</code> package is only available on GitHub, and therefore requires a separate installation. The <code>reprex</code> package is available on CRAN but that version is currently broken. For both packages, they need to be installed from GitHub using the <code>devtools</code> package&rsquo;s <code>install_github()</code> function:</p>
+
+<pre><code class="language-r">devtools::install_github(&quot;chris-prener/testDriveR&quot;)
+devtools::install_github(&quot;tidyverse/reprex&quot;)
 </code></pre>
 
 <p>Depending on your version of <code>R</code> and your operating system, there will be other dependencies that are required and the number of packages installed will be considerably larger. The installation process has not been extensively tested, and you may encounter issues. If you do, please let Chris know!</p>

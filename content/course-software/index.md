@@ -47,11 +47,18 @@ There are two applications you will need to download and install. If you already
 There are a number of `R` packages that you will need for this semester. The following code snipped can be pasted into your `R` console to install all of these required packages.
 
 ```r
-install.packages(c("tidyverse", "car", "Hmisc", 
-    "knitr", "ggridges", "ggthemes", "janitor", 
-    "lmtest", "moments", "naniar", "nortest", 
-    "psych", "pwr", "sandwich", "stargazer", 
-    "rmarkdown", "skimr"))
+install.packages(c("tidyverse", "car", "devtools", 
+    "Hmisc","knitr", "gapminder", "ggridges", 
+    "ggthemes", "janitor", "lmtest", "moments", 
+    "naniar", "nortest",  "psych", "pwr", 
+    "sandwich", "stargazer", "rmarkdown", "skimr"))
+```
+
+Once these packages are installed, you will also need to install additional packages with a different approach. The `testDriveR` package is only available on GitHub, and therefore requires a separate installation. The `reprex` package is available on CRAN but that version is currently broken. For both packages, they need to be installed from GitHub using the `devtools` package's `install_github()` function:
+
+```r
+devtools::install_github("chris-prener/testDriveR")
+devtools::install_github("tidyverse/reprex")
 ```
 
 Depending on your version of `R` and your operating system, there will be other dependencies that are required and the number of packages installed will be considerably larger. The installation process has not been extensively tested, and you may encounter issues. If you do, please let Chris know!
