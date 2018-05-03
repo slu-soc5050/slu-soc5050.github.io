@@ -48,7 +48,7 @@ One option for accessing the software is to use your own computer. If you decide
 The other option is to rely on the computers in our classroom, and - lucky you(!) - you get 24-hour access to Morrissey Hall for the semester. If you decide to go this route, please read the next subsection on installing software and then head over to the [course software](/course-software/) page to continue setting up your computer.
 
 ### Options for Installing Software
-Regardless of how you are accessing the software for this class, there are two options for installing the core applications `R` and RStudio as well as their associated dependencies. The first option is to use a virtual installation of `R` and RStudio. This uses an application called [Docker](http://docker.com) to create a virutal instance of `R` and RStudio that you can access via your browser. All of the packages required for the semester will already be pre-loaded, so Docker requires less time to get up and running. 
+Regardless of how you are accessing the software for this class, there are two options for installing the core applications `R` and RStudio as well as their associated dependencies. The first option is to use a virtual installation of `R` and RStudio. This uses an application called [Docker](http://docker.com) to create a virtual instance of `R` and RStudio that you can access via your browser. All of the packages required for the semester will already be pre-loaded, so Docker requires less time to get up and running. 
 
 This first option is recommended if you are using a lab computer, you are brand new to `R`, are less comfortable with computers, and/or are not sure whether or not you'll be using `R` after the end of the semester. Instructions for getting started with Docker be found on the [course software](/course-software/) page. **If you decide to use Docker installed on a computer lab machine, please try to arrive 10 to 15 minutes early on the first day of class to get your Desktop up and running.**
 
@@ -68,7 +68,7 @@ If you are using **your own computer**, you should do the following before proce
   - On Windows, this means being comfortable with Windows File Explorer.
 
 ## Get Access to Books
-A full list of books that are required for this course is avilable in the [syllabus](https://slu-soc5050.github.io/syllabus/readings.html). You will need to make a few decisions up front. One of the books must be purchased, but you will have to decide if you want an ebook or a physical copy:
+A full list of books that are required for this course is available in the [syllabus](https://slu-soc5050.github.io/syllabus/readings.html). You will need to make a few decisions up front. One of the books must be purchased, but you will have to decide if you want an ebook or a physical copy:
 
 * Wheelan, Charles. 2014. *Naked Statistics: Stripping the Dread from the Data*. New York, NY: W. W. Norton & Company.
     * This book can be purchased in the bookstore or online. Ebook versions are available.
@@ -88,7 +88,7 @@ There are two forms that all students must fill out by Tuesday, September 5th:
 
 1. the [Student Information Sheet](https://goo.gl/forms/a), which gives me some info about you and gives you the chance to let me know about any initial concerns you might have.
 
-2. the un-graded [Diagnostic Assessment](https://goo.gl/forms/a), which is designed to get a sense of where each student's math skills are currently. Please don't consult outside materials as you do this - if you are not sure how to answer, please choose "I'm not sure" insteading of guessing. If you look answers up it defeats the purpose of this exercise!
+2. the un-graded [Diagnostic Assessment](https://goo.gl/forms/a), which is designed to get a sense of where each student's math skills are currently. Please don't consult outside materials as you do this - if you are not sure how to answer, please choose "I'm not sure" instead of guessing. If you look answers up it defeats the purpose of this exercise!
 
 ## Coursework
 Coursework tasks that need to be completed are listed on the syllabus under [Course Preview](https://slu-soc5050.github.io/syllabus/course-preview.html):
