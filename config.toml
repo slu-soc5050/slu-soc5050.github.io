@@ -149,6 +149,11 @@ googleAnalytics = ""
 	name   = "Final Project"
 	url    = "final-project/"
 	weight = 40
+
+[[menu.main]]
+	name   = "Package Index"
+	url    = "package-index/"
+	weight = 42
 	
 [[menu.main]]
 	name   = "License"

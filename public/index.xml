@@ -264,5 +264,15 @@ Overview The final project for this course requires&amp;hellip;
 Waypoints The final project instructions include &amp;ldquo;waypoints&amp;rdquo; - designated check-in times for students to ensure that everyone continues to make consistent forward progress throughout the semester (see the Syllabus and the Directions). The next waypoint will be highlighted with bold font throughout the semester.</description>
     </item>
     
+    <item>
+      <title>Package Index</title>
+      <link>/package-index/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>/package-index/</guid>
+      <description> Meta The following is a list of packages used during the semester along with links to additional resources. This list does not include dependencies that may be installed for these packages to work. Unless otherwise noted, packages are available via CRAN and can be installed using base::install.packages(&amp;quot;packageName&amp;quot;).
+Icon reference   - Topic index  - CRAN site  - GitHub repo  - Website  - RStudio Cheatsheet  - Book  Base R Packages  base - base functions   stats - statistical functions   utils - utility functions    </description>
+    </item>
+    
   </channel>
 </rss>
