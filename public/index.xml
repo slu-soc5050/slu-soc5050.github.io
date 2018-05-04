@@ -86,8 +86,10 @@ Overview To set the stage for this semester, please watch the two videos below. 
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
       <guid>/lecture-01/</guid>
-      <description>Handouts Exercise - Values  Exercise - Email  Functions 
-Lecture Slides  Introducing R and RStudio   At the very end of our first class, I introduced some basic aspects of R and RStudio. Since it was rushed, I&amp;rsquo;ve put together a quick video that summarizes what we went over and introduces some new functions as well. Please watch this before tackling the week two materials.</description>
+      <description>Meta 
+Resources Open on &amp;ensp;  Open on &amp;ensp;  Exercise - Email  Exercise - Values  Functions 
+Lecture Slides  
+Introducing R and RStudio    At the very end of our first class, we introduced some basic aspects of R and RStudio. The video above summarizes what we went over and introduces some new functions as well. Please watch this before tackling the week two materials.</description>
     </item>
     
     <item>
@@ -259,7 +261,7 @@ You are free to: - Share — copy and redistribute the material in any medium or
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
       <guid>/final-project/</guid>
-      <description>Meta Core Files Open on   Directions  Groups 
+      <description>Meta Core Files Open on &amp;ensp;  Directions  Groups 
 Overview The final project for this course requires&amp;hellip;
 Waypoints The final project instructions include &amp;ldquo;waypoints&amp;rdquo; - designated check-in times for students to ensure that everyone continues to make consistent forward progress throughout the semester (see the Syllabus and the Directions). The next waypoint will be highlighted with bold font throughout the semester.</description>
     </item>

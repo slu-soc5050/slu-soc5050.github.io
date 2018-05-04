@@ -3,23 +3,37 @@ date: 2016-03-08T21:07:13+01:00
 title: Week 01 - Course Introduction
 weight: 20
 ---
-![](https://img.shields.io/badge/semester-Fall%2C%202017-blue.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) 
 
-## Handouts
+## Meta
+![](https://img.shields.io/badge/semester-fall%202018-yellow.svg) ![](https://img.shields.io/badge/release-draft-red.svg) [![](https://img.shields.io/badge/last%20update-2018--05--04-brightgreen.svg)](https://github.com/slu-soc5050/lecture-01/blob/master/NEWS_SITE.md)
 
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-01/blob/master/Exercises/exerciseValues.pdf" target="_blank"> Exercise - Values </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-01/blob/master/Exercises/exerciseEmail.pdf" target="_blank"> Exercise - Email </a> 
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-01/blob/master/Functions/week-01-rQuickref.pdf" target="_blank"> Functions </a>
+## Resources
+
+{{< syllabus "slu-soc5050" "lecture-01-course-introduction" >}}
+{{< github "slu-soc5050" "lecture-01" >}}
+{{< button "Exercise - Email" "https://github.com/slu-soc5050/Week-01/blob/master/Exercises/exerciseEmail.pdf" >}}
+{{< button "Exercise - Values" "https://github.com/slu-soc5050/Week-01/blob/master/Exercises/exerciseValues.pdf" >}}
+{{< button "Functions" "ttps://github.com/slu-soc5050/Week-01/blob/master/Functions/week-01-rQuickref.pdf" >}}
 
 ## Lecture Slides
+<p> </p>
 {{< speakerdeck 35432b57f3884b2c91c9e7ace2c87c50 >}}
 
 ## Introducing R and RStudio
+<p> </p>
 {{< youtube eQRjfpoFP0U >}}
 
-At the very end of our first class, I introduced some basic aspects of R and RStudio. Since it was rushed, I've put together a quick video that summarizes what we went over and introduces some new functions as well. Please watch this before tackling the week two materials.
+At the very end of our first class, we introduced some basic aspects of R and RStudio. The video above summarizes what we went over and introduces some new functions as well. Please watch this before tackling the week two materials.
 
-I have also posted a [quick reference sheet](https://github.com/slu-soc5050/Week-01/tree/master/Functions) for relevant `R` functions for the week. **This was updated on September 10, 2017.** If you want an additional resource, RStudio has published a [cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/rstudio-IDE-cheatsheet.pdf) that covers the basics of their software.
+An additional resource is RStudio's {{< link "cheatsheet" "https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf" >}} that covers the basics of their software.
 
-### Slides from the Video
-{{< speakerdeck b809593f52054eb090cc1265098b97b5 >}}
+### Installing Packages
+
+For those students using Docker, there should not be a need to install packages this semester. We did practice doing so with one package, however. In RStudio's console, we entered the following code:
+
+```r
+install.packages("cowsay")
+```
+
+
+
