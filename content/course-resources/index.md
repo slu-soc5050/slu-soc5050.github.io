@@ -34,3 +34,11 @@ Below are quick links to web-based readings. Please consult the [**syllabus**](h
 * [*OpenIntro Statistics*](https://www.openintro.org/stat/textbook.php)
 * [*`R` for Data Science*](http://r4ds.had.co.nz)
 * [*Sociospatial Data Science*](https://chris-prener.github.io/SSDSBook/)
+
+## Speaker Deck
+Given their large size, slides for lectures are not hosted in GitHub. I use GitHub's service [Speaker Deck](http://speakerdeck.com/chrisprener) to host slides for this course. A slide deck is embedded in each lecture page on the course website and will be updated with the latest version of the slides before each lecture. 
+
+Here are a couple of tips for using Speaker Deck:
+
+1. **Slide numbers:** Hovering your mouse over the progress bar at the bottom of the slide deck will reveal slide numbers, which can be useful for taking notes.
+2. **Downloading slides:** Slides can be downloaded by clicking on the Speaker Deck logo in the upper left-hand corner of the deck, then clicking Download PDF from the Share menu on the right-hand side of the page.
