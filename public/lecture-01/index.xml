@@ -13,13 +13,13 @@
     
     
     <item>
-      <title>Week 01 - Course Introduction</title>
+      <title>Lecture 01 - Course Introduction</title>
       <link>/lecture-01/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
       <guid>/lecture-01/</guid>
       <description>Meta 
-Resources Open on &amp;ensp;  Open on &amp;ensp;  Exercise - Email  Exercise - Values  Functions 
+Resources Open on &amp;ensp;  Open on &amp;ensp;  Exercise - Email  Exercise - Introducing R  Exercise - Values  Functions 
 Lecture Slides  
 Introducing R and RStudio    At the very end of our first class, we introduced some basic aspects of R and RStudio. The video above summarizes what we went over and introduces some new functions as well. Please watch this before tackling the week two materials.</description>
     </item>

@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Week 01 - Course Introduction - SOC 4015 &amp; SOC 5050</title>
+    <title>Lecture 01 - Course Introduction - SOC 4015 &amp; SOC 5050</title>
     <meta name="generator" content="Hugo 0.30" />
 
     
@@ -101,7 +101,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Week 01 - Course Introduction
+        Lecture 01 - Course Introduction
       </div>
     </div>
 
@@ -642,7 +642,7 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Week 01 - Course Introduction </h1>
+			<h1>Lecture 01 - Course Introduction </h1>
 
 			
 
@@ -655,6 +655,7 @@
 <p><a class="btn btn-primary btn-outline btn-xs" href="https://slu-soc5050.github.io/syllabus/lecture-01-course-introduction.html" target="_blank"> Open on &ensp;<i class="fas fa-book fa-lg"></i> </a>
 <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-01" target="_blank"> Open on &ensp;<i class="fab fa-github fa-lg"></i> </a>
 <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/Week-01/blob/master/Exercises/exerciseEmail.pdf" target="_blank"> Exercise - Email </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/Week-01/blob/master/Exercises/exerciseR.pdf" target="_blank"> Exercise - Introducing R </a>
 <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/Week-01/blob/master/Exercises/exerciseValues.pdf" target="_blank"> Exercise - Values </a>
 <a class="btn btn-primary btn-outline btn-xs" href="#ZgotmplZ" target="_blank"> Functions </a></p>
 
@@ -682,6 +683,66 @@
 
 <pre><code class="language-r">install.packages(&quot;cowsay&quot;)
 </code></pre>
+
+<p>The <code>cowsay</code> package isn&rsquo;t a serious one. It can be used to draw a variety of ascii art:</p>
+
+<pre><code class="language-r">&gt; library(cowsay)
+&gt; say(what = &quot;do or do not, there is no try&quot;, by = &quot;yoda&quot;)
+
+
+
+ ----- 
+do or do not, there is no try 
+ ------ 
+    \   
+     \
+                   ____
+                _.' :  `._
+            .-.'`.  ;   .'`.-.
+   __      / : ___\ ;  /___ ; \      __
+  ,'_ &quot;&quot;--.:__;&quot;.-.&quot;;: :&quot;.-.&quot;:__;.--&quot;&quot; _`,
+  :' `.t&quot;&quot;--.. '&lt;@.`;_  ',@&gt;` ..--&quot;&quot;j.' `;
+       `:-.._J '-.-'L__ `-- ' L_..-;'
+          &quot;-.__ ;  .-&quot;  &quot;-.  : __.-&quot;
+             L ' /.------.\ ' J
+             &quot;-.   &quot;--&quot;   .-&quot;
+             __.l&quot;-:_JL_;-&quot;;.__
+         .-j/'.;  ;&quot;&quot;&quot;&quot;  / .'\&quot;-.
+         .' /:`. &quot;-.:     .-&quot; .';  `.
+      .-&quot;  / ;  &quot;-. &quot;-..-&quot; .-&quot;  :    &quot;-.
+  .+&quot;-.  : :      &quot;-.__.-&quot;      ;-._   \
+  ; \  `.; ;                    : : &quot;+. ;
+  :  ;   ; ;                    : ;  : \:
+  ;  :   ; :                    ;:   ;  :
+  : \  ;  :  ;                  : ;  /  ::
+  ;  ; :   ; :                  ;   :   ;:
+  :  :  ;  :  ;                : :  ;  : ;
+  ;\    :   ; :                ; ;     ; ;
+  : `.&quot;-;   :  ;              :  ;    /  ;
+ ;    -:   ; :              ;  : .-&quot;   :
+  :\     \  :  ;            : \.-&quot;      :
+  ;`.    \  ; :            ;.'_..--  / ;
+  :  &quot;-.  &quot;-:  ;          :/.&quot;      .'  :
+   \         \ :          ;/  __        :
+    \       .-`.\        /t-&quot;&quot;  &quot;:-+.   :
+     `.  .-&quot;    `l    __/ /`. :  ; ; \  ;
+       \   .-&quot; .-&quot;-.-&quot;  .' .'j \  /   ;/
+        \ / .-&quot;   /.     .'.' ;_:'    ;
+  :-&quot;&quot;-.`./-.'     /    `.___.'
+               \ `t  ._  /  bug
+                &quot;-.t-._:'
+</code></pre>
+
+<p>This example illustrates a number of important concepts for using <code>R</code>:</p>
+
+<ol>
+<li>Packages must be installed using, usually from <a href="https://cran.r-project.org"><strong>CRAN</strong></a>, the <code>R</code> package distribution system. The <code>install.packages()</code> function accomplishes this. This process (typically) only has to happen once.</li>
+<li>Programming in <code>R</code> is always done with <strong>functions</strong>.</li>
+<li>Packages must be loaded using the <code>library()</code> function at the beginning of each session.</li>
+<li>Functions take <strong>arguments</strong>. In this case, there are two arguments - <code>what</code> and <code>by</code>.</li>
+</ol>
+
+<p>You can learn more about <code>cowsay</code> by looking at the <code>README</code> file on the package&rsquo;s <a href="https://github.com/sckott/cowsay" target="_blank"> GitHub page </a>. <a href="https://github.com">GitHub</a> is a service for tracking the development of open source software and data analyses, and sharing them with others. Many modern <code>R</code> packages are developed on GitHub, and the site can provide a wealth of information and examples about how particular packages work. For instance, the full list of animals available in <code>cowsay</code> can be seen in the <code>README</code> file.</p>
 
 
 			<aside class="copyright" role="note">

@@ -1,6 +1,6 @@
 ---
 date: 2016-03-08T21:07:13+01:00
-title: Week 01 - Course Introduction
+title: Lecture 01 - Course Introduction
 weight: 20
 ---
 
@@ -12,6 +12,7 @@ weight: 20
 {{< syllabus "slu-soc5050" "lecture-01-course-introduction" >}}
 {{< github "slu-soc5050" "lecture-01" >}}
 {{< button "Exercise - Email" "https://github.com/slu-soc5050/Week-01/blob/master/Exercises/exerciseEmail.pdf" >}}
+{{< button "Exercise - Introducing R" "https://github.com/slu-soc5050/Week-01/blob/master/Exercises/exerciseR.pdf" >}}
 {{< button "Exercise - Values" "https://github.com/slu-soc5050/Week-01/blob/master/Exercises/exerciseValues.pdf" >}}
 {{< button "Functions" "ttps://github.com/slu-soc5050/Week-01/blob/master/Functions/week-01-rQuickref.pdf" >}}
 
@@ -35,5 +36,61 @@ For those students using Docker, there should not be a need to install packages 
 install.packages("cowsay")
 ```
 
+The `cowsay` package isn't a serious one. It can be used to draw a variety of ascii art:
+
+```r
+> library(cowsay)
+> say(what = "do or do not, there is no try", by = "yoda")
 
 
+
+ ----- 
+do or do not, there is no try 
+ ------ 
+    \   
+     \
+                   ____
+                _.' :  `._
+            .-.'`.  ;   .'`.-.
+   __      / : ___\ ;  /___ ; \      __
+  ,'_ ""--.:__;".-.";: :".-.":__;.--"" _`,
+  :' `.t""--.. '<@.`;_  ',@>` ..--""j.' `;
+       `:-.._J '-.-'L__ `-- ' L_..-;'
+          "-.__ ;  .-"  "-.  : __.-"
+             L ' /.------.\ ' J
+             "-.   "--"   .-"
+             __.l"-:_JL_;-";.__
+         .-j/'.;  ;""""  / .'\"-.
+         .' /:`. "-.:     .-" .';  `.
+      .-"  / ;  "-. "-..-" .-"  :    "-.
+  .+"-.  : :      "-.__.-"      ;-._   \
+  ; \  `.; ;                    : : "+. ;
+  :  ;   ; ;                    : ;  : \:
+  ;  :   ; :                    ;:   ;  :
+  : \  ;  :  ;                  : ;  /  ::
+  ;  ; :   ; :                  ;   :   ;:
+  :  :  ;  :  ;                : :  ;  : ;
+  ;\    :   ; :                ; ;     ; ;
+  : `."-;   :  ;              :  ;    /  ;
+ ;    -:   ; :              ;  : .-"   :
+  :\     \  :  ;            : \.-"      :
+  ;`.    \  ; :            ;.'_..--  / ;
+  :  "-.  "-:  ;          :/."      .'  :
+   \         \ :          ;/  __        :
+    \       .-`.\        /t-""  ":-+.   :
+     `.  .-"    `l    __/ /`. :  ; ; \  ;
+       \   .-" .-"-.-"  .' .'j \  /   ;/
+        \ / .-"   /.     .'.' ;_:'    ;
+  :-""-.`./-.'     /    `.___.'
+               \ `t  ._  /  bug
+                "-.t-._:'
+```
+
+This example illustrates a number of important concepts for using `R`:
+
+1. Packages must be installed using, usually from [**CRAN**](https://cran.r-project.org), the `R` package distribution system. The `install.packages()` function accomplishes this. This process (typically) only has to happen once.
+2. Programming in `R` is always done with **functions**.
+3. Packages must be loaded using the `library()` function at the beginning of each session.
+4. Functions take **arguments**. In this case, there are two arguments - `what` and `by`.
+
+You can learn more about `cowsay` by looking at the `README` file on the package's {{< link "GitHub page" "https://github.com/sckott/cowsay" >}}. [GitHub](https://github.com) is a service for tracking the development of open source software and data analyses, and sharing them with others. Many modern `R` packages are developed on GitHub, and the site can provide a wealth of information and examples about how particular packages work. For instance, the full list of animals available in `cowsay` can be seen in the `README` file.
