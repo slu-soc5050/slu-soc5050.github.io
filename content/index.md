@@ -6,7 +6,7 @@ weight: 1
 ---
 
 {{< note title="Enrollment Open" >}}
-SOC 4930 & 5050 is Saint Louis University Sociology's undergraduate and graduate introductory statistics course, which will be offered during the Fall 2018 semester. **There are currently 4 undergraduate and 4 graduate seats remaining in the course. If you are interested in the course, please enroll soon!**
+SOC 4930 & 5050 is Saint Louis University Sociology's undergraduate and graduate introductory statistics course, which will be offered during the Fall 2018 semester. **There are currently 3 undergraduate and 4 graduate seats remaining in the course. If you are interested in the course, please enroll soon!**
 {{< /note >}}
 
 {{< warning title="Updates Planned" >}}

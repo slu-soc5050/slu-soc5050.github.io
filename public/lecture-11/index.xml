@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lecture-11s on SOC 4015 &amp; SOC 5050</title>
-    <link>https://slu-soc5050.github.io/lecture-11/</link>
+    <link>/lecture-11/</link>
     <description>Recent content in Lecture-11s on SOC 4015 &amp; SOC 5050</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License</copyright>
     <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5050.github.io/lecture-11/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/lecture-11/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Week 11 - Correlation (Part 2)</title>
-      <link>https://slu-soc5050.github.io/lecture-11/</link>
+      <link>/lecture-11/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-11/</guid>
+      <guid>/lecture-11/</guid>
       <description>Handouts Functions  Lab  LaTeX  PS-08  Weekly Prep 
 Lecture Slides  Creating Correlation Tables As we discuss this week, R&amp;rsquo;s correlation output leaves much to be desired relative to statistical software applications like Stata or SAS. I&amp;rsquo;ve written a function (based on a few others that are floating around) that adds a bit of flexibility and precision to the correlation calculation process, and returns output with correlation coefficients and statistical significance values combined.</description>
     </item>

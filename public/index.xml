@@ -2,90 +2,90 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SOC 4015 &amp; SOC 5050</title>
-    <link>https://slu-soc5050.github.io/</link>
+    <link>/</link>
     <description>Recent content on SOC 4015 &amp; SOC 5050</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Licensed under a Creative Commons Attribution 4.0 International License</copyright>
     <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
     
-	<atom:link href="https://slu-soc5050.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Quantitative Analysis - Applied Inferential Statistics</title>
-      <link>https://slu-soc5050.github.io/</link>
+      <link>/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/</guid>
+      <guid>/</guid>
       <description>Enrollment Open
-SOC 4930 &amp;amp; 5050 is Saint Louis University Sociology&amp;rsquo;s undergraduate and graduate introductory statistics course, which will be offered during the Fall 2018 semester. There are currently 4 undergraduate and 4 graduate seats remaining in the course. If you are interested in the course, please enroll soon!
+SOC 4930 &amp;amp; 5050 is Saint Louis University Sociology&amp;rsquo;s undergraduate and graduate introductory statistics course, which will be offered during the Fall 2018 semester. There are currently 3 undergraduate and 4 graduate seats remaining in the course. If you are interested in the course, please enroll soon!
  Updates Planned
 Minor revisions to the curriculum are planned for the next edition of the course. General topics will remain the same, but repos will be re-organized and additional resources will be provided.</description>
     </item>
     
     <item>
       <title>Course Resources</title>
-      <link>https://slu-soc5050.github.io/course-resources/</link>
+      <link>/course-resources/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/course-resources/</guid>
+      <guid>/course-resources/</guid>
       <description>Meta  There are a number of course resources you should be aware of. This space is meant to provide quick links to these items.
 Course Website This course website will be updated regularly throughout the semester. There are dedicated pages for each week as well as the final project. Each page include links to lecture slides, YouTube videos, and notes about specific topics. There are also additional resources for navigating topics and course software.</description>
     </item>
     
     <item>
       <title>Course Onboarding</title>
-      <link>https://slu-soc5050.github.io/getting-started/</link>
+      <link>/getting-started/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/getting-started/</guid>
+      <guid>/getting-started/</guid>
       <description>Meta Overview Before you begin the semester, there are a number of things that you should do to help set yourself up for success. All of the applicable sections below should be completed before our first class on August 27th. Before you do anything else, though, you should read through the Syllabus. Make sure you have a good sense of what is required for the course. If you have questions, bring them to the first day of class!</description>
     </item>
     
     <item>
       <title>Course Software</title>
-      <link>https://slu-soc5050.github.io/course-software/</link>
+      <link>/course-software/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/course-software/</guid>
+      <guid>/course-software/</guid>
       <description>Meta Overview This course is built primarily around a trio of software applications - the programming language R, the graphical user interface for R called RStudio, and GitHub Desktop. As I noted on the course onboarding page, there are two choices for accessing software and two choices for installing software. Please read through the course onboarding page page carefully and make the decisions you think are best for you. Feel free to shoot me a message on Slack or via email if you have questions about which approach is best.</description>
     </item>
     
     <item>
       <title>Docker via Kitematic</title>
-      <link>https://slu-soc5050.github.io/course-software/docker-kitematic/</link>
+      <link>/course-software/docker-kitematic/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/course-software/docker-kitematic/</guid>
+      <guid>/course-software/docker-kitematic/</guid>
       <description>Docker!</description>
     </item>
     
     <item>
       <title>Docker via the Command Line</title>
-      <link>https://slu-soc5050.github.io/course-software/docker-cl/</link>
+      <link>/course-software/docker-cl/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/course-software/docker-cl/</guid>
+      <guid>/course-software/docker-cl/</guid>
       <description>Docker!</description>
     </item>
     
     <item>
       <title>Course Preview</title>
-      <link>https://slu-soc5050.github.io/course-preview/</link>
+      <link>/course-preview/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/course-preview/</guid>
+      <guid>/course-preview/</guid>
       <description>Meta Key Topics  Analysis development   GitHub  R  RMarkdown   Reproducibility   Version Control   Workflow 
 Overview To set the stage for this semester, please watch the two videos below. These will take approximately 45 minutes to view. Once you have finished these videos, follow the link at the bottom of the page to answer a few short questions about what you saw.</description>
     </item>
     
     <item>
       <title>Lecture 01 - Course Introduction</title>
-      <link>https://slu-soc5050.github.io/lecture-01/</link>
+      <link>/lecture-01/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-01/</guid>
+      <guid>/lecture-01/</guid>
       <description>Meta 
 Resources Open on &amp;ensp;  Open on &amp;ensp;  Exercise - Email  Exercise - Introducing R  Exercise - Values  Functions 
 Lecture Slides  
@@ -94,10 +94,10 @@ Introducing R and RStudio    At the very end of our first class, we introduced s
     
     <item>
       <title>Week 02 - Working with Data (Part 1)</title>
-      <link>https://slu-soc5050.github.io/lecture-02/</link>
+      <link>/lecture-02/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-02/</guid>
+      <guid>/lecture-02/</guid>
       <description>General Handouts Lab  Problem Set 01 
 Lecture 02a - Introducing ggplot2 Lecture Handouts Functions 
 Slides  Video Lecture   Lecture 02b - Grammar of Graphics Lecture Handouts Functions 
@@ -108,20 +108,20 @@ Slides  Video Lecture   Data for Assignments The data that you need for many of 
     
     <item>
       <title>Week 03 - Describing Distributions</title>
-      <link>https://slu-soc5050.github.io/lecture-03/</link>
+      <link>/lecture-03/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-03/</guid>
+      <guid>/lecture-03/</guid>
       <description>Handouts Equations  Functions  Lab  Problem Set 02 
 Lecture Slides  Using GitHub to Store Working Files for the Course If you want to GitHub to store your working files (as opposed to the finish submission versions you submit via your Assignments repository), you can sign-up for a discounted student plan here. Choose &amp;ldquo;Student&amp;rdquo; and &amp;ldquo;Individual Account&amp;rdquo;, and answer any additional prompts they have. Be prepared to attach a photo of your student ID.</description>
     </item>
     
     <item>
       <title>Week 04 - Probability and Bayes&#39; Theorem</title>
-      <link>https://slu-soc5050.github.io/lecture-04/</link>
+      <link>/lecture-04/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-04/</guid>
+      <guid>/lecture-04/</guid>
       <description>Handouts Equations  Lab  Problem Set 02  Weekly Prep 
 Lecture Slides  Weekly Prep Instructions I&amp;rsquo;ve posted the first weekly prep of the semester. The instructions are available in the Week-04 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
 Replication   Probability in the News FiveThirtyEight just published a great article on the use probability in news media coverage.</description>
@@ -129,10 +129,10 @@ Replication   Probability in the News FiveThirtyEight just published a great art
     
     <item>
       <title>Week 05 - The Distribution of Random Variables</title>
-      <link>https://slu-soc5050.github.io/lecture-05/</link>
+      <link>/lecture-05/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-05/</guid>
+      <guid>/lecture-05/</guid>
       <description>Handouts Equations  Functions  Lab  Problem Set 04  Weekly Prep 
 Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-05 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
 Replication   Grappling with p-values Here are a couple of links for digging further into what p-values are and how we explain them:</description>
@@ -140,10 +140,10 @@ Replication   Grappling with p-values Here are a couple of links for digging fur
     
     <item>
       <title>Week 06 - Foundations for Inference</title>
-      <link>https://slu-soc5050.github.io/lecture-06/</link>
+      <link>/lecture-06/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-06/</guid>
+      <guid>/lecture-06/</guid>
       <description> Handouts Equations  Functions  Lab  Problem Set 04  Weekly Prep 
 Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-06 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
 Replication   </description>
@@ -151,10 +151,10 @@ Replication   </description>
     
     <item>
       <title>Week 07 - Difference of Means (Part 1)</title>
-      <link>https://slu-soc5050.github.io/lecture-07/</link>
+      <link>/lecture-07/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-07/</guid>
+      <guid>/lecture-07/</guid>
       <description>Handouts Equations  Exercise  Functions  Lab  Weekly Prep 
 Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-07 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
 Replication   YAML Headers for RMarkdown Documents The area at the top of your RMarkdown documents is known as a YAML header (Wikipedia site and YAML project homepage).</description>
@@ -162,10 +162,10 @@ Replication   YAML Headers for RMarkdown Documents The area at the top of your R
     
     <item>
       <title>Week 08 - Difference of Means (Part 2)</title>
-      <link>https://slu-soc5050.github.io/lecture-08/</link>
+      <link>/lecture-08/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-08/</guid>
+      <guid>/lecture-08/</guid>
       <description>Handouts Exercise  Functions  Lab  LaTeX  Problem Set 06  Weekly Prep 
 Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-08 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
 Replication   New and Updated Packages for Class We are going to be using a bunch of new packages this week!</description>
@@ -173,10 +173,10 @@ Replication   New and Updated Packages for Class We are going to be using a bunc
     
     <item>
       <title>Week 10 - Correlation (Part 1)</title>
-      <link>https://slu-soc5050.github.io/lecture-10/</link>
+      <link>/lecture-10/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-10/</guid>
+      <guid>/lecture-10/</guid>
       <description>Handouts Equations  Functions  Lab  LaTeX  Sample Handout  Weekly Prep 
 Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-10 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
 Replication   Correlation with Binary Variables There is one point missing from today&amp;rsquo;s lecture that comes up on the lab.</description>
@@ -184,60 +184,60 @@ Replication   Correlation with Binary Variables There is one point missing from 
     
     <item>
       <title>Week 11 - Correlation (Part 2)</title>
-      <link>https://slu-soc5050.github.io/lecture-11/</link>
+      <link>/lecture-11/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-11/</guid>
+      <guid>/lecture-11/</guid>
       <description>Handouts Functions  Lab  LaTeX  PS-08  Weekly Prep 
 Lecture Slides  Creating Correlation Tables As we discuss this week, R&amp;rsquo;s correlation output leaves much to be desired relative to statistical software applications like Stata or SAS. I&amp;rsquo;ve written a function (based on a few others that are floating around) that adds a bit of flexibility and precision to the correlation calculation process, and returns output with correlation coefficients and statistical significance values combined.</description>
     </item>
     
     <item>
       <title>Week 12 - Bivarite Regression</title>
-      <link>https://slu-soc5050.github.io/lecture-12/</link>
+      <link>/lecture-12/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-12/</guid>
+      <guid>/lecture-12/</guid>
       <description>Handouts Functions  Lab  LaTeX  PS-09 
 Lecture Slides  Some Example Code for Class  More on Plots Line Breaks in Plot Text We discussed this informally in class, and I wanted to clarify the technique for adding line breaks here. In situations where the size of the text has been increased or the quantity of text is quite large (a lengthy caption, for example), it is easy for the text to run off the sides of the plot.</description>
     </item>
     
     <item>
       <title>Week 13 - Multiple Regression (1)</title>
-      <link>https://slu-soc5050.github.io/lecture-13/</link>
+      <link>/lecture-13/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-13/</guid>
+      <guid>/lecture-13/</guid>
       <description> Handouts Functions  Lab  LaTeX  Workflow  Weekly Prep 
 Lecture Slides  Some Example LaTeX Syntax for Class Bibliography File  LaTeX Source  </description>
     </item>
     
     <item>
       <title>Week 14 - Multiple Regression (2)</title>
-      <link>https://slu-soc5050.github.io/lecture-14/</link>
+      <link>/lecture-14/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-14/</guid>
+      <guid>/lecture-14/</guid>
       <description>Handouts Functions  Lab  LaTeX  PS-10  Weekly Prep 
 Lecture Slides  Example Image for Class You can find our example image for download here.</description>
     </item>
     
     <item>
       <title>Week 15 - ANOVA</title>
-      <link>https://slu-soc5050.github.io/lecture-15/</link>
+      <link>/lecture-15/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-15/</guid>
+      <guid>/lecture-15/</guid>
       <description>Handouts Functions  Lab  Workflow 
 Lecture Slides  Summary Functions RStudio has an excellent data wrangling cheat sheet that includes a list of the summary functions you can use with dplyr::summarize(). You can access the cheat sheet from their website.</description>
     </item>
     
     <item>
       <title>Week 16 - Chi-Squared</title>
-      <link>https://slu-soc5050.github.io/lecture-16/</link>
+      <link>/lecture-16/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/lecture-16/</guid>
+      <guid>/lecture-16/</guid>
       <description> Handouts Functions  Lab  Weekly Prep  Workflow 
 Lecture Slides  Bar Plots We covered bar plots very quickly during Week-02 of the semester. They are created using the geom_bar() geom in a ggplot2 call:
 ggplot(data = mpg, mapping = aes(class)) + geom_bar()  </description>
@@ -245,10 +245,10 @@ ggplot(data = mpg, mapping = aes(class)) + geom_bar()  </description>
     
     <item>
       <title>License</title>
-      <link>https://slu-soc5050.github.io/license/</link>
+      <link>/license/</link>
       <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/license/</guid>
+      <guid>/license/</guid>
       <description>Copyright &amp;copy; 2016-2017 Christopher G. Prener
 This work is licensed under a Creative Commons Attribution 4.0 International License.
 This is a human-readable summary of (and not a substitute for) the license.
@@ -257,10 +257,10 @@ You are free to: - Share — copy and redistribute the material in any medium or
     
     <item>
       <title>Final Project</title>
-      <link>https://slu-soc5050.github.io/final-project/</link>
+      <link>/final-project/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/final-project/</guid>
+      <guid>/final-project/</guid>
       <description>Meta Core Files Open on &amp;ensp;  Directions  Groups 
 Overview The final project for this course requires&amp;hellip;
 Waypoints The final project instructions include &amp;ldquo;waypoints&amp;rdquo; - designated check-in times for students to ensure that everyone continues to make consistent forward progress throughout the semester (see the Syllabus and the Directions). The next waypoint will be highlighted with bold font throughout the semester.</description>
@@ -268,20 +268,20 @@ Waypoints The final project instructions include &amp;ldquo;waypoints&amp;rdquo;
     
     <item>
       <title>Topic Index</title>
-      <link>https://slu-soc5050.github.io/topic-index/</link>
+      <link>/topic-index/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/topic-index/</guid>
+      <guid>/topic-index/</guid>
       <description> Meta The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. Italicized items are only covered in the readings. If you have additions or suggestions, please let Chris know!
 A-D E-H I-L M-P Q-T U-Z  utils (Lecture-01)  Install packages from CRAN, install.packages() Structure of an object, str() Spreadsheet-like data view, View()    </description>
     </item>
     
     <item>
       <title>Package Index</title>
-      <link>https://slu-soc5050.github.io/package-index/</link>
+      <link>/package-index/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>https://slu-soc5050.github.io/package-index/</guid>
+      <guid>/package-index/</guid>
       <description>Meta The following is a list of packages used during the semester along with links to additional resources. This list does not include dependencies that may be installed for these packages to work. Unless otherwise noted, packages are available via CRAN and can be installed using base::install.packages(&amp;quot;packageName&amp;quot;).
 Icon reference   - Topic index  - CRAN site  - GitHub repo  - Website  - RStudio Cheatsheet  - Book  Base R Packages  base - base functions &amp;emsp;   stats - statistical functions &amp;emsp;   utils - utility functions &amp;emsp;    Data Packages  gapminder - Teaching data from Gapminder project &amp;emsp;     testDriveR - Data sets for teaching &amp;emsp;     install the development version via GitHub - devtools::install_github(&amp;quot;chris-prener/testDriveR&amp;quot;)   Tidyverse Packages Use install.</description>
     </item>
