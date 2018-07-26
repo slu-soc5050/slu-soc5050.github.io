@@ -147,7 +147,7 @@ googleAnalytics = ""
 
 [[menu.main]]
 	name   = "Final Project"
-	url    = "final-project/"
+	url    = "final/"
 	weight = 40
 
 [[menu.main]]
