@@ -69,14 +69,10 @@ Introducing R and RStudio    At the very end of our first class, we introduced s
       <guid>/lecture-02/</guid>
       <description>General Handouts Lab  Problem Set 01 
 Lecture 02a - Introducing ggplot2 Lecture Handouts Functions 
-Slides {{&amp;lt; speakerdeck 235fdb303a2e40f4a24f9961f166cbea &amp;gt;}}
-Video Lecture {{&amp;lt; youtube eT_6tw4fWRE &amp;gt;}}
-Lecture 02b - Grammar of Graphics Lecture Handouts Functions 
-Slides {{&amp;lt; speakerdeck 8c95934676fe4601bcadcfd45011632c &amp;gt;}}
-Video Lecture {{&amp;lt; youtube EHZ2JtVCDCQ &amp;gt;}}
-Lecture 03 - Verbs for Cleaning Data Lecture Handouts Functions 
-Slides {{&amp;lt; speakerdeck cc90cd776dbb49c5a285aaa464abc4a8 &amp;gt;}}
-Video Lecture {{&amp;lt; youtube txSNKb6Akgs &amp;gt;}}</description>
+Slides  Video Lecture   Lecture 02b - Grammar of Graphics Lecture Handouts Functions 
+Slides  Video Lecture   Lecture 03 - Verbs for Cleaning Data Lecture Handouts Functions 
+Slides  Video Lecture   Lecture 04 - Structuring Notebooks Lecture Handouts Functions  Notebook Sample 
+Slides  Video Lecture   Data for Assignments The data that you need for many of the assignments this semester is available as an R package named testDriveR.</description>
     </item>
     
     <item>
@@ -86,8 +82,7 @@ Video Lecture {{&amp;lt; youtube txSNKb6Akgs &amp;gt;}}</description>
       
       <guid>/lecture-03/</guid>
       <description>Handouts Equations  Functions  Lab  Problem Set 02 
-Lecture Slides {{&amp;lt; speakerdeck 5d53b03d17064cce9cea2d119ed1cbbe &amp;gt;}}
-Using GitHub to Store Working Files for the Course If you want to GitHub to store your working files (as opposed to the finish submission versions you submit via your Assignments repository), you can sign-up for a discounted student plan here. Choose &amp;ldquo;Student&amp;rdquo; and &amp;ldquo;Individual Account&amp;rdquo;, and answer any additional prompts they have.</description>
+Lecture Slides  Using GitHub to Store Working Files for the Course If you want to GitHub to store your working files (as opposed to the finish submission versions you submit via your Assignments repository), you can sign-up for a discounted student plan here. Choose &amp;ldquo;Student&amp;rdquo; and &amp;ldquo;Individual Account&amp;rdquo;, and answer any additional prompts they have. Be prepared to attach a photo of your student ID.</description>
     </item>
     
     <item>
@@ -97,10 +92,8 @@ Using GitHub to Store Working Files for the Course If you want to GitHub to stor
       
       <guid>/lecture-04/</guid>
       <description>Handouts Equations  Lab  Problem Set 02  Weekly Prep 
-Lecture Slides {{&amp;lt; speakerdeck 59a8b1282ccb4338a982fe9eeaceec69 &amp;gt;}}
-Weekly Prep Instructions I&amp;rsquo;ve posted the first weekly prep of the semester. The instructions are available in the Week-04 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
-Replication {{&amp;lt; youtube POctIQWrqsE &amp;gt;}}
-Probability in the News FiveThirtyEight just published a great article on the use probability in news media coverage.</description>
+Lecture Slides  Weekly Prep Instructions I&amp;rsquo;ve posted the first weekly prep of the semester. The instructions are available in the Week-04 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
+Replication   Probability in the News FiveThirtyEight just published a great article on the use probability in news media coverage.</description>
     </item>
     
     <item>
@@ -110,10 +103,8 @@ Probability in the News FiveThirtyEight just published a great article on the us
       
       <guid>/lecture-05/</guid>
       <description>Handouts Equations  Functions  Lab  Problem Set 04  Weekly Prep 
-Lecture Slides {{&amp;lt; speakerdeck c497c75aad794d199096758b6050c489 &amp;gt;}}
-Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-05 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
-Replication {{&amp;lt; youtube Tt2rErvCdO0 &amp;gt;}}
-Grappling with p-values Here are a couple of links for digging further into what p-values are and how we explain them:</description>
+Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-05 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
+Replication   Grappling with p-values Here are a couple of links for digging further into what p-values are and how we explain them:</description>
     </item>
     
     <item>
@@ -122,10 +113,9 @@ Grappling with p-values Here are a couple of links for digging further into what
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
       <guid>/lecture-06/</guid>
-      <description>Handouts Equations  Functions  Lab  Problem Set 04  Weekly Prep 
-Lecture Slides {{&amp;lt; speakerdeck fee57d160dff4883b35ddefc565510b3 &amp;gt;}}
-Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-06 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
-Replication {{&amp;lt; youtube 7O2c3frVKuo &amp;gt;}}</description>
+      <description> Handouts Equations  Functions  Lab  Problem Set 04  Weekly Prep 
+Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-06 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
+Replication   </description>
     </item>
     
     <item>
@@ -135,10 +125,8 @@ Replication {{&amp;lt; youtube 7O2c3frVKuo &amp;gt;}}</description>
       
       <guid>/lecture-07/</guid>
       <description>Handouts Equations  Exercise  Functions  Lab  Weekly Prep 
-Lecture Slides {{&amp;lt; speakerdeck cc160bd374244d7c90f71d86d2bf9c6f &amp;gt;}}
-Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-07 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
-Replication {{&amp;lt; youtube elqbSD1dGy8 &amp;gt;}}
-YAML Headers for RMarkdown Documents The area at the top of your RMarkdown documents is known as a YAML header (Wikipedia site and YAML project homepage).</description>
+Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-07 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
+Replication   YAML Headers for RMarkdown Documents The area at the top of your RMarkdown documents is known as a YAML header (Wikipedia site and YAML project homepage).</description>
     </item>
     
     <item>
@@ -148,10 +136,8 @@ YAML Headers for RMarkdown Documents The area at the top of your RMarkdown docum
       
       <guid>/lecture-08/</guid>
       <description>Handouts Exercise  Functions  Lab  LaTeX  Problem Set 06  Weekly Prep 
-Lecture Slides {{&amp;lt; speakerdeck 6f5a77f5d7144394b05b2f08f6e0d844 &amp;gt;}}
-Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-08 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
-Replication {{&amp;lt; youtube X4S7wIyLFTs &amp;gt;}}
-New and Updated Packages for Class We are going to be using a bunch of new packages this week!</description>
+Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-08 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
+Replication   New and Updated Packages for Class We are going to be using a bunch of new packages this week!</description>
     </item>
     
     <item>
@@ -161,10 +147,8 @@ New and Updated Packages for Class We are going to be using a bunch of new packa
       
       <guid>/lecture-10/</guid>
       <description>Handouts Equations  Functions  Lab  LaTeX  Sample Handout  Weekly Prep 
-Lecture Slides {{&amp;lt; speakerdeck 3f9624e1f07d46f4ba17345b01d16f4c &amp;gt;}}
-Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-10 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
-Replication {{&amp;lt; youtube cjQvhIMBIw8 &amp;gt;}}
-Correlation with Binary Variables There is one point missing from today&amp;rsquo;s lecture that comes up on the lab.</description>
+Lecture Slides  Weekly Prep Instructions The instructions for this week&amp;rsquo;s weekly prep are available in the Week-10 GitHub repository. Make sure you submit your work and answers by the beginning of class on Monday!
+Replication   Correlation with Binary Variables There is one point missing from today&amp;rsquo;s lecture that comes up on the lab.</description>
     </item>
     
     <item>
@@ -174,8 +158,7 @@ Correlation with Binary Variables There is one point missing from today&amp;rsqu
       
       <guid>/lecture-11/</guid>
       <description>Handouts Functions  Lab  LaTeX  PS-08  Weekly Prep 
-Lecture Slides {{&amp;lt; speakerdeck 32c6b4abfa1f4f05abe2be16f56d1705 &amp;gt;}}
-Creating Correlation Tables As we discuss this week, R&amp;rsquo;s correlation output leaves much to be desired relative to statistical software applications like Stata or SAS. I&amp;rsquo;ve written a function (based on a few others that are floating around) that adds a bit of flexibility and precision to the correlation calculation process, and returns output with correlation coefficients and statistical significance values combined.</description>
+Lecture Slides  Creating Correlation Tables As we discuss this week, R&amp;rsquo;s correlation output leaves much to be desired relative to statistical software applications like Stata or SAS. I&amp;rsquo;ve written a function (based on a few others that are floating around) that adds a bit of flexibility and precision to the correlation calculation process, and returns output with correlation coefficients and statistical significance values combined.</description>
     </item>
     
     <item>
@@ -185,8 +168,7 @@ Creating Correlation Tables As we discuss this week, R&amp;rsquo;s correlation o
       
       <guid>/lecture-12/</guid>
       <description>Handouts Functions  Lab  LaTeX  PS-09 
-Lecture Slides {{&amp;lt; speakerdeck f870f78829704a1eb67e01eb26f58cbe &amp;gt;}}
-Some Example Code for Class  More on Plots Line Breaks in Plot Text We discussed this informally in class, and I wanted to clarify the technique for adding line breaks here. In situations where the size of the text has been increased or the quantity of text is quite large (a lengthy caption, for example), it is easy for the text to run off the sides of the plot.</description>
+Lecture Slides  Some Example Code for Class  More on Plots Line Breaks in Plot Text We discussed this informally in class, and I wanted to clarify the technique for adding line breaks here. In situations where the size of the text has been increased or the quantity of text is quite large (a lengthy caption, for example), it is easy for the text to run off the sides of the plot.</description>
     </item>
     
     <item>
@@ -196,8 +178,7 @@ Some Example Code for Class  More on Plots Line Breaks in Plot Text We discussed
       
       <guid>/lecture-13/</guid>
       <description> Handouts Functions  Lab  LaTeX  Workflow  Weekly Prep 
-Lecture Slides {{&amp;lt; speakerdeck 03f31eaca678478ebcd3027780c59776 &amp;gt;}}
-Some Example LaTeX Syntax for Class Bibliography File  LaTeX Source  </description>
+Lecture Slides  Some Example LaTeX Syntax for Class Bibliography File  LaTeX Source  </description>
     </item>
     
     <item>
@@ -207,8 +188,7 @@ Some Example LaTeX Syntax for Class Bibliography File  LaTeX Source  </descripti
       
       <guid>/lecture-14/</guid>
       <description>Handouts Functions  Lab  LaTeX  PS-10  Weekly Prep 
-Lecture Slides {{&amp;lt; speakerdeck 4c25f9c25ce446f79d53477c6a6c0bde &amp;gt;}}
-Example Image for Class You can find our example image for download here.</description>
+Lecture Slides  Example Image for Class You can find our example image for download here.</description>
     </item>
     
     <item>
@@ -218,8 +198,7 @@ Example Image for Class You can find our example image for download here.</descr
       
       <guid>/lecture-15/</guid>
       <description>Handouts Functions  Lab  Workflow 
-Lecture Slides {{&amp;lt; speakerdeck a3ccca844a3343c99cff22cd78b6c4b5 &amp;gt;}}
-Summary Functions RStudio has an excellent data wrangling cheat sheet that includes a list of the summary functions you can use with dplyr::summarize(). You can access the cheat sheet from their website.</description>
+Lecture Slides  Summary Functions RStudio has an excellent data wrangling cheat sheet that includes a list of the summary functions you can use with dplyr::summarize(). You can access the cheat sheet from their website.</description>
     </item>
     
     <item>
@@ -229,8 +208,7 @@ Summary Functions RStudio has an excellent data wrangling cheat sheet that inclu
       
       <guid>/lecture-16/</guid>
       <description> Handouts Functions  Lab  Weekly Prep  Workflow 
-Lecture Slides {{&amp;lt; speakerdeck 408d974987844b0c9c75ae84e00e8c76 &amp;gt;}}
-Bar Plots We covered bar plots very quickly during Week-02 of the semester. They are created using the geom_bar() geom in a ggplot2 call:
+Lecture Slides  Bar Plots We covered bar plots very quickly during Week-02 of the semester. They are created using the geom_bar() geom in a ggplot2 call:
 ggplot(data = mpg, mapping = aes(class)) + geom_bar()  </description>
     </item>
     
