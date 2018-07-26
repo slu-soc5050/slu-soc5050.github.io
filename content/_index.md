@@ -9,8 +9,8 @@ weight: 1
 SOC 4015 & 5050 is Saint Louis University Sociology's undergraduate and graduate introductory statistics course, which will be offered during the Fall 2018 semester. **There are currently 1 undergraduate and 3 graduate seats remaining in the course. If you are interested in the course, please enroll soon!**
 {{< /note >}}
 
-{{< warning title="Updates Planned" >}}
-Minor revisions to the curriculum are planned for the next edition of the course. General topics will remain the same, but repos will be re-organized and additional resources will be provided. Existing resources should not be considered current if their date is for 2017.
+{{< warning title="Updates in Progress" >}}
+Minor revisions to the curriculum are in progress for the next edition of the course. General topics will remain the same, but repos will be re-organized and additional resources will be provided. Existing resources should not be considered current if their date is for 2017.
 {{< /warning >}}
 
 </br>
@@ -29,7 +29,7 @@ This course has four intertwined objectives. After completing the course, studen
 
 3. *Fundamentals of data visualization*:  Create and present publication quality plots programmatically using `R` and `ggplot2`.
 
-4. *Quantitative research synthesis*:  Plan, implement (using `R`), and present (using LaTeX and the presentation software of your choice) a research project that uses linear regression to answer a research question. 
+4. *Quantitative research synthesis*:  Plan, implement (using `R`), and present (using `knitr` as well as the word pressing and presentation applications of your choice) a research project that uses linear regression to answer a research question. 
 
 
 ## Acknowledgements
