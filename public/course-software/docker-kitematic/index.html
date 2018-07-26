@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Course Software - SOC 4015 &amp; SOC 5050</title>
+    <title>Docker via Kitematic - SOC 4015 &amp; SOC 5050</title>
     <meta name="generator" content="Hugo 0.45.1" />
 
     
     <meta name="description" content="SOC 4015 &amp; SOC 5050: Quantiative Analysis - Applied Inferential Statistics">
     
-    <link rel="canonical" href="/course-software/">
+    <link rel="canonical" href="/course-software/docker-kitematic/">
     
     <meta name="author" content="Christopher Prener, Ph.D.">
     
 
-    <meta property="og:url" content="/course-software/">
+    <meta property="og:url" content="/course-software/docker-kitematic/">
     <meta property="og:title" content="SOC 4015 &amp; SOC 5050">
     <meta property="og:image" content="/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="SOC 4015 &amp; SOC 5050">
@@ -101,7 +101,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Course Software
+        Docker via Kitematic
       </div>
     </div>
 
@@ -232,14 +232,11 @@
 
 
 
-<a class="current" title="Course Software" href="/course-software/">
+<a  title="Course Software" href="/course-software/">
 	
 	Course Software
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -642,89 +639,9 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Course Software </h1>
+			<h1>Docker via Kitematic </h1>
 
-			
-
-<h2 id="meta">Meta</h2>
-
-<p><img src="https://img.shields.io/badge/semester-fall%202018-orange.svg" alt="" /> <img src="https://img.shields.io/badge/release-draft-red.svg" alt="" />
-<img src="https://img.shields.io/badge/last%20update-2018--07--26-brightgreen.svg" alt="" /></p>
-
-<h2 id="overview">Overview</h2>
-
-<p>This course is built primarily around a trio of software applications - the programming language <code>R</code>, the graphical user interface for <code>R</code> called RStudio, and GitHub Desktop. As I noted on the <a href="/getting-started/#course-software">course onboarding page</a>, there are two choices for <em>accessing</em> software and two choices for <em>installing</em> software. Please read through the <a href="/getting-started/#course-software">course onboarding page</a> page carefully and make the decisions you think are best for you. Feel free to shoot me a message on Slack or via email if you have questions about which approach is best.</p>
-
-<p>Additionally, <strong>all students</strong> regardless of their installation choices for <code>R</code> and RStudio will need to make sure their own computer or lab desktop has <a href="/course-software/#github-desktop">GitHub Desktop installed</a>. Lab computers will not have this pre-installed for you.</p>
-
-<h2 id="coursework-with-docker">Coursework with Docker</h2>
-
-<p>Using Docker is the easiest, most straightforward way to access <code>R</code> and RStudio for this class. Using Docker allows you to install and access <code>R</code> and RStudio as well as all of the required packages with a single, streamlined insallation process.</p>
-
-<h3 id="installing-docker">Installing Docker</h3>
-
-<p>If you decide to use Docker&rsquo;s virtual installation, there are a couple of steps you will have to complete if you are using your own computer. If you are using a lab computer, you can skip the first two installation steps but will still need to complete step 3.</p>
-
-<ol>
-<li><p>You will need to download and install the appropriate version <a href="https://store.docker.com/search?type=edition&amp;offering=community">Docker Community Edition</a> for your operating system.</p></li>
-
-<li><p>The easiest way to use Docker is with its Docker&rsquo;s graphical user interface <a href="https://github.com/docker/kitematic/">Kitematic</a>. Download the latest version from <a href="https://github.com/docker/kitematic/releases/latest">Kitematic&rsquo;s GitHub page</a>.</p></li>
-
-<li><p>Once Kitematic is installed, make sure Docker is <strong>running</strong> before you open Kitematic. Skip the log-in process if you are prompted to do so. Search for the <code>slu-soc-stats</code> image in the search bar and click &ldquo;Create&rdquo; when you have found it.</p></li>
-</ol>
-
-<h3 id="using-docker-for-coursework">Using Docker for Coursework</h3>
-
-<p>Additional details about using Docker with Kitematic (recommended) and, alteratively, using the command line (a more advanced technique) can be found at the following links:</p>
-
-<p><p> </p>
-<a class="btn btn-primary btn-outline btn-xs" href="/course-software/docker-kitematic"> <i class="fab fa-docker"></i> Using Docker with Kitematic </a> <a class="btn btn-primary btn-outline btn-xs" href="/course-software/docker-cl"> <i class="fab fa-docker"></i> Using Docker with the Command Line </a></p>
-
-<h2 id="coursework-with-local-installations-of-r">Coursework with Local Installations of <code>R</code></h2>
-
-<p>If you decide to manage your own local installation of <code>R</code> this semester, which is the more advanced way to set-up the course software, you&rsquo;ll need to download both of the applications we&rsquo;re using, <code>R</code> and RStudio, install them, and then install the relevant packages.</p>
-
-<h3 id="software-downloads">Software Downloads</h3>
-
-<p>There are two applications you will need to download and install. If you already have these installed, please check to make sure you are running the latest versions!</p>
-
-<ol>
-<li><p>The computing language <code>R</code> needs to be downloaded and installed. You can download it from the <a href="https://cloud.r-project.org"><code>R</code>&rsquo;s website</a>. Choose &ldquo;Download R for (Mac) OS X&rdquo; or &ldquo;Download R for Windows&rdquo;. Windows users should look for a link that says &ldquo;install R for the first time&rdquo;. Both macOS and Windows users should install <code>R</code> version 3.5.0, known as &ldquo;Joy in Playing&rdquo;.<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p></li>
-
-<li><p>RStudio is a graphical user interface for <code>R</code> that will make learning the language and using it much, much easier. You should download the <em>free</em> version of RStudio from <a href="https://www.rstudio.com/products/rstudio/download/#download">their website</a>. Choose the appropriate installer for your platform. Make sure <code>R</code> is already installed before installing RStudio.</p></li>
-</ol>
-
-<h3 id="install-r-packages">Install <code>R</code> Packages</h3>
-
-<p>There are a number of <code>R</code> packages that you will need for this semester. The following code snipped can be pasted into your <code>R</code> console to install all of these required packages.</p>
-
-<pre><code class="language-r">install.packages(c(&quot;tidyverse&quot;, &quot;car&quot;, 
-    &quot;Hmisc&quot;,&quot;knitr&quot;, &quot;gapminder&quot;, &quot;ggridges&quot;, 
-    &quot;ggthemes&quot;, &quot;janitor&quot;, &quot;lmtest&quot;, &quot;moments&quot;, 
-    &quot;naniar&quot;, &quot;nortest&quot;,  &quot;psych&quot;, &quot;pwr&quot;, 
-    &quot;remotes&quot;, &quot;reprex&quot;, &quot;rmarkdown&quot;,
-    &quot;sandwich&quot;, &quot;stargazer&quot;, &quot;skimr&quot;))
-</code></pre>
-
-<p>Once these packages are installed, you will also need to install additional packages with a different approach. The <code>testDriveR</code> package is only available on GitHub, and therefore requires a separate installation. The <code>reprex</code> package is available on CRAN but that version is currently broken. For both packages, they need to be installed from GitHub using the <code>remotes</code> package&rsquo;s <code>install_github()</code> function:</p>
-
-<pre><code class="language-r">remotes::install_github(&quot;chris-prener/testDriveR&quot;)
-</code></pre>
-
-<p>Depending on your version of <code>R</code> and your operating system, there will be other dependencies that are required and the number of packages installed will be considerably larger. The installation process has not been extensively tested, and you may encounter issues. If you do, please let Chris know!</p>
-
-<h2 id="github-desktop">GitHub Desktop</h2>
-
-<p>In addition to the applications above, everyone will need a local installation of GitHub Desktop, which is a graphical user interface for accessing Git and GitHub.com. It can be downloaded for free from the application&rsquo;s <a href="https://desktop.github.com">website</a>. You will need to download and run the installer. Once it is complete, you will need to login to the application with your <a href="/getting-started/#account-signups">GitHub.com username and password</a>.</p>
-<div class="footnotes">
-
-<hr />
-
-<ol>
-<li id="fn:1">All of <code>R</code>&rsquo;s version names are taken from the <a href="http://livefreeordichotomize.com/2017/09/28/r-release-names/">Peanuts comic strip</a>.
- <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
-</ol>
-</div>
+			<p>Docker!</p>
 
 
 			<aside class="copyright" role="note">
@@ -763,14 +680,14 @@
 
   <div class="next">
   
-      <a href="/course-preview/" title="Course Preview">
+      <a href="/course-software/docker-cl/" title="Docker via the Command Line">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Course Preview
+              Docker via the Command Line
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
