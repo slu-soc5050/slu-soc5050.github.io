@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+  
+  
+  
+  
+   <html class="no-js"> 
+
+  <head lang="en-us">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>Week 02 - Working with Data (Part 1) - SOC 4015 &amp; SOC 5050</title>
+    <meta name="generator" content="Hugo 0.45.1" />
+
+    
+    <meta name="description" content="SOC 4015 &amp; SOC 5050: Quantiative Analysis - Applied Inferential Statistics">
+    
+    <link rel="canonical" href="/lecture-02/">
+    
+    <meta name="author" content="Christopher Prener, Ph.D.">
+    
+
+    <meta property="og:url" content="/lecture-02/">
+    <meta property="og:title" content="SOC 4015 &amp; SOC 5050">
+    <meta property="og:image" content="/images/logo.png">
+    <meta name="apple-mobile-web-app-title" content="SOC 4015 &amp; SOC 5050">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <style>
+      @font-face {
+        font-family: 'Icon';
+        src: url('/fonts/icon.eot');
+        src: url('/fonts/icon.eot')
+               format('embedded-opentype'),
+             url('/fonts/icon.woff')
+               format('woff'),
+             url('/fonts/icon.ttf')
+               format('truetype'),
+             url('/fonts/icon.svg')
+               format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <link rel="stylesheet" href="/stylesheets/application.css">
+    <link rel="stylesheet" href="/stylesheets/temporary.css">
+    <link rel="stylesheet" href="/stylesheets/palettes.css">
+    <link rel="stylesheet" href="/stylesheets/highlight/highlight.css">
+
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+    
+    <script src="/javascripts/modernizr.js"></script>
+
+    
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.4/gist-embed.min.js"></script>
+  </head>
+  <body class="palette-primary-deep-orange palette-accent-blue">
+
+
+
+	
+	
+
+
+<div class="backdrop">
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	<nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        Week 02 - Working with Data (Part 1)
+      </div>
+    </div>
+
+    
+
+    
+    <div class="button button-github" role="button" aria-label="GitHub">
+      <a href="https://github.com/slu-soc5050" title="@slu-soc5050 on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+    </div>
+    
+    
+        
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+	<div class="drawer">
+		<nav aria-label="Navigation">
+  <a href="https://github.com/slu-soc5050/Core-Documents" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="/images/logo.png">
+        </div>
+      
+      <div class="name">
+        <strong>SOC 4015 &amp; SOC 5050 </strong>
+        
+          <br>
+          slu-soc5050/Core-Documents
+        
+      </div>
+    </div>
+  </a>
+
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-download">
+            <a href="/syllabus/" target="_blank">
+              <i class="fas fa-book"></i> Open Syllabus
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+
+      <div class="toc">
+        
+        <ul>
+          
+
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="About" href="/">
+	
+	About
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Course Resources" href="/course-resources/">
+	
+	Course Resources
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Course Onboarding" href="/getting-started/">
+	
+	Course Onboarding
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Course Software" href="/course-software/">
+	
+	Course Software
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Course Preview" href="/course-preview/">
+	
+	Course Preview
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Lecture 01 - Course Introduction" href="/lecture-01/">
+	
+	Lecture 01 - Course Introduction
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a class="current" title="Lecture 02 - Working with Data" href="/lecture-02/">
+	
+	Lecture 02 - Working with Data
+</a>
+
+
+<ul id="scrollspy">
+</ul>
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Lecture 03 - Distributions" href="/lecture-03/">
+	
+	Lecture 03 - Distributions
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Lecture 04 - Probability" href="/lecture-04/">
+	
+	Lecture 04 - Probability
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Lecture 05 - Random Variables" href="/lecture-05/">
+	
+	Lecture 05 - Random Variables
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Lecture 06 - Inference" href="/lecture-06/">
+	
+	Lecture 06 - Inference
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Lecture 07 - Mean Difference (1)" href="/lecture-07/">
+	
+	Lecture 07 - Mean Difference (1)
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Lecture 08 - Mean Difference (2)" href="/lecture-08/">
+	
+	Lecture 08 - Mean Difference (2)
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Lecture 10 - Correlation (1)" href="/lecture-10/">
+	
+	Lecture 10 - Correlation (1)
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Lecture 11 - Correlation (2)" href="/lecture-11/">
+	
+	Lecture 11 - Correlation (2)
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Lecture 12 - OLS Regression (1)" href="/lecture-12/">
+	
+	Lecture 12 - OLS Regression (1)
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Lecture 13 - OLS Regression (2)" href="/lecture-13/">
+	
+	Lecture 13 - OLS Regression (2)
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Lecture 14 - OLS Regression (3)" href="/lecture-14/">
+	
+	Lecture 14 - OLS Regression (3)
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Lecture 15 - ANOVA" href="/lecture-15/">
+	
+	Lecture 15 - ANOVA
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Lecture 16 - Chi-Squared" href="/lecture-16/">
+	
+	Lecture 16 - Chi-Squared
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Final Project" href="/final/">
+	
+	Final Project
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Topic Index" href="/topic-index/">
+	
+	Topic Index
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Package Index" href="/package-index/">
+	
+	Package Index
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="License" href="/license/">
+	
+	License
+</a>
+
+
+
+  
+</li>
+
+
+        </ul>
+        
+
+        
+        <hr>
+        <span class="section">The author</span>
+        
+        <ul>
+          
+
+          
+          <li>
+            <a href="https://github.com/slu-soc5050" target="_blank" title="@slu-soc5050 on GitHub">
+              @slu-soc5050 on GitHub
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="mailto:chris.prener@slu.edu" title="Email of chris.prener@slu.edu">
+              Contact via email
+            </a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			<h1>Week 02 - Working with Data (Part 1) </h1>
+
+			
+
+<p><img src="https://img.shields.io/badge/semester-Fall%2C%202017-blue.svg" alt="" /> <img src="https://img.shields.io/badge/release-updated-brightgreen.svg" alt="" /></p>
+
+<h2 id="general-handouts">General Handouts</h2>
+
+<p><a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/Lab/week-02-lab.pdf" target="_blank"> Lab </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/PS-01/PS-01.pdf" target="_blank"> Problem Set 01 </a></p>
+
+<h2 id="lecture-02a-introducing-ggplot2">Lecture 02a - Introducing <code>ggplot2</code></h2>
+
+<h3 id="lecture-handouts">Lecture Handouts</h3>
+
+<p><a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/Functions/week-02-lecture-02a-rQuickref.pdf" target="_blank"> Functions </a></p>
+
+<h3 id="slides">Slides</h3>
+
+<p>{{&lt; speakerdeck 235fdb303a2e40f4a24f9961f166cbea &gt;}}</p>
+
+<h3 id="video-lecture">Video Lecture</h3>
+
+<p>{{&lt; youtube eT_6tw4fWRE &gt;}}</p>
+
+<h2 id="lecture-02b-grammar-of-graphics">Lecture 02b - Grammar of Graphics</h2>
+
+<h3 id="lecture-handouts-1">Lecture Handouts</h3>
+
+<p><a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/Functions/week-02-lecture-02b-rQuickref.pdf" target="_blank"> Functions </a></p>
+
+<h3 id="slides-1">Slides</h3>
+
+<p>{{&lt; speakerdeck 8c95934676fe4601bcadcfd45011632c &gt;}}</p>
+
+<h3 id="video-lecture-1">Video Lecture</h3>
+
+<p>{{&lt; youtube EHZ2JtVCDCQ &gt;}}</p>
+
+<h2 id="lecture-03-verbs-for-cleaning-data">Lecture 03 - Verbs for Cleaning Data</h2>
+
+<h3 id="lecture-handouts-2">Lecture Handouts</h3>
+
+<p><a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/Functions/week-02-lecture-03-rQuickref.pdf" target="_blank"> Functions </a></p>
+
+<h3 id="slides-2">Slides</h3>
+
+<p>{{&lt; speakerdeck cc90cd776dbb49c5a285aaa464abc4a8 &gt;}}</p>
+
+<h3 id="video-lecture-2">Video Lecture</h3>
+
+<p>{{&lt; youtube txSNKb6Akgs &gt;}}</p>
+
+<h2 id="lecture-04-structuring-notebooks">Lecture 04 - Structuring Notebooks</h2>
+
+<h3 id="lecture-handouts-3">Lecture Handouts</h3>
+
+<p><a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/Functions/week-02-lecture-04-rQuickref.pdf" target="_blank"> Functions </a>
+<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-02/blob/master/NotebookSample/week02.Rmd" target="_blank"> Notebook Sample </a></p>
+
+<h3 id="slides-3">Slides</h3>
+
+<p>{{&lt; speakerdeck eda0ada395544af7bb08b271ce7dbf67 &gt;}}</p>
+
+<h3 id="video-lecture-3">Video Lecture</h3>
+
+<p>{{&lt; youtube Rb1jsVRsnbk &gt;}}</p>
+
+<h2 id="data-for-assignments">Data for Assignments</h2>
+
+<p>The data that you need for many of the assignments this semester is available as an <code>R</code> package named <code>testDriveR</code>. Unlike many of the &ldquo;official&rdquo; packages we use in this course that are available on CRAN, the data package is not. I have made the package available on <a href="https://github.com/chris-prener/testDriveR">GitHub</a>.</p>
+
+<p>You can install packages from GitHub using the <code>devtools</code> package:</p>
+
+<pre><code class="language-r"># install devtools first
+install.packages(&quot;devtools&quot;)
+
+# once devtools is installed, use the install_github function to install testDriveR
+library(devtools)
+devtools::install_github(&quot;chris-prener/testDriveR&quot;)
+</code></pre>
+
+<p>Since this package is &ldquo;under development&rdquo;, please let me know immediately if you find any issues or run into installation errors. When I published updates, simply re-execute the <code>install_github(&quot;chris-prener/testDriveR&quot;)</code> function. I&rsquo;ll let everyone know when updates are published.</p>
+
+<h2 id="cheatsheets">Cheatsheets</h2>
+
+<p>RStudio offers a number of cheatsheets that you may find useful. FYI - they offer <em>way</em> more detail than what I provide. This is intentional on my part. So, if you feeling confident and are looking to build upon what a particular week covers, check them out!</p>
+
+<ul>
+<li><a href="https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/ggplot2-cheatsheet-2.1.pdf"><code>ggplot2</code></a></li>
+<li><a href="https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/data-transformation-cheatsheet.pdf"><code>dplyr</code></a></li>
+<li><a href="https://github.com/rstudio/cheatsheets/raw/master/source/pdfs/rmarkdown-cheatsheet-2.0.pdf"><code>rmarkdown</code></a></li>
+</ul>
+
+<h2 id="extra-information">Extra Information</h2>
+
+<p>This week, I mentioned a number of important figures. If you want more information, you can check out these Wikipedia pages:</p>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/René_Descartes">René Descartes</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Donald_Knuth">Donald Knuth</a></li>
+<li><a href="https://en.wikipedia.org/wiki/George_Boole">George Boole</a></li>
+</ul>
+
+
+			<aside class="copyright" role="note">
+				
+				&copy; 2018 Licensed under a Creative Commons Attribution 4.0 International License &ndash;
+				
+				Documentation built with
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+				using the
+				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+			</aside>
+
+			<footer class="footer">
+				
+
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  
+      <a href="/lecture-01/" title="Lecture 01 - Course Introduction">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              Lecture 01 - Course Introduction
+            </div>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+
+  <div class="next">
+  
+      <a href="/lecture-03/" title="Week 03 - Describing Distributions">
+        <span class="direction">
+          Next
+        </span>
+        <div class="page">
+          <div class="stretch">
+            <div class="title">
+              Week 03 - Describing Distributions
+            </div>
+          </div>
+          <div class="button button-next" role="button" aria-label="Next">
+            <i class="icon icon-forward"></i>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+</nav>
+
+
+
+
+
+			</footer>
+		</div>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script>
+    
+      var base_url = '\/';
+      var repo_id  = 'slu-soc5050\/Core-Documents';
+    
+    </script>
+
+    <script src="/javascripts/application.js"></script>
+    
+
+    <script>
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+      if(scrollspy) {
+        if(headers.length > 0) {
+          for(var i = 0; i < headers.length; i++) {
+            var li = document.createElement("li");
+            li.setAttribute("class", "anchor");
+
+            var a  = document.createElement("a");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", headers[i].innerHTML);
+            a.innerHTML = headers[i].innerHTML;
+
+            li.appendChild(a)
+            scrollspy.appendChild(li);
+          }
+        } else {
+          scrollspy.parentElement.removeChild(scrollspy)
+        }
+
+
+        /* Add permanent link next to the headers */
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "#";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+

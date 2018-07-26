@@ -18,7 +18,7 @@ weight: 20
 
 ## Lecture Slides
 <p> </p>
-{{< speakerdeck 35432b57f3884b2c91c9e7ace2c87c50 >}}
+<script async class="speakerdeck-embed" data-id="35432b57f3884b2c91c9e7ace2c87c50" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## Introducing R and RStudio
 <p> </p>
