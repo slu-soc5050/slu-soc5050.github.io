@@ -47,7 +47,7 @@ There are two applications you will need to download and install. If you already
 There are a number of `R` packages that you will need for this semester. The following code snipped can be pasted into your `R` console to install all of these required packages.
 
 ```r
-install.packages(c("tidyverse", "car", 
+install.packages(c("tidyverse", "car", "cowsay",
     "Hmisc","knitr", "gapminder", "ggridges", 
     "ggthemes", "janitor", "lmtest", "moments", 
     "naniar", "nortest",  "psych", "pwr", 
