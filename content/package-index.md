@@ -28,9 +28,11 @@ The following is a list of packages used during the semester along with links to
 ## Data Packages
 - `gapminder` - Teaching data from Gapminder project &emsp; {{< pkgIndex "#e-h" >}} {{< pkgCran "gapminder" >}} {{< pkgGitHub "jennybc/gapminder" >}}
 - `testDriveR` - Data sets for teaching &emsp; {{< pkgIndex "#q-t" >}} {{< pkgGitHub "chris-prener/testDriveR" >}} {{< pkgWeb "https://chris-prener.github.io/testDriveR" >}}
-  - install the development version via GitHub - `devtools::install_github("chris-prener/testDriveR")`
+  - install the development version via GitHub - `remotes::install_github("chris-prener/testDriveR")`
 
 ## Tidyverse Packages
+
+### Core Tidyverse Packages
 Use `install.packages("tidyverse")` to install these for convenience!
 
 - `broom` - creation of tidy output &emsp; {{< pkgIndex "#a-d" >}} {{< pkgCran "broom" >}} {{< pkgGitHub "tidyverse/broom" >}}
@@ -38,8 +40,12 @@ Use `install.packages("tidyverse")` to install these for convenience!
 - `forcats` - factors &emsp; {{< pkgIndex "#e-h" >}} {{< pkgCran "forcats" >}} {{< pkgGitHub "tidyverse/forcats" >}} {{< pkgWeb "http://forcats.tidyverse.org/" >}} {{< pkgBook "http://r4ds.had.co.nz/factors.html" >}}
 - `ggplot2` - data plotting &emsp; {{< pkgIndex "#e-h" >}} {{< pkgCran "ggplot2" >}} {{< pkgGitHub "tidyverse/ggplot2" >}} {{< pkgWeb "http://ggplot2.tidyverse.org/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf" >}} {{< pkgBook "http://r4ds.had.co.nz/data-visualisation.html" >}}
 - `magrittr` - pipe operator &emsp; {{< pkgIndex "#m-p" >}} {{< pkgCran "magrittr" >}} {{< pkgGitHub "tidyverse/magrittr" >}} {{< pkgWeb "http://magrittr.tidyverse.org/" >}} {{< pkgBook "http://r4ds.had.co.nz/pipes.html" >}}
-- `reprex` - reproducible examples &emsp; {{< pkgIndex "#q-t" >}} {{< pkgCran "reprex" >}} {{< pkgGitHub "tidyverse/reprex" >}} {{< pkgWeb "http://reprex.tidyverse.org/" >}}
 - `tidyr` - data wrangling &emsp; {{< pkgIndex "#q-t" >}} {{< pkgCran "tidyr" >}} {{< pkgGitHub "tidyverse/tidyr" >}} {{< pkgWeb "http://tidyr.tidyverse.org/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf" >}} {{< pkgBook "http://r4ds.had.co.nz/relational-data.html" >}}
+
+### Additional Tidyverse Packages
+These must be installed independently!
+
+- `reprex` - reproducible examples &emsp; {{< pkgIndex "#q-t" >}} {{< pkgCran "reprex" >}} {{< pkgGitHub "tidyverse/reprex" >}} {{< pkgWeb "http://reprex.tidyverse.org/" >}}
 
 ## Statistical Packages
 - `car` - variety of statistical functions &emsp; {{< pkgIndex "#a-d" >}} {{< pkgCran "car" >}}
