@@ -40,6 +40,24 @@ Course Website This course website will be updated regularly throughout the seme
     </item>
     
     <item>
+      <title>Docker via Kitematic</title>
+      <link>/course-software/docker-kitematic/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>/course-software/docker-kitematic/</guid>
+      <description>Docker!</description>
+    </item>
+    
+    <item>
+      <title>Docker via the Command Line</title>
+      <link>/course-software/docker-cl/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>/course-software/docker-cl/</guid>
+      <description>Docker!</description>
+    </item>
+    
+    <item>
       <title>Course Preview</title>
       <link>/course-preview/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
