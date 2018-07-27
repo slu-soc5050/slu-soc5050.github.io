@@ -6,8 +6,8 @@ weight: 42
 
 ## Meta 
 
-![](https://img.shields.io/badge/semester-fall%202018-yellow.svg) ![](https://img.shields.io/badge/release-draft-red.svg) 
-![](https://img.shields.io/badge/last%20update-2018--05--03-brightgreen.svg)
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) 
+![](https://img.shields.io/badge/last%20update-2018--07--27-brightgreen.svg)
 
 The following is a list of packages used during the semester along with links to additional resources. This list does not include dependencies that may be installed for these packages to work. Unless otherwise noted, packages are available via CRAN and can be installed using `base::install.packages("packageName")`.
 
