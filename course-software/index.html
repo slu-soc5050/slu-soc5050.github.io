@@ -699,19 +699,20 @@
 <p>There are a number of <code>R</code> packages that you will need for this semester. The following code snipped can be pasted into your <code>R</code> console to install all of these required packages.</p>
 
 <pre><code class="language-r">install.packages(c(&quot;tidyverse&quot;, &quot;car&quot;, &quot;cowsay&quot;,
-    &quot;Hmisc&quot;,&quot;knitr&quot;, &quot;gapminder&quot;, &quot;ggridges&quot;, 
+    &quot;effsize&quot;, &quot;heplots&quot;, &quot;Hmisc&quot;,
+    &quot;knitr&quot;, &quot;gapminder&quot;, &quot;ggridges&quot;, 
     &quot;ggthemes&quot;, &quot;janitor&quot;, &quot;lmtest&quot;, &quot;moments&quot;, 
     &quot;naniar&quot;, &quot;nortest&quot;,  &quot;psych&quot;, &quot;pwr&quot;, 
     &quot;remotes&quot;, &quot;reprex&quot;, &quot;rmarkdown&quot;,
     &quot;sandwich&quot;, &quot;stargazer&quot;, &quot;skimr&quot;))
 </code></pre>
 
-<p>Once these packages are installed, you will also need to install additional packages with a different approach. The <code>testDriveR</code> package is only available on GitHub, and therefore requires a separate installation. The <code>reprex</code> package is available on CRAN but that version is currently broken. For both packages, they need to be installed from GitHub using the <code>remotes</code> package&rsquo;s <code>install_github()</code> function:</p>
+<p>Once these packages are installed, you will also need to install an additional package with a different approach. The <code>testDriveR</code> package is only available on GitHub, and therefore requires a separate installation using the <code>remotes</code> package&rsquo;s <code>install_github()</code> function:</p>
 
 <pre><code class="language-r">remotes::install_github(&quot;chris-prener/testDriveR&quot;)
 </code></pre>
 
-<p>Depending on your version of <code>R</code> and your operating system, there will be other dependencies that are required and the number of packages installed will be considerably larger. The installation process has not been extensively tested, and you may encounter issues. If you do, please let Chris know!</p>
+<p>Depending on your version of <code>R</code> and your operating system, there will be other dependencies that are required and the number of packages installed will be considerably larger. The installation process has not been extensively tested on different operating system and hardware configurations, and though it is unlikely, you may encounter issues. If you do, please let Chris know!</p>
 
 <h2 id="github-desktop">GitHub Desktop</h2>
 
