@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting-starteds on SOC 4015 &amp; SOC 5050</title>
+    <link>/getting-started/</link>
+    <description>Recent content in Getting-starteds on SOC 4015 &amp; SOC 5050</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
+    
+	<atom:link href="/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Course Onboarding</title>
+      <link>/getting-started/course-onboarding/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>/getting-started/course-onboarding/</guid>
+      <description>Meta Overview Before you begin the semester, there are a number of things that you should do to help set yourself up for success. All of the applicable sections below should be completed before our first class on August 27th. Before you do anything else, though, you should read through the Syllabus. Make sure you have a good sense of what is required for the course. If you have questions, bring them to the first day of class!</description>
+    </item>
+    
+  </channel>
+</rss>
