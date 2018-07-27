@@ -6,8 +6,8 @@ weight: 10
 
 ## Meta
 
-![](https://img.shields.io/badge/semester-fall%202018-yellow.svg) ![](https://img.shields.io/badge/release-draft-red.svg) 
-![](https://img.shields.io/badge/last%20update-2018--05--03-brightgreen.svg)
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) 
+![](https://img.shields.io/badge/last%20update-2018--07--27-brightgreen.svg)
 
 ## Overview
 
@@ -20,7 +20,6 @@ This section provides details on completing the following steps:
 * [Account signups](/getting-started/#account-signups):
   * Slack
   * GitHub
-  * ShareLaTeX
 * Make some decisions about accessing [course software](/getting-started/#course-software)
 * [Get access to books](/getting-started/#get-access-to-books)
 * [Purchase other required materials](/getting-started/#other-materials)
@@ -35,9 +34,6 @@ We'll be using the messaging platform [Slack](https://slack.com) as a space for 
 The service that is hosting this website is called [GitHub](https://github.com/). GitHub is used by programmers, data scientists, and researchers for hosting computer code, data, and project materials (like websites). We will be using GitHub extensively this semester. You will need a free account, which you can sign up for one from GitHub's [homepage](https://github.com/). If you already have a GitHub account, you do not need a new one. 
 
 Once you have a GitHub user name, send Chris a Direct Message via Slack with it so that you can be added to the [SOC 4015 & SOC 5050 organization](https://github.com/slu-soc5050). After you have been added to the organization, you should find your assignments repository and check the **Issues** tab. There should be an open **Issue** describing how feedback will be disseminated this semester. Please read it and then *close the issue* so that we know you've seen it.
-
-### Get Started with LaTeX
-We'll be doing a little bit of writing using LaTeX, which is a markup language that makes technical writing easier. We'll be using  [ShareLaTeX](https://www.sharelatex.com) this semester for this purpose. ShareLaTeX is a bit like Google Docs, but for LaTeX. It is a "freemium" service - please don't pay for any additional features - you won't need them! You can sign-up for ShareLaTeX on their [website](https://www.sharelatex.com).
 
 ## Course Software
 There are two options for *accessing* the course software, and two options for how to *install* it. Please read through these options carefully and make the decision that is best for you.

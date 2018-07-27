@@ -9,7 +9,7 @@ weight: 2
 ![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) 
 ![](https://img.shields.io/badge/last%20update-2018--07--27-brightgreen.svg)
 
-</br>
+## Overview
 There are a number of course resources you should be aware of. This space is meant to provide quick links to these items.
 
 ## Course Website
