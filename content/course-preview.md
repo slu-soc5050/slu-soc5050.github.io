@@ -6,8 +6,8 @@ weight: 12
 
 ## Meta 
 
-![](https://img.shields.io/badge/semester-fall%202018-yellow.svg) ![](https://img.shields.io/badge/release-draft-red.svg) 
-![](https://img.shields.io/badge/last%20update-2018--05--03-brightgreen.svg)
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) 
+![](https://img.shields.io/badge/last%20update-2018--07--26-brightgreen.svg)
 
 ## Key Topics
 [{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
