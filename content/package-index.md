@@ -39,7 +39,6 @@ Use `install.packages("tidyverse")` to install these for convenience!
 - `ggplot2` - data plotting &emsp; {{< pkgIndex "#e-h" >}} {{< pkgCran "ggplot2" >}} {{< pkgGitHub "tidyverse/ggplot2" >}} {{< pkgWeb "http://ggplot2.tidyverse.org/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf" >}} {{< pkgBook "http://r4ds.had.co.nz/data-visualisation.html" >}}
 - `magrittr` - pipe operator &emsp; {{< pkgIndex "#m-p" >}} {{< pkgCran "magrittr" >}} {{< pkgGitHub "tidyverse/magrittr" >}} {{< pkgWeb "http://magrittr.tidyverse.org/" >}} {{< pkgBook "http://r4ds.had.co.nz/pipes.html" >}}
 - `reprex` - reproducible examples &emsp; {{< pkgIndex "#q-t" >}} {{< pkgCran "reprex" >}} {{< pkgGitHub "tidyverse/reprex" >}} {{< pkgWeb "http://reprex.tidyverse.org/" >}}
-  - install the development version via GitHub - `devtools::install_github("tidyverse/reprex")`
 - `tidyr` - data wrangling &emsp; {{< pkgIndex "#q-t" >}} {{< pkgCran "tidyr" >}} {{< pkgGitHub "tidyverse/tidyr" >}} {{< pkgWeb "http://tidyr.tidyverse.org/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf" >}} {{< pkgBook "http://r4ds.had.co.nz/relational-data.html" >}}
 
 ## Statistical Packages
@@ -64,5 +63,6 @@ Use `install.packages("tidyverse")` to install these for convenience!
 - `stargazer` - LaTeX output &emsp; {{< pkgIndex "#q-t" >}} {{< pkgCran "stargazer" >}}
 
 ## Other Utility Packages
-- `devtools` - install packages from GitHub &emsp; {{< pkgIndex "#e-h" >}} {{< pkgCran "devtools" >}} {{< pkgGitHub "hadley/devtools" >}}
+- `cowsay` - fun ASCII characters {{< pkgIndex "#a-d" >}} {{< pkgCran "cowsay" >}}
 - `here` - working directory management &emsp; {{< pkgIndex "#e-h" >}} {{< pkgCran "here" >}} {{< pkgGitHub "krlmlr/here" >}}
+- `remotes` - install packages from GitHub &emsp; {{< pkgIndex "#q-t" >}} {{< pkgCran "remotes" >}}

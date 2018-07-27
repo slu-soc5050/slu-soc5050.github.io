@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Package-indices on SOC 4015 &amp; SOC 5050</title>
+    <link>/package-index/</link>
+    <description>Recent content in Package-indices on SOC 4015 &amp; SOC 5050</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
+    
+	<atom:link href="/package-index/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Package Index</title>
+      <link>/package-index/package-index/</link>
+      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      
+      <guid>/package-index/package-index/</guid>
+      <description>Meta The following is a list of packages used during the semester along with links to additional resources. This list does not include dependencies that may be installed for these packages to work. Unless otherwise noted, packages are available via CRAN and can be installed using base::install.packages(&amp;quot;packageName&amp;quot;).
+Icon reference   - Topic index  - CRAN site  - GitHub repo  - Website  - RStudio Cheatsheet  - Book  Base R Packages  base - base functions &amp;emsp;   stats - statistical functions &amp;emsp;   utils - utility functions &amp;emsp;    Data Packages  gapminder - Teaching data from Gapminder project &amp;emsp;     testDriveR - Data sets for teaching &amp;emsp;     install the development version via GitHub - devtools::install_github(&amp;quot;chris-prener/testDriveR&amp;quot;)   Tidyverse Packages Use install.</description>
+    </item>
+    
+  </channel>
+</rss>

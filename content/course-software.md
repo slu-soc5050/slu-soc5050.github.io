@@ -48,20 +48,21 @@ There are a number of `R` packages that you will need for this semester. The fol
 
 ```r
 install.packages(c("tidyverse", "car", "cowsay",
-    "Hmisc","knitr", "gapminder", "ggridges", 
+    "effsize", "heplots", "Hmisc",
+    "knitr", "gapminder", "ggridges", 
     "ggthemes", "janitor", "lmtest", "moments", 
     "naniar", "nortest",  "psych", "pwr", 
     "remotes", "reprex", "rmarkdown",
     "sandwich", "stargazer", "skimr"))
 ```
 
-Once these packages are installed, you will also need to install additional packages with a different approach. The `testDriveR` package is only available on GitHub, and therefore requires a separate installation. The `reprex` package is available on CRAN but that version is currently broken. For both packages, they need to be installed from GitHub using the `remotes` package's `install_github()` function:
+Once these packages are installed, you will also need to install an additional package with a different approach. The `testDriveR` package is only available on GitHub, and therefore requires a separate installation using the `remotes` package's `install_github()` function:
 
 ```r
 remotes::install_github("chris-prener/testDriveR")
 ```
 
-Depending on your version of `R` and your operating system, there will be other dependencies that are required and the number of packages installed will be considerably larger. The installation process has not been extensively tested, and you may encounter issues. If you do, please let Chris know!
+Depending on your version of `R` and your operating system, there will be other dependencies that are required and the number of packages installed will be considerably larger. The installation process has not been extensively tested on different operating system and hardware configurations, and though it is unlikely, you may encounter issues. If you do, please let Chris know!
 
 ## GitHub Desktop
 In addition to the applications above, everyone will need a local installation of GitHub Desktop, which is a graphical user interface for accessing Git and GitHub.com. It can be downloaded for free from the application's [website](https://desktop.github.com). You will need to download and run the installer. Once it is complete, you will need to login to the application with your [GitHub.com username and password](/getting-started/#account-signups).
