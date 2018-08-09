@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Course Preview - SOC 4015 &amp; SOC 5050</title>
+    <title>Docker Overview - SOC 4015 &amp; SOC 5050</title>
     <meta name="generator" content="Hugo 0.45.1" />
 
     
     <meta name="description" content="SOC 4015 &amp; SOC 5050: Quantiative Analysis - Applied Inferential Statistics">
     
-    <link rel="canonical" href="/course-preview/">
+    <link rel="canonical" href="/course-software/docker-overview/">
     
     <meta name="author" content="Christopher Prener, Ph.D.">
     
 
-    <meta property="og:url" content="/course-preview/">
+    <meta property="og:url" content="/course-software/docker-overview/">
     <meta property="og:title" content="SOC 4015 &amp; SOC 5050">
     <meta property="og:image" content="/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="SOC 4015 &amp; SOC 5050">
@@ -101,7 +101,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Course Preview
+        Docker Overview
       </div>
     </div>
 
@@ -250,14 +250,11 @@
 
 
 
-<a class="current" title="Course Preview" href="/course-preview/">
+<a  title="Course Preview" href="/course-preview/">
 	
 	Course Preview
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -642,84 +639,44 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Course Preview </h1>
+			<h1>Docker Overview </h1>
 
 			
 
-<h2 id="meta">Meta</h2>
-
-<p><img src="https://img.shields.io/badge/semester-fall%202018-orange.svg" alt="" /> <img src="https://img.shields.io/badge/release-updated-brightgreen.svg" alt="" />
-<img src="https://img.shields.io/badge/last%20update-2018--08--09-brightgreen.svg" alt="" /></p>
-
-<h2 id="key-topics">Key Topics</h2>
-
-<p><a href="/topic-index/#a-d"><i class="keyword"><i class="fas fa-tags"></i> Analysis development</i> </a>
-<a href="/topic-index/#e-h"><i class="tool"><i class="fas fa-desktop"></i> GitHub</i></a>
-<a href="/topic-index/#q-t"><i class="tool"><i class="fas fa-desktop"></i> R</i></a>
-<a href="/topic-index/#q-t"><i class="keyword"><i class="fas fa-tags"></i> RMarkdown</i> </a>
-<a href="/topic-index/#q-t"><i class="keyword"><i class="fas fa-tags"></i> Reproducibility</i> </a>
-<a href="/topic-index/#u-x"><i class="keyword"><i class="fas fa-tags"></i> Version Control</i> </a>
-<a href="/topic-index/#u-x"><i class="keyword"><i class="fas fa-tags"></i> Workflow</i> </a></p>
-
-<h2 id="resources">Resources</h2>
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://slu-soc5050.github.io/syllabus/course-preview.html" target="_blank"> Open on &ensp;<i class="fas fa-book fa-lg"></i> </a>
+<p><strong>This was intended langauge for the course software page!</strong></p>
 
 <h2 id="overview">Overview</h2>
 
-<p>To set the stage for this semester, please watch the two videos below. These will take approximately 45 minutes to view. Once you have finished these videos, follow the link at the bottom of the page to answer a few short questions about what you saw. Before you begin, please make sure you have completed the <a href="/getting-started/">course onboarding</a> process and Lecture Prep 01! You won&rsquo;t need any of the <a href="/course-software/">course software</a> for this Course Preview, however, so there is no need to have installed software at this stage.</p>
+<p>This course is built primarily around a trio of software applications - the programming language <code>R</code>, the graphical user interface for <code>R</code> called RStudio, and GitHub Desktop. As I noted on the <a href="/getting-started/#course-software">course onboarding page</a>, there are two choices for <em>accessing</em> software and two choices for <em>installing</em> software. Please read through the <a href="/getting-started/#course-software">course onboarding page</a> page carefully and make the decisions you think are best for you. Feel free to shoot me a message on Slack or via email if you have questions about which approach is best.</p>
 
-<h2 id="plain-text-science">Plain Text Science</h2>
+<p>Additionally, <strong>all students</strong> regardless of their installation choices for <code>R</code> and RStudio will need to make sure their own computer or lab desktop has <a href="/course-software/#github-desktop">GitHub Desktop installed</a>. Lab computers will not have this pre-installed for you.</p>
 
-<p>To begin, read the <a href="http://plain-text.co">introductory &ldquo;chapter&rdquo;</a> (it is quite short!) to Duke University sociologist Kieran Healy&rsquo;s primer <em>The Plain Person&rsquo;s Guide to Plain Text Social Science.</em> This gives a great taste of some of the tools we&rsquo;ll be using this semester (like RMarkdown) as well as some of the ideas we&rsquo;ll be thinking about (like reproducibility).</p>
+<h2 id="coursework-with-docker">Coursework with Docker</h2>
 
-<p>Once you&rsquo;ve ready the Kieran&rsquo;s intro, please watch the first few sections of a recent talk by <a href="https://en.wikipedia.org/wiki/Hadley_Wickham">Hadley Wickham</a>. He is the Chief Scientist for RStudio and developer of the <a href="http://tidyverse.org"><code>tidyverse</code></a>, which is a family of packages we&rsquo;ll be using this semester. In fact, the original name of this family of packages was the <code>hadleyverse</code>. Hadley is also the author of <a href="http://r4ds.had.co.nz"><em>R for Data Science</em></a>, one of the books we&rsquo;ll be reading this semester. In this video, Hadley speaks about why using a programming language to express yourself for data science and statistical work can be so valuable. Please watch up to 18:30, when the &ldquo;Why Program in R?&rdquo; slide comes up.</p>
+<p>Using Docker is the easiest, most straightforward way to access <code>R</code> and RStudio for this class. Using Docker allows you to install and access <code>R</code> and RStudio as well as all of the required packages with a single, streamlined insallation process.</p>
 
-<p> </p>
+<h3 id="installing-docker">Installing Docker</h3>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/cpbtcsGE0OA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
-<p> </p>
-
-<p>Here are links to the two GitHub repositories Hadley referenced during the talk:</p>
-
-<ul>
-<li><a href="https://github.com/bcgov/bc-population-indicator">BC Population Indicator</a>
-
-<ul>
-<li>The history that Wickham references can be viewed <a href="https://github.com/bcgov/bc-population-indicator/commits/master">here</a>, and you can click on any of the commit messages or numbers to view how specific files have changed. <a href="https://github.com/bcgov/bc-population-indicator/commit/53608ab2142f541d6794c26144e1f868bdec37db">This</a> is one example from March 2018. Red text indicates deletions, and green text indicates additions.</li>
-</ul></li>
-<li><a href="https://github.com/jennybc/frogs">Calaveras Jumping Frog Jubilee</a></li>
-</ul>
-
-<p>Many (but not all of you) will have experienced some parts of these processes before. Perhaps you&rsquo;ve used Microsoft Excel to organize some information or used SPSS to analyze some quantitative data. We won&rsquo;t be using those tools. Instead, this course will emphasize the use of other tools that support reproducible, accurate, and collaborative data analysis. Throughout the semester, we&rsquo;ll discuss why these tools are important and the advantages they have over other products that are out there.</p>
-
-<p>The tools we use are also incredibly flexible and therefore powerful. <code>R</code> and Markdown, for example, were used exclusively to create this website and the <a href="https://slu-soc5050.github.io/syllabus/"><strong>Syllabus</strong></a>. Both websites are hosted using GitHub. Learning these tools therefore opens up doors not only for managing data and data analyses, but also for communicating your findings.</p>
-
-<h2 id="analysis-development">Analysis Development</h2>
-
-<p>The workflow that Hadley introduced in the first video, and the idea that you cannot do data science in a <a href="https://en.wikipedia.org/wiki/Graphical_user_interface">GUI</a>, is opinionated - there is a strong premise that underlies the workflow about the ways in which spatial data (and data more generally) should be obtained, stored, modified, and mapped. Hilary Parker is a data scientist at <a href="http://stitchfix.com">Stichfix</a> and also runs a data science podcast called <a href="http://nssdeviations.com">Not So Standard Deviations</a>. She has been speaking recently about an idea called opinionated analysis development. The <a href="https://www.rstudio.com/resources/videos/opinionated-analysis-development/">video</a> linked to below is a 25 minute talk she gave on this idea last year, and she now has a <a href="https://peerj.com/preprints/3210/">draft paper</a> out on the topic as well. Our workflow for this semester is closely linked to the ideas she discusses in this talk.</p>
-
-<p> </p>
-
-<p><a href="https://www.rstudio.com/resources/videos/opinionated-analysis-development/"><img src="/images/opinionatedAnalysis.png" alt="opinionatedAnalysis" /></a></p>
-
-<p> </p>
-
-<p>Inspired by Hilary&rsquo;s idea of opinionated analysis development, our goal each week will be to focus on the <em>processes</em> that can be used to increase the reproducibility and accuracy of our statistical work.</p>
-
-<h2 id="lecture-prep-02">Lecture Prep 02</h2>
-
-<p>The lecture prep for the first week asks three follow-up questions about these videos. Please answer these questions and submit them before class on <strong>August 27th</strong>. Answers <strong>must</strong> be submitted through <a href="https://goo.gl/forms/a">Google Forms</a> and each response should be three to four sentences in length. The questions are provided here for reference:</p>
+<p>If you decide to use Docker&rsquo;s virtual installation, there are a couple of steps you will have to complete if you are using your own computer. If you are using a lab computer, you can skip the first two installation steps but will still need to complete step 3.</p>
 
 <ol>
-<li>Are you an &ldquo;office type&rdquo; or an &ldquo;engineering type&rdquo;? Why?</li>
-<li>Hadley Wickham introduces the idea of a workflow. In your own words, describe what you think a workflow is.</li>
-<li>What are some of the advantages of using plain text for a data analysis that Hadley and Kieran cite?</li>
-<li>In your own words, what are the key aspects of opinionated analysis development as described by Hilary Parker?</li>
+<li><p>You will need to download and install the appropriate version <a href="https://store.docker.com/search?type=edition&amp;offering=community">Docker Community Edition</a> for your operating system.</p></li>
+
+<li><p>The easiest way to use Docker is with its Docker&rsquo;s graphical user interface <a href="https://github.com/docker/kitematic/">Kitematic</a>. Download the latest version from <a href="https://github.com/docker/kitematic/releases/latest">Kitematic&rsquo;s GitHub page</a>.</p></li>
+
+<li><p>Once Kitematic is installed, make sure Docker is <strong>running</strong> before you open Kitematic. Skip the log-in process if you are prompted to do so. Search for the <code>slu-soc-stats</code> image in the search bar and click &ldquo;Create&rdquo; when you have found it.</p></li>
 </ol>
+
+<h3 id="using-docker-for-coursework">Using Docker for Coursework</h3>
+
+<p>Additional details about using Docker with Kitematic (recommended) and, alteratively, using the command line (a more advanced technique) can be found at the following links:</p>
+
+<p><p> </p>
+<a class="btn btn-primary btn-outline btn-xs" href="/course-software/docker-kitematic"> <i class="fab fa-docker"></i> Using Docker with Kitematic </a> <a class="btn btn-primary btn-outline btn-xs" href="/course-software/docker-cl"> <i class="fab fa-docker"></i> Using Docker with the Command Line </a></p>
+
+<h2 id="coursework-with-local-installations-of-r">Coursework with Local Installations of <code>R</code></h2>
+
+<p>If you decide to manage your own local installation of <code>R</code> this semester, which is the more advanced way to set-up the course software, you&rsquo;ll need to download both of the applications we&rsquo;re using, <code>R</code> and RStudio, install them, and then install the relevant packages.</p>
 
 
 			<aside class="copyright" role="note">
@@ -738,7 +695,7 @@
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="/course-software/docker-cl/" title="Docker via the Command Line">
+      <a href="/course-software/docker-intro/" title="Docker Intro">
         <span class="direction">
           Previous
         </span>
@@ -748,7 +705,7 @@
           </div>
           <div class="stretch">
             <div class="title">
-              Docker via the Command Line
+              Docker Intro
             </div>
           </div>
         </div>
@@ -758,14 +715,14 @@
 
   <div class="next">
   
-      <a href="/lecture-01/" title="Lecture 01 - Course Introduction">
+      <a href="/course-software/docker-kitematic/" title="Docker via Kitematic">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Lecture 01 - Course Introduction
+              Docker via Kitematic
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
