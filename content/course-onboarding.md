@@ -73,16 +73,17 @@ For two other books, you will have to decide whether you want to use the free ve
 The other item to purchase is a 1.5" three-ring binder (like high school! extra points for a [Trapper Keeper](http://mentalfloss.com/article/52726/history-trapper-keeper)!!). While all course materials are available online, they are often easier to use if they are printed. Each week you'll receive various handouts, including cheat sheets for `R`, an illustration of the workflow we are focused on, the lab, and the problem set. The handouts are designed with generous margins to facilitate note-taking on them, and they'll be distributed with holes already punched in them. Keeping these in a three-ring binder will help you refer back to your notes at a later date. You should also purchase dividers, either 16 (one for each week) or 8 (if you want to organize handouts by categories).
 
 ## Administrative Tasks
-There are two forms that all students must fill out by Tuesday, September 5th:
+There are two forms that all students must fill out by Monday **August 27th**:
 
 1. the [Student Information Sheet](https://goo.gl/forms/a), which gives me some info about you and gives you the chance to let me know about any initial concerns you might have.
 
 2. the un-graded [Diagnostic Assessment](https://goo.gl/forms/a), which is designed to get a sense of where each student's math skills are currently. Please don't consult outside materials as you do this - if you are not sure how to answer, please choose "I'm not sure" instead of guessing. If you look answers up it defeats the purpose of this exercise!
 
 ## Coursework
-Coursework tasks that need to be completed are listed on the syllabus under [Course Preview](https://slu-soc5050.github.io/syllabus/course-preview.html):
+Coursework tasks that need to be completed are listed on the syllabus under [Course Preview](https://slu-soc5050.github.io/syllabus/course-preview.html) and are linked to from the [course preview page](/course-preview/):
 
-* Complete the [Lecture Prep 01](https://goo.gl/forms/a) form that shows you have completed this course onboarding process. Do this *after* you have finished the course onboarding process.
-* Watch the posted videos on the [course preview page](/course-preview/)
-* Answer and submit the questions for Lecture Prep 02 linked to from the [course preview page](/course-preview/)
-* Complete the readings for [Lecture 01](https://slu-soc5050.github.io/syllabus/lecture-01-course-introduction.html)
+1. Complete the [Lecture Prep 01](https://goo.gl/forms/a) form that shows you have completed this course onboarding process. Do this *after* you have finished the course onboarding process.
+2. Complete the reading and watch the posted videos
+3. Answer and submit the questions for [Lecture Prep 02](https://goo.gl/forms/a)
+
+Additionally, you'll need to complete the readings for [Lecture 01](https://slu-soc5050.github.io/syllabus/lecture-01-course-introduction.html)
