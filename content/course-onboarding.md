@@ -6,8 +6,8 @@ weight: 10
 
 ## Meta
 
-![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) 
-![](https://img.shields.io/badge/last%20update-2018--07--27-brightgreen.svg)
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) 
+![](https://img.shields.io/badge/last%20update-2018--08--09-brightgreen.svg)
 
 ## Overview
 
@@ -36,19 +36,12 @@ The service that is hosting this website is called [GitHub](https://github.com/)
 Once you have a GitHub user name, send Chris a Direct Message via Slack with it so that you can be added to the [SOC 4015 & SOC 5050 organization](https://github.com/slu-soc5050). After you have been added to the organization, you should find your assignments repository and check the **Issues** tab. There should be an open **Issue** describing how feedback will be disseminated this semester. Please read it and then *close the issue* so that we know you've seen it.
 
 ## Course Software
-There are two options for *accessing* the course software, and two options for how to *install* it. Please read through these options carefully and make the decision that is best for you.
+There are two options for *accessing* the course software, and some instructions for how *install* it. Please read through these options carefully and make the decision that is best for you.
 
 ### Options for Accessing Software
-One option for accessing the software is to use your own computer. If you decide to go this route, please read the next two subsections on installing software and computer prep, and then head over to the [course software](/course-software/) page to continue setting up your computer. As long as you have a relatively new computer (within the last few years), you should have no problem using any of the applications for this class. 
+One option for accessing the software is to **use your own computer**. If you decide to go this route, please read the next two subsections on installing software and computer prep, and then head over to the [course software](/course-software/) page to continue setting up your computer. As long as you have a relatively new computer (within the last few years), you should have no problem using any of the applications for this class. 
 
-The other option is to rely on the computers in our classroom, and - lucky you(!) - you get 24-hour access to Morrissey Hall for the semester. If you decide to go this route, please read the next subsection on installing software and then head over to the [course software](/course-software/) page to continue setting up your computer.
-
-### Options for Installing Software
-Regardless of how you are accessing the software for this class, there are two options for installing the core applications `R` and RStudio as well as their associated dependencies. The first option is to use a virtual installation of `R` and RStudio. This uses an application called [Docker](http://docker.com) to create a virtual instance of `R` and RStudio that you can access via your browser. All of the packages required for the semester will already be pre-loaded, so Docker requires less time to get up and running. 
-
-This first option is recommended if you are using a lab computer, you are brand new to `R`, are less comfortable with computers, and/or are not sure whether or not you'll be using `R` after the end of the semester. Instructions for getting started with Docker be found on the [course software](/course-software/) page. **If you decide to use Docker installed on a computer lab machine, please try to arrive 10 to 15 minutes early on the first day of class to get your Desktop up and running.**
-
-The second option is to manage your own installation. This is recommended if you have used `R` before, are comfortable with computers, and is particularly recommended if you are using your own computer and plan to continue using `R` after the semester ends. Instructions for managing your own installation can be found on the [course software](/course-software/) page.
+The other option is to rely on the **computers in our classroom**, and - lucky you(!) - you get 24-hour access to Morrissey Hall for the semester. If you decide to go this route, you can go right to the [course software](/course-software/) page to continue setting up your computer.
 
 ### Computer Prep
 If you are using **your own computer**, you should do the following before proceeding:
