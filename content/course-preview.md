@@ -6,8 +6,8 @@ weight: 12
 
 ## Meta 
 
-![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) 
-![](https://img.shields.io/badge/last%20update-2018--07--26-brightgreen.svg)
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) 
+![](https://img.shields.io/badge/last%20update-2018--08--09-brightgreen.svg)
 
 ## Key Topics
 [{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
@@ -17,6 +17,10 @@ weight: 12
 [{{< keyword name="Reproducibility" >}}](/topic-index/#q-t)
 [{{< keyword name="Version Control" >}}](/topic-index/#u-x)
 [{{< keyword name="Workflow" >}}](/topic-index/#u-x)
+
+## Resources
+
+{{< syllabus "slu-soc5050" "course-preview" >}}
 
 ## Overview
 To set the stage for this semester, please watch the two videos below. These will take approximately 45 minutes to view. Once you have finished these videos, follow the link at the bottom of the page to answer a few short questions about what you saw. Before you begin, please make sure you have completed the [course onboarding](/getting-started/) process and Lecture Prep 01! You won't need any of the [course software](/course-software/) for this Course Preview, however, so there is no need to have installed software at this stage.
