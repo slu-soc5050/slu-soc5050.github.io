@@ -22,7 +22,9 @@ weight: 12
 To set the stage for this semester, please watch the two videos below. These will take approximately 45 minutes to view. Once you have finished these videos, follow the link at the bottom of the page to answer a few short questions about what you saw. Before you begin, please make sure you have completed the [course onboarding](/getting-started/) process and Lecture Prep 01! You won't need any of the [course software](/course-software/) for this Course Preview, however, so there is no need to have installed software at this stage.
 
 ## Plain Text Science
-To begin, please watch the first few sections of a recent talk by [Hadley Wickham](https://en.wikipedia.org/wiki/Hadley_Wickham). He is the Chief Scientist for RStudio and developer of the [`tidyverse`](http://tidyverse.org), which is a family of packages we'll be using this semester. In fact, the original name of this family of packages was the `hadleyverse`. Hadley is also the author of [*R for Data Science*](http://r4ds.had.co.nz), one of the books we'll be reading this semester. In this video, Hadley speaks about why using a programming language to express yourself for data science and statistical work can be so valuable. Please watch up to 18:30, when the "Why Program in R?" slide comes up.
+To begin, read the [introductory "chapter"](http://plain-text.co) (it is quite short!) to Duke University sociologist Kieran Healy's primer *The Plain Person's Guide to Plain Text Social Science.* This gives a great taste of some of the tools we'll be using this semester (like RMarkdown) as well as some of the ideas we'll be thinking about (like reproducibility).
+
+Once you've ready the Kieran's intro, please watch the first few sections of a recent talk by [Hadley Wickham](https://en.wikipedia.org/wiki/Hadley_Wickham). He is the Chief Scientist for RStudio and developer of the [`tidyverse`](http://tidyverse.org), which is a family of packages we'll be using this semester. In fact, the original name of this family of packages was the `hadleyverse`. Hadley is also the author of [*R for Data Science*](http://r4ds.had.co.nz), one of the books we'll be reading this semester. In this video, Hadley speaks about why using a programming language to express yourself for data science and statistical work can be so valuable. Please watch up to 18:30, when the "Why Program in R?" slide comes up.
 
 <p> </p>
 {{< youtube cpbtcsGE0OA >}}
@@ -52,6 +54,7 @@ Inspired by Hilary's idea of opinionated analysis development, our goal each wee
 ## Lecture Prep 02
 The lecture prep for the first week asks three follow-up questions about these videos. Please answer these questions and submit them before class on **August 27th**. Answers **must** be submitted through [Google Forms](https://goo.gl/forms/a) and each response should be three to four sentences in length. The questions are provided here for reference:
 
-1. Hadley Wickham introduces the idea of a workflow. In your own words, describe what you think a workflow is.
-2. What are some of the advantages of using plain text for a data analysis that Hadley cites?
-3. In your own words, what are the key aspects of opinionated analysis development as described by Hilary Parker?
+1. Are you an "office type" or an "engineering type"? Why?
+2. Hadley Wickham introduces the idea of a workflow. In your own words, describe what you think a workflow is.
+3. What are some of the advantages of using plain text for a data analysis that Hadley and Kieran cite?
+4. In your own words, what are the key aspects of opinionated analysis development as described by Hilary Parker?
