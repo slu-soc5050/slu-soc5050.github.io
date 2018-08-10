@@ -7,7 +7,7 @@ weight: 10
 ## Meta
 
 ![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) 
-![](https://img.shields.io/badge/last%20update-2018--08--09-brightgreen.svg)
+![](https://img.shields.io/badge/last%20update-2018--08--10-brightgreen.svg)
 
 ## Overview
 
@@ -23,6 +23,7 @@ This section provides details on completing the following steps:
 * Make some decisions about accessing [course software](/getting-started/#course-software)
 * [Get access to books](/getting-started/#get-access-to-books)
 * [Purchase other required materials](/getting-started/#other-materials)
+* Read through the [Code of Conduct](/getting-started/#code-of-conduct)
 * Complete the [student information sheet and diagnostic assessment](/getting-started/#administrative-tasks)
 * [Complete the initial coursework](/getting-started/#coursework)
 
@@ -71,6 +72,14 @@ For two other books, you will have to decide whether you want to use the free ve
 
 ## Other Materials
 The other item to purchase is a 1.5" three-ring binder (like high school! extra points for a [Trapper Keeper](http://mentalfloss.com/article/52726/history-trapper-keeper)!!). While all course materials are available online, they are often easier to use if they are printed. Each week you'll receive various handouts, including cheat sheets for `R`, an illustration of the workflow we are focused on, the lab, and the problem set. The handouts are designed with generous margins to facilitate note-taking on them, and they'll be distributed with holes already punched in them. Keeping these in a three-ring binder will help you refer back to your notes at a later date. You should also purchase dividers, either 16 (one for each week) or 8 (if you want to organize handouts by categories).
+
+## Code of Conduct
+
+The [syllabus describes](https://slu-soc5050.github.io/syllabus/compassionate-coursework.html) the Code of Conduct that is included each of the [GitHub](https://github.com/slu-soc5050/) repositories with this course. The syllabus description reads in part:
+
+> you should familiarize themselves with Contributor Covenant’s Code of Conduct, which is increasingly included in open source projects and is included with each lecture repository on GitHub. The Code of Conduct lays out expectations for how all students should to conduct themselves.
+
+Before moving forward with the onboarding tasks, please read through both the syllabus section on [compassionate coursework](https://slu-soc5050.github.io/syllabus/compassionate-coursework.html) as well as the copy of the [Code of Conduct](https://github.com/slu-soc5050/lecture-01/blob/master/.github/CODE_OF_CONDUCT.md) included in the [`lecture-01` repository on GitHub](https://github.com/slu-soc5050/lecture-01).
 
 ## Administrative Tasks
 There are two forms that all students must fill out by Monday **August 27th**:
