@@ -22,7 +22,7 @@ As of August 10, 2018, the software on the lab computers is out of date. Student
 ### Software Downloads
 There are two applications you will need to initially download and install to get `R` up and running..
 
-1. The computing language `R` needs to be downloaded and installed. You can download it from the {{< link "`R`'s website" "https://cloud.r-project.org">}}. Choose "Download R for (Mac) OS X" or "Download R for Windows". Windows users should look for a link that says "install R for the first time". Both macOS and Windows users should install `R` version `3.5.1`, known as "Feather Spray".[^1]
+1. The computing language `R` needs to be downloaded and installed. You can download it from {{< link "R's website" "https://cloud.r-project.org">}}. Choose "Download R for (Mac) OS X" or "Download R for Windows". Windows users should look for text that says "install R for the first time" and click the `base` to the left of that text. Both macOS and Windows users should install `R` version `3.5.1`, known as "Feather Spray".[^1]
 
 2. RStudio is a graphical user interface for `R` that will make learning the language and using it much, much easier. You should download the *free* version of RStudio from {{< link "their website" "https://www.rstudio.com/products/rstudio/download/#download">}}. Choose the appropriate installer for your platform. Make sure `R` is already installed before installing RStudio. As of August 10, 2018, the current version of RStudio is `v1.1.456`.
 
