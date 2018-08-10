@@ -7,7 +7,7 @@ weight: 12
 ## Meta 
 
 ![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) 
-![](https://img.shields.io/badge/last%20update-2018--08--09-brightgreen.svg)
+![](https://img.shields.io/badge/last%20update-2018--08--10-brightgreen.svg)
 
 ## Key Topics
 [{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
@@ -23,7 +23,7 @@ weight: 12
 {{< syllabus "slu-soc5050" "course-preview" >}}
 
 ## Overview
-To set the stage for this semester, please watch the two videos below. These will take approximately 45 minutes to view. Once you have finished these videos, follow the link at the bottom of the page to answer a few short questions about what you saw. Before you begin, please make sure you have completed the [course onboarding](/getting-started/) process and Lecture Prep 01! You won't need any of the [course software](/course-software/) for this Course Preview, however, so there is no need to have installed software at this stage.
+To set the stage for this semester, please watch the two videos below. These will take approximately 45 minutes to view. Once you have finished these videos, follow the link at the bottom of the page to answer a few short questions about what you saw. Before you begin, please make sure you have completed the [course onboarding](/course-onboarding/) process and Lecture Prep 01! You won't need any of the [course software](/course-software/) for this Course Preview, however, so there is no need to have installed software at this stage.
 
 ## Plain Text Science
 To begin, read the [introductory "chapter"](http://plain-text.co) (it is quite short!) to Duke University sociologist Kieran Healy's primer *The Plain Person's Guide to Plain Text Social Science.* This gives a great taste of some of the tools we'll be using this semester (like RMarkdown) as well as some of the ideas we'll be thinking about (like reproducibility).
@@ -56,9 +56,9 @@ The workflow that Hadley introduced in the first video, and the idea that you ca
 Inspired by Hilary's idea of opinionated analysis development, our goal each week will be to focus on the *processes* that can be used to increase the reproducibility and accuracy of our statistical work.
 
 ## Lecture Prep 02
-The lecture prep for the first week asks three follow-up questions about these videos. Please answer these questions and submit them before class on **August 27th**. Answers **must** be submitted through [Google Forms](https://goo.gl/forms/a) and each response should be three to four sentences in length. The questions are provided here for reference:
+The lecture prep for the first week asks three follow-up questions about these videos. Please answer these questions and submit them before class on **August 27th**. Answers **must** be submitted through [Google Forms](https://goo.gl/forms/yjn69cn5ZeSBuRA43) and each response should be three to four sentences in length. The questions are provided here for reference:
 
-1. Are you an "office type" or an "engineering type"? Why?
+1. Based on the typology presented by Kieran Healy, are you an "office type" or an "engineering type"? Why?
 2. Hadley Wickham introduces the idea of a workflow. In your own words, describe what you think a workflow is.
 3. What are some of the advantages of using plain text for a data analysis that Hadley and Kieran cite?
 4. In your own words, what are the key aspects of opinionated analysis development as described by Hilary Parker?
