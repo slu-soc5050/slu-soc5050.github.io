@@ -14,7 +14,7 @@ Minor revisions to the curriculum are in progress for the next edition of the co
 {{< /warning >}}
 
 </br>
-This site is for sections of SOC 4015 and SOC 5050 taught by Assistant Professor [Christopher Prener](https://chris-prener.github.io).
+This site is for sections of SOC 4015 and SOC 5050 taught by Assistant Professor {{< link "Christopher Prener" "https://chris-prener.github.io">}}. 
 
 ## Course Description
 <img src="/images/logo.png" align="right" />
@@ -34,8 +34,8 @@ This course has four intertwined objectives. After completing the course, studen
 
 ## Acknowledgements
 
-Like many things in academia, the "final" product here is the result of others' hard work as well as my own. I owe gratitude and thanks to [Hadley Wickham](http://hadley.nz), whose data science tools are heavily featured as part of this course. I also draw significant inspiration from [Jenny Bryan](https://www.stat.ubc.ca/~jenny/), whose [Stat 545 course](http://stat545.com) has served as a significant resource and a model for my own teaching. 
+Like many things in academia, the "final" product here is the result of others' hard work as well as my own. I owe gratitude and thanks to {{< link "Hadley Wickham" "http://hadley.nz">}}, whose data science tools are heavily featured as part of this course. I also draw significant inspiration from {{< link "Jenny Bryan" "https://www.stat.ubc.ca/~jenny/">}}, whose {{< link "Stat 545 course" "http://stat545.com">}} has served as a significant resource and a model for my own teaching. 
 
-This website itself is the product of [Yihui Xie's](https://yihui.name) work on the [blogdown](https://bookdown.org/yihui/blogdown/) package for `R` as well as [Digitalcraftsman's](https://github.com/digitalcraftsman) port of [Martin Donath's](https://github.com/squidfunk) [Material theme](https://github.com/squidfunk/mkdocs-material).
+This website itself is the product of {{< link "Yihui Xie's" "https://yihui.name">}} work on the {{< link "blogdown" "https://bookdown.org/yihui/blogdown/">}} package for `R` as well as {{< link "Digitalcraftsman's" "https://github.com/digitalcraftsman">}} port of {{< link "Martin Donath's" "https://github.com/squidfunk">}} {{< link "Material theme" "https://github.com/squidfunk/mkdocs-material">}}.
 
 Finally, I want to acknowledge my now nine semesters' worth of research methods students, whose collective feedback and experiences have helped dramatically reshape the course content and how I teach. I am immensely grateful for each of your contributions to my methods courses.

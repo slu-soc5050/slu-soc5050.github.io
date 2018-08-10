@@ -11,7 +11,7 @@ weight: 10
 
 ## Overview
 
-Before you begin the semester, there are a number of things that you should do to help set yourself up for success. **All of the applicable sections below should be completed before our first class on August 27th.** Before you do *anything* else, though, you should read through the [**Syllabus**](https://slu-soc5050.github.io/syllabus/). Make sure you have a good sense of what is *required* for the course. If you have questions, bring them to the first day of class!
+Before you begin the semester, there are a number of things that you should do to help set yourself up for success. **All of the applicable sections below should be completed before our first class on August 27th.** Before you do *anything* else, though, you should read through the **{{< link "Syllabus" "https://slu-soc5050.github.io/syllabus/">}}**. Make sure you have a good sense of what is *required* for the course. If you have questions, bring them to the first day of class!
 
 ## Onboarding Checklist
 This section provides details on completing the following steps:
