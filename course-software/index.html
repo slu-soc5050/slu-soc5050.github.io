@@ -648,28 +648,35 @@
 
 <h2 id="meta">Meta</h2>
 
-<p><img src="https://img.shields.io/badge/semester-fall%202018-orange.svg" alt="" /> <img src="https://img.shields.io/badge/release-full-brightgreen.svg" alt="" />
-<img src="https://img.shields.io/badge/last%20update-2018--08--09-brightgreen.svg" alt="" /></p>
+<p><img src="https://img.shields.io/badge/semester-fall%202018-orange.svg" alt="" /> <img src="https://img.shields.io/badge/release-updated-brightgreen.svg" alt="" />
+<img src="https://img.shields.io/badge/last%20update-2018--08--10-brightgreen.svg" alt="" /></p>
 
 <h2 id="overview">Overview</h2>
 
-<p>This course is built primarily around a trio of software applications - the programming language <code>R</code>, the graphical user interface for <code>R</code> called RStudio, and GitHub Desktop. As I noted on the <a href="/getting-started/#course-software">course onboarding page</a>, there are two choices for <em>accessing</em> software. Please read through the <a href="/getting-started/#course-software">course onboarding page</a> page carefully and make the decisions you think are best for you - either using your own computer or using a lab computer. Feel free to shoot me a message on Slack or via email if you have questions about which approach is best.</p>
+<p>This course is built primarily around a trio of software applications - the programming language <code>R</code>, the graphical user interface for <code>R</code> called RStudio, and GitHub Desktop. As I noted on the <a href="/course-onboarding/#course-software">course onboarding page</a>, there are two choices for <em>accessing</em> software. Please read through the <a href="/course-onboarding/#course-software">course onboarding page</a> page carefully and make the decisions you think are best for you - either using your own computer or using a lab computer. Feel free to shoot me a message on Slack or via email if you have questions about which approach is best.</p>
+
+<div class="admonition warning">
+<p class="admonition-title">Desktops in 3600 Morrissey</p>
+<p>As of August 10, 2018, the software on the lab computers is out of date. Students should be prepared to follow the installation steps below for R, RStudio, and GitHub Desktop during the first week of class. I will keep this space updated if there are a change in the status of these computers.</p>
+</div>
 
 <h2 id="installing-r-and-rstudio">Installing <code>R</code> and RStudio</h2>
 
 <h3 id="software-downloads">Software Downloads</h3>
 
-<p>There are two applications you will need to initially download and install to get <code>R</code> up and running. If you already have these installed, please check to make sure you are running the latest versions! <em>This is particularly important for users of SLU managed desktops, which will likely be out of date.</em></p>
+<p>There are two applications you will need to initially download and install to get <code>R</code> up and running..</p>
 
 <ol>
-<li><p>The computing language <code>R</code> needs to be downloaded and installed. You can download it from the <a href="https://cloud.r-project.org"><code>R</code>&rsquo;s website</a>. Choose &ldquo;Download R for (Mac) OS X&rdquo; or &ldquo;Download R for Windows&rdquo;. Windows users should look for a link that says &ldquo;install R for the first time&rdquo;. Both macOS and Windows users should install <code>R</code> version 3.5.1, known as &ldquo;Feather Spray&rdquo;.<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p></li>
+<li><p>The computing language <code>R</code> needs to be downloaded and installed. You can download it from the <a href="https://cloud.r-project.org" target="_blank"> `R`&#39;s website </a>. Choose &ldquo;Download R for (Mac) OS X&rdquo; or &ldquo;Download R for Windows&rdquo;. Windows users should look for a link that says &ldquo;install R for the first time&rdquo;. Both macOS and Windows users should install <code>R</code> version <code>3.5.1</code>, known as &ldquo;Feather Spray&rdquo;.<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p></li>
 
-<li><p>RStudio is a graphical user interface for <code>R</code> that will make learning the language and using it much, much easier. You should download the <em>free</em> version of RStudio from <a href="https://www.rstudio.com/products/rstudio/download/#download">their website</a>. Choose the appropriate installer for your platform. Make sure <code>R</code> is already installed before installing RStudio.</p></li>
+<li><p>RStudio is a graphical user interface for <code>R</code> that will make learning the language and using it much, much easier. You should download the <em>free</em> version of RStudio from <a href="https://www.rstudio.com/products/rstudio/download/#download" target="_blank"> their website </a>. Choose the appropriate installer for your platform. Make sure <code>R</code> is already installed before installing RStudio. As of August 10, 2018, the current version of RStudio is <code>v1.1.456</code>.</p></li>
 </ol>
+
+<p>If you already have these installed, please check to make sure you are running the latest versions! If you are not running the latest versions, the installation instructions here will also work to update both applications</p>
 
 <h3 id="install-r-packages">Install <code>R</code> Packages</h3>
 
-<p>There are a number of <code>R</code> packages that you will need for this semester. If you feel feel comfortable, go ahead and take care of this before the semester starts. If not, we&rsquo;ll go over how to do this type of installation on the first day of class!</p>
+<p>There are a number of <code>R</code> packages that you will need for this semester. If you feel feel comfortable, go ahead and take care of this before the semester starts. If not, we&rsquo;ll go over how to do this type of installation on the first day of class! <strong>All students, regardless of whether you are using RStudio on a lab computer or your own machine will need to do this.</strong></p>
 
 <p>The following code snipped can be pasted into your <code>R</code> console to install all of these required packages.</p>
 
@@ -691,13 +698,15 @@
 
 <h2 id="github-desktop">GitHub Desktop</h2>
 
-<p>In addition to the applications above, everyone will need a local installation of GitHub Desktop, which is a graphical user interface for accessing Git and GitHub.com. It can be downloaded for free from the application&rsquo;s <a href="https://desktop.github.com">website</a>. You will need to download and run the installer. Once it is complete, you will need to login to the application with your <a href="/getting-started/#account-signups">GitHub.com username and password</a>.</p>
+<p>In addition to the applications above, everyone will need a local installation of GitHub Desktop, which is a graphical user interface for accessing Git and GitHub.com. It can be downloaded for free from the <a href="https://desktop.github.com" target="_blank"> application&#39;s website </a>. You will need to download and run the installer. Once it is complete, you will need to login to the application with your <a href="/course-onboarding/#account-signups">GitHub.com username and password</a>.</p>
+
+<p>If you already have GitHub Desktop installed, you should check to make sure you are running the latest version of GitHub Desktop. As of August 10, 2018, the latest version is <code>v1.3.2</code>. If you need to update GitHub Desktop, you should also <a href="https://git-scm.com/downloads" target="_blank"> download </a> and install the latest version of Git.</p>
 <div class="footnotes">
 
 <hr />
 
 <ol>
-<li id="fn:1">All of <code>R</code>&rsquo;s version names are taken from the <a href="http://livefreeordichotomize.com/2017/09/28/r-release-names/">Peanuts comic strip</a>.
+<li id="fn:1">All of <code>R</code>&rsquo;s version names are taken from the <a href="http://livefreeordichotomize.com/2017/09/28/r-release-names/" target="_blank"> Peanuts comic strip </a>.
  <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
 </ol>
 </div>
