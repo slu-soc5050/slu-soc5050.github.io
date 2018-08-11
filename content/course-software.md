@@ -36,11 +36,11 @@ The following code snipped can be pasted into your `R` console to install all of
 ```r
 install.packages(c("tidyverse", "car", "cowsay",
     "effsize", "heplots", "Hmisc",
-    "knitr", "gapminder", "ggridges", 
+    "knitr", "gapminder", "ggridges", "ggstatsplot",
     "ggthemes", "janitor", "lmtest", "moments", 
     "naniar", "nortest",  "psych", "pwr", 
     "remotes", "reprex", "rmarkdown",
-    "sandwich", "stargazer", "skimr"))
+    "sandwich", "skimr"))
 ```
 
 Once these packages are installed, you will also need to install an additional package with a different approach. The `testDriveR` package is only available on GitHub, and therefore requires a separate installation using the `remotes` package's `install_github()` function:

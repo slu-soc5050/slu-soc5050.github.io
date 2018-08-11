@@ -22,11 +22,11 @@ The following is a list of packages used during the semester along with links to
 
 ## Base `R` Packages
 - `base` - base functions &emsp; {{< pkgIndex "#q-t" >}} {{< pkgWeb "https://stat.ethz.ch/R-manual/R-patched/library/base/html/00Index.html" >}}
+- `datasets` - Teaching data that comes with `base R` &emsp; {{< pkgIndex "#a-d" >}} {{< pkgCran "datasets" >}}
 - `stats` - statistical functions &emsp; {{< pkgIndex "#q-t" >}} {{< pkgWeb "https://stat.ethz.ch/R-manual/R-patched/library/stats/html/00Index.html"  >}}
 - `utils` - utility functions &emsp; {{< pkgIndex "#u-z" >}} {{< pkgWeb "https://stat.ethz.ch/R-manual/R-patched/library/utils/html/00Index.html" >}}
 
 ## Data Packages
-- `datasets` - Teaching data that comes with `base R` &emsp; {{< pkgIndex "#a-d" >}} {{< pkgCran "datasets" >}}
 - `gapminder` - Teaching data from Gapminder project &emsp; {{< pkgIndex "#e-h" >}} {{< pkgCran "gapminder" >}} {{< pkgGitHub "jennybc/gapminder" >}}
 - `testDriveR` - Data sets for teaching &emsp; {{< pkgIndex "#q-t" >}} {{< pkgGitHub "chris-prener/testDriveR" >}} {{< pkgWeb "https://chris-prener.github.io/testDriveR" >}}
   - install the development version via GitHub - `remotes::install_github("chris-prener/testDriveR")`
@@ -62,12 +62,12 @@ These must be installed independently!
 
 ## Data Output Packages
 - `ggridges` - ridge plots &emsp; {{< pkgIndex "#e-h" >}} {{< pkgCran "ggridges" >}} {{< pkgGitHub "clauswilke/ggridges" >}}
+- `ggstatsplot` - statistical plots &emsp; {{< pkgIndex "#e-h" >}} {{< pkgCran "ggstatsplot" >}} {{< pkgGitHub "IndrajeetPatil/ggstatsplot" >}} {{< pkgWeb "https://indrajeetpatil.github.io/ggstatsplot/" >}}
 - `ggthemes` - plot themes &emsp; {{< pkgIndex "#e-h" >}} {{< pkgCran "ggthemes" >}} {{< pkgGitHub "jrnold/ggthemes" >}}
 - `heplots` - diagnostic plots &emsp; {{< pkgIndex "#e-h" >}} {{< pkgCran "heplots" >}} {{< pkgGitHub "friendly/heplots" >}} {{< pkgWeb "http://friendly.github.io/heplots/" >}}
 - `janitor` - data wrangling and tables &emsp; {{< pkgIndex "#e-h" >}} {{< pkgCran "janitor" >}} {{< pkgGitHub "sfirke/janitor" >}}
 - `knitr` - dynamic documents in `R` &emsp; {{< pkgIndex "#i-l" >}} {{< pkgCran "knitr" >}} {{< pkgGitHub "yihui/knitr" >}} {{< pkgWeb "https://yihui.name/knitr/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf" >}}
 - `RMarkdown` - markdown syntax for `R` &emsp; {{< pkgIndex "#q-t" >}} {{< pkgCran "RMarkdown" >}} {{< pkgGitHub "rstudio/rmarkdown" >}} {{< pkgWeb "http://rmarkdown.rstudio.com/" >}} {{< pkgSheet "https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf" >}}
-- `stargazer` - LaTeX output &emsp; {{< pkgIndex "#q-t" >}} {{< pkgCran "stargazer" >}}
 
 ## Other Utility Packages
 - `cowsay` - fun ASCII characters {{< pkgIndex "#a-d" >}} {{< pkgCran "cowsay" >}}
