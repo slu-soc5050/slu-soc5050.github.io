@@ -15,8 +15,8 @@ weight: 12
 [{{< tool name="R" >}}](/topic-index/#q-t)
 [{{< keyword name="RMarkdown" >}}](/topic-index/#q-t)
 [{{< keyword name="Reproducibility" >}}](/topic-index/#q-t)
-[{{< keyword name="Version Control" >}}](/topic-index/#u-x)
-[{{< keyword name="Workflow" >}}](/topic-index/#u-x)
+[{{< keyword name="Version Control" >}}](/topic-index/#u-z)
+[{{< keyword name="Workflow" >}}](/topic-index/#u-z)
 
 ## Resources
 

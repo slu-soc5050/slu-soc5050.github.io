@@ -648,7 +648,21 @@
 
 <h2 id="meta">Meta</h2>
 
-<p><img src="https://img.shields.io/badge/semester-fall%202018-orange.svg" alt="" /> <img src="https://img.shields.io/badge/release-draft-red.svg" alt="" /> <a href="https://github.com/slu-soc5050/lecture-01/blob/master/NEWS_SITE.md"><img src="https://img.shields.io/badge/last%20update-2018--05--04-brightgreen.svg" alt="" /></a></p>
+<p><img src="https://img.shields.io/badge/semester-fall%202018-orange.svg" alt="" /> <img src="https://img.shields.io/badge/release-draft-red.svg" alt="" /> <a href="https://github.com/slu-soc5050/lecture-01/blob/master/NEWS_SITE.md"><img src="https://img.shields.io/badge/last%20update-2018--08--11-brightgreen.svg" alt="" /></a></p>
+
+<h2 id="key-topics">Key Topics</h2>
+
+<p><a href="/topic-index/#a-d"><i class="keyword"><i class="fas fa-tags"></i> Analysis development</i> </a>
+<a href="/topic-index/#a-d"><i class="keyword"><i class="fas fa-tags"></i> Assignment</i> </a>
+<a href="/topic-index/#a-d"><i class="package"><i class="fas fa-archive"></i> cowsay</i></a>
+<a href="/topic-index/#a-d"><i class="keyword"><i class="fas fa-tags"></i> Data</i> </a>
+<a href="/topic-index/#a-d"><i class="package"><i class="fas fa-archive"></i> datasets</i></a>
+<a href="/topic-index/#e-h"><i class="tool"><i class="fas fa-desktop"></i> GitHub</i></a>
+<a href="/topic-index/#m-p"><i class="keyword"><i class="fas fa-tags"></i> Package installation</i> </a>
+<a href="/topic-index/#q-t"><i class="tool"><i class="fas fa-desktop"></i> R</i></a>
+<a href="/topic-index/#q-t"><i class="keyword"><i class="fas fa-tags"></i> Reproducibility</i> </a>
+<a href="/topic-index/#u-z"><i class="package"><i class="fas fa-archive"></i> utils</i></a>
+<a href="/topic-index/#u-z"><i class="keyword"><i class="fas fa-tags"></i> Workflow</i> </a></p>
 
 <h2 id="resources">Resources</h2>
 
@@ -666,16 +680,25 @@
 
 <h2 id="introducing-r-and-rstudio">Introducing R and RStudio</h2>
 
-<p><p> </p>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/eQRjfpoFP0U" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-</p>
-
 <p>At the very end of our first class, we introduced some basic aspects of R and RStudio. The video above summarizes what we went over and introduces some new functions as well. Please watch this before tackling the week two materials.</p>
 
 <p>An additional resource is RStudio&rsquo;s <a href="https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf" target="_blank"> cheatsheet </a> that covers the basics of their software.</p>
+
+<h3 id="syntax-basics">Syntax Basics</h3>
+
+<ul>
+<li>assignment operator</li>
+<li>loading data from a package (<code>faithful</code> from <code>datasets</code>)</li>
+<li><code>str()</code></li>
+<li><code>View()</code></li>
+</ul>
+
+<p>This initial example illustrates a couple of key concepts for using <code>R</code>:</p>
+
+<ol>
+<li>Programming in <code>R</code> is always done with <strong>functions</strong>.</li>
+<li>Functions take <strong>arguments</strong>. In this case, there is only one argument - the object name.</li>
+</ol>
 
 <h3 id="installing-packages">Installing Packages</h3>
 
@@ -683,6 +706,8 @@
 
 <pre><code class="language-r">install.packages(&quot;cowsay&quot;)
 </code></pre>
+
+<h3 id="using-packages">Using Packages</h3>
 
 <p>The <code>cowsay</code> package isn&rsquo;t a serious one. It can be used to draw a variety of ascii art:</p>
 
@@ -733,13 +758,12 @@ do or do not, there is no try
                 &quot;-.t-._:'
 </code></pre>
 
-<p>This example illustrates a number of important concepts for using <code>R</code>:</p>
+<p>This example illustrates a number of additional important concepts for using <code>R</code>:</p>
 
 <ol>
 <li>Packages must be installed using, usually from <a href="https://cran.r-project.org"><strong>CRAN</strong></a>, the <code>R</code> package distribution system. The <code>install.packages()</code> function accomplishes this. This process (typically) only has to happen once.</li>
-<li>Programming in <code>R</code> is always done with <strong>functions</strong>.</li>
-<li>Packages must be loaded using the <code>library()</code> function at the beginning of each session.</li>
-<li>Functions take <strong>arguments</strong>. In this case, there are two arguments - <code>what</code> and <code>by</code>.</li>
+<li><em>Most</em> packages must be loaded using the <code>library()</code> function at the beginning of each session.</li>
+<li>Functions take <strong>multiple</strong> arguments. In this case, there are two arguments - <code>what</code> and <code>by</code>.</li>
 </ol>
 
 <p>You can learn more about <code>cowsay</code> by looking at the <code>README</code> file on the package&rsquo;s <a href="https://github.com/sckott/cowsay" target="_blank"> GitHub page </a>. <a href="https://github.com">GitHub</a> is a service for tracking the development of open source software and data analyses, and sharing them with others. Many modern <code>R</code> packages are developed on GitHub, and the site can provide a wealth of information and examples about how particular packages work. For instance, the full list of animals available in <code>cowsay</code> can be seen in the <code>README</code> file.</p>
