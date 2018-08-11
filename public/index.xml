@@ -279,8 +279,8 @@ Waypoints The final project instructions include &amp;ldquo;waypoints&amp;rdquo;
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
       <guid>/topic-index/</guid>
-      <description> Meta The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. Italicized items are only covered in the readings. If you have additions or suggestions, please let Chris know!
-A-D E-H I-L M-P Q-T U-Z  utils (Lecture-01)  Install packages from CRAN, install.packages() Structure of an object, str() Spreadsheet-like data view, View()    </description>
+      <description>Meta The following is a list of topics and skills covered during the semester. This will grow as we progress through the coursework. Italicized items are only covered in the readings. If you have additions or suggestions, please let Chris know!
+A-D  Analysis development (Course Preview) datasets  faithful, Old Faithful geyser data (Lecture-01)   E-H  GitHub (Course Preview)  I-L M-P Q-T  R (Course Preview) reproducibility (Course Preview) RMarkdown (Course Preview)  U-Z  utils (Lecture-01)  Install packages from CRAN, install.</description>
     </item>
     
     <item>
@@ -290,7 +290,7 @@ A-D E-H I-L M-P Q-T U-Z  utils (Lecture-01)  Install packages from CRAN, install
       
       <guid>/package-index/</guid>
       <description>Meta The following is a list of packages used during the semester along with links to additional resources. This list does not include dependencies that may be installed for these packages to work. Unless otherwise noted, packages are available via CRAN and can be installed using base::install.packages(&amp;quot;packageName&amp;quot;).
-Icon reference   - Topic index  - CRAN site  - GitHub repo  - Website  - RStudio Cheatsheet  - Book  Base R Packages  base - base functions &amp;emsp;   stats - statistical functions &amp;emsp;   utils - utility functions &amp;emsp;    Data Packages  gapminder - Teaching data from Gapminder project &amp;emsp;     testDriveR - Data sets for teaching &amp;emsp;     install the development version via GitHub - remotes::install_github(&amp;quot;chris-prener/testDriveR&amp;quot;)   Tidyverse Packages Core Tidyverse Packages Use install.</description>
+Icon reference   - Topic index  - CRAN site  - GitHub repo  - Website  - RStudio Cheatsheet  - Book  Base R Packages  base - base functions &amp;emsp;   stats - statistical functions &amp;emsp;   utils - utility functions &amp;emsp;    Data Packages  datasets - Teaching data that comes with base R &amp;emsp;    gapminder - Teaching data from Gapminder project &amp;emsp;     testDriveR - Data sets for teaching &amp;emsp;     install the development version via GitHub - remotes::install_github(&amp;quot;chris-prener/testDriveR&amp;quot;)   Tidyverse Packages Core Tidyverse Packages Use install.</description>
     </item>
     
   </channel>

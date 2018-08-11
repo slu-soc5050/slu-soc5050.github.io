@@ -26,6 +26,7 @@ The following is a list of packages used during the semester along with links to
 - `utils` - utility functions &emsp; {{< pkgIndex "#u-z" >}} {{< pkgWeb "https://stat.ethz.ch/R-manual/R-patched/library/utils/html/00Index.html" >}}
 
 ## Data Packages
+- `datasets` - Teaching data that comes with `base R` &emsp; {{< pkgIndex "#a-d" >}} {{< pkgCran "datasets" >}}
 - `gapminder` - Teaching data from Gapminder project &emsp; {{< pkgIndex "#e-h" >}} {{< pkgCran "gapminder" >}} {{< pkgGitHub "jennybc/gapminder" >}}
 - `testDriveR` - Data sets for teaching &emsp; {{< pkgIndex "#q-t" >}} {{< pkgGitHub "chris-prener/testDriveR" >}} {{< pkgWeb "https://chris-prener.github.io/testDriveR" >}}
   - install the development version via GitHub - `remotes::install_github("chris-prener/testDriveR")`
