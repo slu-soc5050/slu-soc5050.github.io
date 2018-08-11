@@ -671,9 +671,9 @@
 
 <h2 id="plain-text-science">Plain Text Science</h2>
 
-<p>To begin, read the <a href="http://plain-text.co">introductory &ldquo;chapter&rdquo;</a> (it is quite short!) to Duke University sociologist Kieran Healy&rsquo;s primer <em>The Plain Person&rsquo;s Guide to Plain Text Social Science.</em> This gives a great taste of some of the tools we&rsquo;ll be using this semester (like RMarkdown) as well as some of the ideas we&rsquo;ll be thinking about (like reproducibility).</p>
+<p>To begin, read the <a href="http://plain-text.co" target="_blank"> introductory </a> &ldquo;chapter&rdquo; (it is quite short!) to Duke University sociologist <a href="http://kieranhealy.org" target="_blank"> Kieran Healy&#39;s </a> primer <em><a href="http://plain-text.co" target="_blank"> The Plain Person&#39;s Guide to Plain Text Social Science </a></em>. This gives a great taste of some of the tools we&rsquo;ll be using this semester (like RMarkdown) as well as some of the ideas we&rsquo;ll be thinking about (like reproducibility).</p>
 
-<p>Once you&rsquo;ve ready the Kieran&rsquo;s intro, please watch the first few sections of a recent talk by <a href="https://en.wikipedia.org/wiki/Hadley_Wickham">Hadley Wickham</a>. He is the Chief Scientist for RStudio and developer of the <a href="http://tidyverse.org"><code>tidyverse</code></a>, which is a family of packages we&rsquo;ll be using this semester. In fact, the original name of this family of packages was the <code>hadleyverse</code>. Hadley is also the author of <a href="http://r4ds.had.co.nz"><em>R for Data Science</em></a>, one of the books we&rsquo;ll be reading this semester. In this video, Hadley speaks about why using a programming language to express yourself for data science and statistical work can be so valuable. Please watch up to 18:30, when the &ldquo;Why Program in R?&rdquo; slide comes up.</p>
+<p>Once you&rsquo;ve ready the Kieran&rsquo;s intro, please watch the first few sections of a recent talk by <a href="https://en.wikipedia.org/wiki/Hadley_Wickham" target="_blank"> Hadley Wickham </a>. He is the Chief Scientist for RStudio and developer of the <code><a href="http://tidyverse.org" target="_blank"> tidyverse </a></code>, which is a family of packages we&rsquo;ll be using this semester. In fact, the original name of this family of packages was the <code>hadleyverse</code>. Hadley is also the author of <em><a href="http://r4ds.had.co.nz" target="_blank"> R for Data Science </a></em>, one of the books we&rsquo;ll be reading this semester. In this video, Hadley speaks about why using a programming language to express yourself for data science and statistical work can be so valuable. Please watch up to 18:30, when the &ldquo;Why Program in R?&rdquo; slide comes up.</p>
 
 <p> </p>
 
@@ -683,24 +683,26 @@
 
 <p> </p>
 
+<p>For the uninitiated, here is a description of what a <a href="https://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank"> GUI </a> is.</p>
+
 <p>Here are links to the two GitHub repositories Hadley referenced during the talk:</p>
 
 <ul>
-<li><a href="https://github.com/bcgov/bc-population-indicator">BC Population Indicator</a>
+<li><a href="https://github.com/bcgov/bc-population-indicator" target="_blank"> BC Population Indicator </a>
 
 <ul>
-<li>The history that Wickham references can be viewed <a href="https://github.com/bcgov/bc-population-indicator/commits/master">here</a>, and you can click on any of the commit messages or numbers to view how specific files have changed. <a href="https://github.com/bcgov/bc-population-indicator/commit/53608ab2142f541d6794c26144e1f868bdec37db">This</a> is one example from March 2018. Red text indicates deletions, and green text indicates additions.</li>
+<li>The history that Wickham references can be viewed <a href="https://github.com/bcgov/bc-population-indicator/commits/master" target="_blank"> here </a>, and you can click on any of the commit messages or numbers to view how specific files have changed. <a href="https://github.com/bcgov/bc-population-indicator/commit/53608ab2142f541d6794c26144e1f868bdec37db" target="_blank"> This </a> is one example from March 2018. Red text indicates deletions, and green text indicates additions.</li>
 </ul></li>
-<li><a href="https://github.com/jennybc/frogs">Calaveras Jumping Frog Jubilee</a></li>
+<li><a href="https://github.com/jennybc/frogs" target="_blank"> Calaveras Jumping Frog Jubilee </a></li>
 </ul>
 
 <p>Many (but not all of you) will have experienced some parts of these processes before. Perhaps you&rsquo;ve used Microsoft Excel to organize some information or used SPSS to analyze some quantitative data. We won&rsquo;t be using those tools. Instead, this course will emphasize the use of other tools that support reproducible, accurate, and collaborative data analysis. Throughout the semester, we&rsquo;ll discuss why these tools are important and the advantages they have over other products that are out there.</p>
 
-<p>The tools we use are also incredibly flexible and therefore powerful. <code>R</code> and Markdown, for example, were used exclusively to create this website and the <a href="https://slu-soc5050.github.io/syllabus/"><strong>Syllabus</strong></a>. Both websites are hosted using GitHub. Learning these tools therefore opens up doors not only for managing data and data analyses, but also for communicating your findings.</p>
+<p>The tools we use are also incredibly flexible and therefore powerful. <code>R</code> and Markdown, for example, were used exclusively to create this website and the <strong><a href="https://slu-soc5050.github.io/syllabus/" target="_blank"> Syllabus </a></strong>. Both websites are hosted using GitHub. Learning these tools therefore opens up doors not only for managing data and data analyses, but also for communicating your findings.</p>
 
 <h2 id="analysis-development">Analysis Development</h2>
 
-<p>The workflow that Hadley introduced in the first video, and the idea that you cannot do data science in a <a href="https://en.wikipedia.org/wiki/Graphical_user_interface">GUI</a>, is opinionated - there is a strong premise that underlies the workflow about the ways in which spatial data (and data more generally) should be obtained, stored, modified, and mapped. Hilary Parker is a data scientist at <a href="http://stitchfix.com">Stichfix</a> and also runs a data science podcast called <a href="http://nssdeviations.com">Not So Standard Deviations</a>. She has been speaking recently about an idea called opinionated analysis development. The <a href="https://www.rstudio.com/resources/videos/opinionated-analysis-development/">video</a> linked to below is a 25 minute talk she gave on this idea last year, and she now has a <a href="https://peerj.com/preprints/3210/">draft paper</a> out on the topic as well. Our workflow for this semester is closely linked to the ideas she discusses in this talk.</p>
+<p>The workflow that Hadley introduced in the first video, and the idea that you cannot do data science in a GUI, is opinionated - there is a strong premise that underlies the workflow about the ways in which spatial data (and data more generally) should be obtained, stored, modified, and mapped. Hilary Parker is a data scientist at <a href="http://stitchfix.com" target="_blank"> Stichfix </a> and also runs a data science podcast called <a href="http://nssdeviations.com" target="_blank"> Not So Standard Deviations </a>. She has been speaking recently about an idea called opinionated analysis development. The <a href="https://www.rstudio.com/resources/videos/opinionated-analysis-development/" target="_blank"> video </a> linked to below is a 25 minute talk she gave on this idea last year, and she now has a <a href="https://peerj.com/preprints/3210/" target="_blank"> draft paper </a> out on the topic as well. Our workflow for this semester is closely linked to the ideas she discusses in this talk.</p>
 
 <p> </p>
 
@@ -712,7 +714,7 @@
 
 <h2 id="lecture-prep-02">Lecture Prep 02</h2>
 
-<p>The lecture prep for the first week asks three follow-up questions about these videos. Please answer these questions and submit them before class on <strong>August 27th</strong>. Answers <strong>must</strong> be submitted through <a href="https://goo.gl/forms/yjn69cn5ZeSBuRA43">Google Forms</a> and each response should be three to four sentences in length. The questions are provided here for reference:</p>
+<p>The lecture prep for the first week asks three follow-up questions about these videos. Please answer these questions and submit them before class on <strong>August 27th</strong>. Answers <strong>must</strong> be submitted through <a href="https://goo.gl/forms/yjn69cn5ZeSBuRA43" target="_blank"> Google Forms </a> and each response should be three to four sentences in length. The questions are provided here for reference:</p>
 
 <ol>
 <li>Based on the typology presented by Kieran Healy, are you an &ldquo;office type&rdquo; or an &ldquo;engineering type&rdquo;? Why?</li>
