@@ -66,8 +66,6 @@ The `cowsay` package isn't a serious one. It can be used to draw a variety of as
 > library(cowsay)
 > say(what = "do or do not, there is no try", by = "yoda")
 
-
-
  ----- 
 do or do not, there is no try 
  ------ 
@@ -116,4 +114,8 @@ This example illustrates a number of additional important concepts for using `R`
 2. *Most* packages must be loaded using the `library()` function at the beginning of each session.
 3. Functions take **multiple** arguments. In this case, there are two arguments - `what` and `by`.
 
+### Getting Help
+
 You can learn more about `cowsay` by looking at the `README` file on the package's {{< link "GitHub page" "https://github.com/sckott/cowsay" >}}. [GitHub](https://github.com) is a service for tracking the development of open source software and data analyses, and sharing them with others. Many modern `R` packages are developed on GitHub, and the site can provide a wealth of information and examples about how particular packages work. For instance, the full list of animals available in `cowsay` can be seen in the `README` file.
+
+You can also type `?cowsay` ...
