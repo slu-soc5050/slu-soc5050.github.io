@@ -30,6 +30,7 @@ weight: 20
 {{< button "Functions" "ttps://github.com/slu-soc5050/Week-01/blob/master/Functions/week-01-rQuickref.pdf" >}}
 
 ## Lecture Slides
+**_This slides are from Fall 2017 and will be updated before the first night of class._**
 <p> </p>
 <script async class="speakerdeck-embed" data-id="35432b57f3884b2c91c9e7ace2c87c50" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
@@ -118,4 +119,4 @@ This example illustrates a number of additional important concepts for using `R`
 
 You can learn more about `cowsay` by looking at the `README` file on the package's {{< link "GitHub page" "https://github.com/sckott/cowsay" >}}. [GitHub](https://github.com) is a service for tracking the development of open source software and data analyses, and sharing them with others. Many modern `R` packages are developed on GitHub, and the site can provide a wealth of information and examples about how particular packages work. For instance, the full list of animals available in `cowsay` can be seen in the `README` file.
 
-You can also type `?cowsay` ...
+You can also type `?cowsay` or `??cowsay` to get help from within RStudio. In this case, you'll need to use two question marks to bring up the help window. From there, you can find out what other ASCII characters can be drawn by the package!
