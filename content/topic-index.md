@@ -20,6 +20,7 @@ The following is a list of topics and skills covered during the semester. This w
 - GitHub ([Course Preview](/course-preview/))
 
 ## I-L
+- Levels of measurement ([Course Preview](/lecture-01/))  
 
 ## M-P
 
