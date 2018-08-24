@@ -18,6 +18,7 @@ weight: 20
 [{{< keyword name="Package installation" >}}](/topic-index/#m-p)
 [{{< tool name="R" >}}](/topic-index/#q-t)
 [{{< keyword name="Reproducibility" >}}](/topic-index/#q-t)
+[{{< package name="testDriveR" >}}](/topic-index/#q-t)
 [{{< package name="utils" >}}](/topic-index/#u-z)
 [{{< keyword name="Workflow" >}}](/topic-index/#u-z)
 
@@ -36,9 +37,17 @@ weight: 20
 <script async class="speakerdeck-embed" data-id="35432b57f3884b2c91c9e7ace2c87c50" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## Levels of Measurement
-Levels of measurement can be difficult to grasp without a lot of practice. To help, I've put together a {{< link "flashcard deck" "https://quizlet.com/_53wh49" >}} to give you some extra practice.
+Levels of measurement can be difficult to grasp without a lot of practice. To help, I've put together a {{< link "flashcard deck" "https://quizlet.com/_53wh49" >}} that is conceptual as well as a second {{< link "flashcard deck" "https://quizlet.com/_53x11l" >}} that uses `R` to give you some extra practice. This is my first time using Quizlet, so please let me know if you find it useful. If you have other examples you would like to share or an idea of a variable that you have a question about, send them to me on Slack and I will add them to the deck!
+
+### Conceptual Levels of Measurement
+This flashcard deck does not require any additional materials. It presents conceptual variables or examples of actual variables. 
 <p> </p>
 <iframe src="https://quizlet.com/308884905/flashcards/embed" height="500" width="100%" style="border:0"></iframe>
+
+### Levels of Measurement using `R`
+This flashcard deck does require using `R`. It draws from the `testDriveR` package's `auto17` data set. All of the functions needed are covered during this lecture, so this is not only a great way to practice identifying levels of measurement but it is also a great way to get some more practice with `R`. Load the data from `testDriveR`, open it up in a way that you can see both the variable names and their values, and inspect each variable to determine its level of measurement.
+<p> </p>
+<iframe src="https://quizlet.com/308910729/flashcards/embed" height="500" width="100%" style="border:0"></iframe>
 
 ## Introducing R and RStudio
 At the very end of our first class, we introduced some basic aspects of R and RStudio. An additional resource is RStudio's {{< link "cheatsheet" "https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf" >}} that covers the basics of their software.
