@@ -5,7 +5,7 @@ weight: 20
 ---
 
 ## Meta
-![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-draft-red.svg) [![](https://img.shields.io/badge/last%20update-2018--08--27-brightgreen.svg)](https://github.com/slu-soc5050/lecture-01/blob/master/NEWS_SITE.md)
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2018--08--27-brightgreen.svg)](https://github.com/slu-soc5050/lecture-01/blob/master/NEWS_SITE.md)
 
 ## Key Topics
 [{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
@@ -27,12 +27,12 @@ weight: 20
 
 {{< syllabus "slu-soc5050" "lecture-01-course-introduction" >}}
 {{< github "slu-soc5050" "lecture-01" >}}
+{{< button "Example Code" "https://github.com/slu-soc5050/lecture-01/blob/master/examples/lecture-01-examples.md" >}}
 {{< button "Exercise - Email" "https://github.com/slu-soc5050/lecture-01/blob/master/handouts/exercise-01b-email.pdf" >}}
 {{< button "Exercise - Values" "https://github.com/slu-soc5050/lecture-01/blob/master/handouts/exercise-01a-values.pdf" >}}
 {{< button "Functions" "https://github.com/slu-soc5050/lecture-01/blob/master/handouts/lecture-01-functions.pdf" >}}
 
 ## Lecture Slides
-**_This slides are from Fall 2017 and will be updated before the first night of class._**
 <p> </p>
 <script async class="speakerdeck-embed" data-id="35432b57f3884b2c91c9e7ace2c87c50" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
