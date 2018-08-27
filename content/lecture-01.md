@@ -5,7 +5,7 @@ weight: 20
 ---
 
 ## Meta
-![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-draft-red.svg) [![](https://img.shields.io/badge/last%20update-2018--08--24-brightgreen.svg)](https://github.com/slu-soc5050/lecture-01/blob/master/NEWS_SITE.md)
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-draft-red.svg) [![](https://img.shields.io/badge/last%20update-2018--08--26-brightgreen.svg)](https://github.com/slu-soc5050/lecture-01/blob/master/NEWS_SITE.md)
 
 ## Key Topics
 [{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
@@ -26,10 +26,9 @@ weight: 20
 
 {{< syllabus "slu-soc5050" "lecture-01-course-introduction" >}}
 {{< github "slu-soc5050" "lecture-01" >}}
-{{< button "Exercise - Email" "https://github.com/slu-soc5050/Week-01/blob/master/Exercises/exerciseEmail.pdf" >}}
-{{< button "Exercise - Introducing R" "https://github.com/slu-soc5050/Week-01/blob/master/Exercises/exerciseR.pdf" >}}
-{{< button "Exercise - Values" "https://github.com/slu-soc5050/Week-01/blob/master/Exercises/exerciseValues.pdf" >}}
-{{< button "Functions" "ttps://github.com/slu-soc5050/Week-01/blob/master/Functions/week-01-rQuickref.pdf" >}}
+{{< button "Exercise - Email" "https://github.com/slu-soc5050/lecture-01/blob/master/handouts/exercise-01b-email.pdf" >}}
+{{< button "Exercise - Values" "https://github.com/slu-soc5050/lecture-01/blob/master/handouts/exercise-01a-values.pdf" >}}
+{{< button "Functions" "https://github.com/slu-soc5050/lecture-01/blob/master/handouts/lecture-01-functions.pdf" >}}
 
 ## Lecture Slides
 **_This slides are from Fall 2017 and will be updated before the first night of class._**
