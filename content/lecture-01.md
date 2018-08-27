@@ -5,7 +5,7 @@ weight: 20
 ---
 
 ## Meta
-![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-draft-red.svg) [![](https://img.shields.io/badge/last%20update-2018--08--26-brightgreen.svg)](https://github.com/slu-soc5050/lecture-01/blob/master/NEWS_SITE.md)
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-draft-red.svg) [![](https://img.shields.io/badge/last%20update-2018--08--27-brightgreen.svg)](https://github.com/slu-soc5050/lecture-01/blob/master/NEWS_SITE.md)
 
 ## Key Topics
 [{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
@@ -17,6 +17,7 @@ weight: 20
 [{{< keyword name="Levels of measurement" >}}](/topic-index/#i-l)
 [{{< keyword name="Package installation" >}}](/topic-index/#m-p)
 [{{< tool name="R" >}}](/topic-index/#q-t)
+[{{< package name="remotes" >}}](/topic-index/#q-t)
 [{{< keyword name="Reproducibility" >}}](/topic-index/#q-t)
 [{{< package name="testDriveR" >}}](/topic-index/#q-t)
 [{{< package name="utils" >}}](/topic-index/#u-z)
