@@ -27,14 +27,20 @@ weight: 20
 
 {{< syllabus "slu-soc5050" "lecture-01-course-introduction" >}}
 {{< github "slu-soc5050" "lecture-01" >}}
+{{< lecture "https://slu.tegrity.com/#/recording/ca6a4bb8-a06c-44b7-b106-6099302a5a0d" >}}
 {{< button "Example Code" "https://github.com/slu-soc5050/lecture-01/blob/master/examples/lecture-01-examples.md" >}}
 {{< button "Exercise - Email" "https://github.com/slu-soc5050/lecture-01/blob/master/handouts/exercise-01b-email.pdf" >}}
 {{< button "Exercise - Values" "https://github.com/slu-soc5050/lecture-01/blob/master/handouts/exercise-01a-values.pdf" >}}
 {{< button "Functions" "https://github.com/slu-soc5050/lecture-01/blob/master/handouts/lecture-01-functions.pdf" >}}
 
+
 ## Lecture Slides
 <p> </p>
 <script async class="speakerdeck-embed" data-id="35432b57f3884b2c91c9e7ace2c87c50" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+## Slack Discussions <i class="fab fa-slack"></i>
+
+* <a href="https://slu-soc5050.slack.com/archives/C2BRR3RU4/p1535501383000100" target="_blank">Lecture Follow-up (Compassionate coursework and lecture recording)</a>
 
 ## Levels of Measurement
 Levels of measurement can be difficult to grasp without a lot of practice. To help, I've put together a {{< link "flashcard deck" "https://quizlet.com/_53wh49" >}} that is conceptual as well as a second {{< link "flashcard deck" "https://quizlet.com/_53x11l" >}} that uses `R` to give you some extra practice. This is my first time using Quizlet, so please let me know if you find it useful. If you have other examples you would like to share or an idea of a variable that you have a question about, send them to me on Slack and I will add them to the deck!
