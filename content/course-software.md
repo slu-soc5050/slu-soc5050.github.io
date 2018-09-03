@@ -7,7 +7,7 @@ weight: 11
 ## Meta 
 
 ![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) 
-![](https://img.shields.io/badge/last%20update-2018--08--10-brightgreen.svg)
+![](https://img.shields.io/badge/last%20update-2018--09--03-brightgreen.svg)
 
 ## Overview
 
