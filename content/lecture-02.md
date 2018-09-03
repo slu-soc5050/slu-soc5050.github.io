@@ -61,12 +61,13 @@ The lectures are dated for 2017 but not updates are planned to the videos or sli
 ### Slides
 {{< speakerdeck eda0ada395544af7bb08b271ce7dbf67 >}}
 
-## Slack Discussions <i class="fab fa-slack"></i>
-
-* <a href="" target="_blank">Lecture Release</a>
-
 ### Video Lecture
 {{< youtube Rb1jsVRsnbk >}}
+
+## Slack Discussions <i class="fab fa-slack"></i>
+
+* <a href="https://slu-soc5050.slack.com/archives/C2BRR3RU4/p1536008390000100" target="_blank">Lecture Release</a>
+* <a href="https://slu-soc5050.slack.com/archives/C2BRR3RU4/p1536003390000100" target="_blank">`testDriveR` updates</a>
 
 ## Data for Assignments
 The data that you need for many of the assignments this semester is available as an `R` package named `testDriveR`. On the initial course software instructions, you were told to download and install it from GitHub. As of September 1, I am happy to annouce that `testDriveR` is on CRAN. Please re-install the package:
