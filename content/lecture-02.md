@@ -5,23 +5,29 @@ weight: 21
 ---
 
 ## Meta
-![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-draft-red.svg) [![](https://img.shields.io/badge/last%20update-2018--09--03-brightgreen.svg)](https://github.com/slu-soc5050/lecture-02/blob/master/NEWS_SITE.md)
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-lecture-orange.svg) [![](https://img.shields.io/badge/last%20update-2018--09--03-brightgreen.svg)](https://github.com/slu-soc5050/lecture-02/blob/master/NEWS_SITE.md)
 
 ## Key Topics
 [{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
 [{{< keyword name="Data cleaning" >}}](/topic-index/#a-d)
+[{{< package name="base" >}}](/topic-index/#a-d)
 [{{< package name="dplyr" >}}](/topic-index/#a-d)
 [{{< package name="ggplot2" >}}](/topic-index/#e-h)
+[{{< package name="knitr" >}}](/topic-index/#i-l)
+[{{< package name="magrittr" >}}](/topic-index/#m-p)
 [{{< keyword name="Notebooks" >}}](/topic-index/#m-p)
 [{{< keyword name="Plotting and visualization" >}}](/topic-index/#m-p)
 [{{< tool name="R" >}}](/topic-index/#q-t)
 [{{< package name="rmarkdown" >}}](/topic-index/#q-t)
 [{{< package name="testDriveR" >}}](/topic-index/#q-t)
+[{{< package name="utils" >}}](/topic-index/#u-z)
 
 ## Resources
 
 {{< syllabus "slu-soc5050" "lecture-02-working-with-data" >}}
 {{< github "slu-soc5050" "lecture-02" >}}
+{{< button "Functions" "https://github.com/slu-soc5050/lecture-02/blob/master/handouts/lecture-02-functions.pdf" >}}
+{{< button "Lab-01" "https://github.com/slu-soc5050/lecture-02/blob/master/assignments/lab-01.pdf" >}}
 
 ## A Quick Note
 The lectures are dated for 2017 but not updates are planned to the videos or slides for this year. Please watch them in order, and take the time to practice along with the examples in *R for Data Science*. I will have my office hours as usual on Wednesday should questions come up, and will be available on Slack all week.

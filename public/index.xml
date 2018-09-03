@@ -105,9 +105,9 @@ Resources Open on &amp;ensp;  Open on &amp;ensp;  View Lecture &amp;ensp;  Examp
       
       <guid>/lecture-02/</guid>
       <description>Meta 
-Key Topics  Analysis development   Data cleaning   dplyr  ggplot2  Notebooks   Plotting and visualization   R  rmarkdown  testDriveR
-Resources Open on &amp;ensp;  Open on &amp;ensp; 
-A Quick Note The lectures are dated for 2017 but not updates are planned to the videos or slides for this year. Please watch them in order, and take the time to practice along with the examples in R for Data Science.</description>
+Key Topics  Analysis development   Data cleaning   base  dplyr  ggplot2  knitr  magrittr  Notebooks   Plotting and visualization   R  rmarkdown  testDriveR  utils
+Resources Open on &amp;ensp;  Open on &amp;ensp;  Functions  Lab-01 
+A Quick Note The lectures are dated for 2017 but not updates are planned to the videos or slides for this year.</description>
     </item>
     
     <item>
