@@ -9,12 +9,14 @@ weight: 21
 
 ## Key Topics
 [{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
+[{{< keyword name="Data cleaning" >}}](/topic-index/#a-d)
 [{{< package name="dplyr" >}}](/topic-index/#a-d)
 [{{< package name="ggplot2" >}}](/topic-index/#e-h)
 [{{< keyword name="Notebooks" >}}](/topic-index/#m-p)
 [{{< keyword name="Plotting and visualization" >}}](/topic-index/#m-p)
 [{{< tool name="R" >}}](/topic-index/#q-t)
 [{{< package name="rmarkdown" >}}](/topic-index/#q-t)
+[{{< package name="testDriveR" >}}](/topic-index/#q-t)
 
 ## Resources
 
