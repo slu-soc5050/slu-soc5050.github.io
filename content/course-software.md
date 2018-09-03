@@ -13,10 +13,6 @@ weight: 11
 
 This course is built primarily around a trio of software applications - the programming language `R`, the graphical user interface for `R` called RStudio, and GitHub Desktop. As I noted on the [course onboarding page](/course-onboarding/#course-software), there are two choices for *accessing* software. Please read through the [course onboarding page](/course-onboarding/#course-software) page carefully and make the decisions you think are best for you - either using your own computer or using a lab computer. Feel free to shoot me a message on Slack or via email if you have questions about which approach is best.
 
-{{< warning title="Desktops in 3600 Morrissey" >}}
-As of August 10, 2018, the software on the lab computers is out of date. Students should be prepared to follow the installation steps below for R, RStudio, and GitHub Desktop during the first week of class. I will keep this space updated if there are a change in the status of these computers.
-{{< /warning >}}
-
 ## Installing `R` and RStudio
 
 ### Software Downloads
@@ -40,16 +36,14 @@ install.packages(c("tidyverse", "car", "cowsay",
     "ggthemes", "janitor", "lmtest", "moments", 
     "naniar", "nortest",  "psych", "pwr", 
     "remotes", "reprex", "rmarkdown",
-    "sandwich", "skimr"))
-```
-
-Once these packages are installed, you will also need to install an additional package with a different approach. The `testDriveR` package is only available on GitHub, and therefore requires a separate installation using the `remotes` package's `install_github()` function:
-
-```r
-remotes::install_github("chris-prener/testDriveR")
+    "sandwich", "skimr", "testDriveR"))
 ```
 
 Depending on your version of `R` and your operating system, there will be other dependencies that are required and the number of packages installed will be considerably larger. The installation process has not been extensively tested on different operating system and hardware configurations, and though it is unlikely, you may encounter issues. If you do, please let Chris know!
+
+{{< warning title="Change in testDriveR" >}}
+As of September 1, 2018, the testDriveR package is available on CRAN. Please re-install it using install.packages("testDriveR") before proceeding with coursework!
+{{< /warning >}}
 
 ## GitHub Desktop
 In addition to the applications above, everyone will need a local installation of GitHub Desktop, which is a graphical user interface for accessing Git and GitHub.com. It can be downloaded for free from the {{< link "application's website" "https://desktop.github.com">}}. You will need to download and run the installer. Once it is complete, you will need to login to the application with your [GitHub.com username and password](/course-onboarding/#account-signups). 
