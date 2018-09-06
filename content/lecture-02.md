@@ -29,6 +29,7 @@ weight: 21
 {{< button "Example Code" "https://github.com/slu-soc5050/lecture-02/blob/master/examples/" >}}
 {{< button "Functions" "https://github.com/slu-soc5050/lecture-02/blob/master/handouts/lecture-02-functions.pdf" >}}
 {{< button "Lab-01" "https://github.com/slu-soc5050/lecture-02/blob/master/assignments/lab-01.pdf" >}}
+{{< button "Starter Notebook" "https://github.com/slu-soc5050/lecture-02/blob/master/extras/starterNotebook.Rmd" >}}
 
 ## A Quick Note
 The lectures are dated for 2017 but not updates are planned to the videos or slides for this year. Please watch them in order, and take the time to practice along with the examples in *R for Data Science*. I will have my office hours as usual on Wednesday should questions come up, and will be available on Slack all week.
@@ -72,6 +73,7 @@ The lectures are dated for 2017 but not updates are planned to the videos or sli
 * <a href="https://slu-soc5050.slack.com/archives/C6U4BB8RJ/p1536164338000100" target="_blank">Final Project questions</a>
 * <a href="https://slu-soc5050.slack.com/archives/C6U4BB8RJ/p1536191174000100" target="_blank">General coursework questions</a>
 * <a href="https://slu-soc5050.slack.com/archives/C6U6HJ421/p1536191749000100" target="_blank">Error messages in `R` and package installation</a>
+* <a href="https://slu-soc5050.slack.com/archives/C6U0C90D9/p1536261800000100" target="_blank">Notebook structure</a>
 
 ## Data for Assignments
 The data that you need for many of the assignments this semester is available as an `R` package named `testDriveR`. On the initial course software instructions, you were told to download and install it from GitHub. As of September 1, I am happy to annouce that `testDriveR` is on CRAN. Please re-install the package:
@@ -79,6 +81,9 @@ The data that you need for many of the assignments this semester is available as
 ```r
 install.packages("testDriveR")
 ```
+
+## Starter Notebook
+Based on a <a href="https://slu-soc5050.slack.com/archives/C6U0C90D9/p1536261800000100" target="_blank">question from a student</a>, I've posted <a href="https://github.com/slu-soc5050/lecture-02/blob/master/extras/starterNotebook.Rmd" target="_blank">an empty notebook structure</a> that you can use to start your assignments. If you click on the `Raw` button, or follow <a href="https://raw.githubusercontent.com/slu-soc5050/lecture-02/master/extras/starterNotebook.Rmd" target="_blank">this link</a>, you'll get plain text that you can copy into RStudio.
 
 ## Cheatsheets
 RStudio offers a number of cheatsheets that you may find useful. FYI - they offer *way* more detail than what I provide. This is intentional on my part. So, if you feeling confident and are looking to build upon what a particular week covers, check them out!
