@@ -5,7 +5,7 @@ weight: 21
 ---
 
 ## Meta
-![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-lecture-orange.svg) [![](https://img.shields.io/badge/last%20update-2018--09--03-brightgreen.svg)](https://github.com/slu-soc5050/lecture-02/blob/master/NEWS_SITE.md)
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-lecture-orange.svg) [![](https://img.shields.io/badge/last%20update-2018--09--05-brightgreen.svg)](https://github.com/slu-soc5050/lecture-02/blob/master/NEWS_SITE.md)
 
 ## Key Topics
 [{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
@@ -68,6 +68,9 @@ The lectures are dated for 2017 but not updates are planned to the videos or sli
 
 * <a href="https://slu-soc5050.slack.com/archives/C2BRR3RU4/p1536008390000100" target="_blank">Lecture Release</a>
 * <a href="https://slu-soc5050.slack.com/archives/C2BRR3RU4/p1536003390000100" target="_blank">`testDriveR` updates</a>
+* <a href="https://slu-soc5050.slack.com/archives/C6U4BB8RJ/p1536164338000100" target="_blank">Final Project questions</a>
+* <a href="https://slu-soc5050.slack.com/archives/C6U4BB8RJ/p1536191174000100" target="_blank">General coursework questions</a>
+* <a href="https://slu-soc5050.slack.com/archives/C6U6HJ421/p1536191749000100" target="_blank">Error messages in `R` and package installation</a>
 
 ## Data for Assignments
 The data that you need for many of the assignments this semester is available as an `R` package named `testDriveR`. On the initial course software instructions, you were told to download and install it from GitHub. As of September 1, I am happy to annouce that `testDriveR` is on CRAN. Please re-install the package:
