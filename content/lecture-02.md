@@ -5,7 +5,7 @@ weight: 21
 ---
 
 ## Meta
-![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-lecture-orange.svg) [![](https://img.shields.io/badge/last%20update-2018--09--05-brightgreen.svg)](https://github.com/slu-soc5050/lecture-02/blob/master/NEWS_SITE.md)
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2018--09--06-brightgreen.svg)](https://github.com/slu-soc5050/lecture-02/blob/master/NEWS_SITE.md)
 
 ## Key Topics
 [{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
@@ -26,6 +26,7 @@ weight: 21
 
 {{< syllabus "slu-soc5050" "lecture-02-working-with-data" >}}
 {{< github "slu-soc5050" "lecture-02" >}}
+{{< button "Example Code" "https://github.com/slu-soc5050/lecture-02/blob/master/examples/" >}}
 {{< button "Functions" "https://github.com/slu-soc5050/lecture-02/blob/master/handouts/lecture-02-functions.pdf" >}}
 {{< button "Lab-01" "https://github.com/slu-soc5050/lecture-02/blob/master/assignments/lab-01.pdf" >}}
 
