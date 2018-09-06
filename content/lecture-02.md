@@ -29,6 +29,7 @@ weight: 21
 {{< button "Example Code" "https://github.com/slu-soc5050/lecture-02/blob/master/examples/" >}}
 {{< button "Functions" "https://github.com/slu-soc5050/lecture-02/blob/master/handouts/lecture-02-functions.pdf" >}}
 {{< button "Lab-01" "https://github.com/slu-soc5050/lecture-02/blob/master/assignments/lab-01.pdf" >}}
+{{< button "Lab-01 Replication" "https://github.com/slu-soc5050/lecture-02/tree/master/assignments/lab-01-replication" >}}
 {{< button "Starter Notebook" "https://github.com/slu-soc5050/lecture-02/blob/master/extras/starterNotebook.Rmd" >}}
 
 ## A Quick Note

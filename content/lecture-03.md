@@ -3,16 +3,20 @@ date: 2016-03-08T21:07:13+01:00
 title: Week 03 - Describing Distributions
 weight: 22
 ---
-![](https://img.shields.io/badge/semester-Fall%2C%202017-blue.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) 
 
-## Handouts
+## Meta
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-lp%20only-red.svg) [![](https://img.shields.io/badge/last%20update-2018--09--06-brightgreen.svg)](https://github.com/slu-soc5050/lecture-02/blob/master/NEWS_SITE.md)
 
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-03/blob/master/Equations/week-03-equations.pdf" target="_blank"> Equations </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-03/blob/master/Functions/week-03-lecture-02a-rQuickref.pdf" target="_blank"> Functions </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-03/blob/master/Lab/week-03-lab.pdf" target="_blank"> Lab </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-03/blob/master/PS-02/PS-02.pdf" target="_blank"> Problem Set 02 </a>
+## Resources
+
+{{< syllabus "slu-soc5050" "lecture-03-describing-distributions" >}}
+{{< github "slu-soc5050" "lecture-03" >}}
+{{< button "Lecture Prep 03" "https://github.com/slu-soc5050/lecture-03/blob/master/assignments/lp-03.pdf" >}}
+{{< button "Lecture Prep 03 Submission" "https://goo.gl/forms/3ApfuAJCl3EafEJT2" >}}
 
 ## Lecture Slides
+**These are the Fall 2017 lecture slides - they will be updated before class.**
+
 {{< speakerdeck 5d53b03d17064cce9cea2d119ed1cbbe >}}
 
 ## Using GitHub to Store Working Files for the Course
