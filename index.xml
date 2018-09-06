@@ -106,7 +106,7 @@ Resources Open on &amp;ensp;  Open on &amp;ensp;  View Lecture &amp;ensp;  Examp
       <guid>/lecture-02/</guid>
       <description>Meta 
 Key Topics  Analysis development   Data cleaning   base  dplyr  ggplot2  knitr  magrittr  Notebooks   Plotting and visualization   R  rmarkdown  testDriveR  utils
-Resources Open on &amp;ensp;  Open on &amp;ensp;  Example Code  Functions  Lab-01  Starter Notebook 
+Resources Open on &amp;ensp;  Open on &amp;ensp;  Example Code  Functions  Lab-01  Lab-01 Replication  Starter Notebook 
 A Quick Note The lectures are dated for 2017 but not updates are planned to the videos or slides for this year.</description>
     </item>
     
@@ -116,8 +116,10 @@ A Quick Note The lectures are dated for 2017 but not updates are planned to the 
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
       <guid>/lecture-03/</guid>
-      <description>Handouts Equations  Functions  Lab  Problem Set 02 
-Lecture Slides  Using GitHub to Store Working Files for the Course If you want to GitHub to store your working files (as opposed to the finish submission versions you submit via your Assignments repository), you can sign-up for a discounted student plan here. Choose &amp;ldquo;Student&amp;rdquo; and &amp;ldquo;Individual Account&amp;rdquo;, and answer any additional prompts they have. Be prepared to attach a photo of your student ID.</description>
+      <description>Meta 
+Resources Open on &amp;ensp;  Open on &amp;ensp;  Lecture Prep 03  Lecture Prep 03 Submission 
+Lecture Slides These are the Fall 2017 lecture slides - they will be updated before class.
+ Using GitHub to Store Working Files for the Course If you want to GitHub to store your working files (as opposed to the finish submission versions you submit via your Assignments repository), you can sign-up for a discounted student plan here.</description>
     </item>
     
     <item>
