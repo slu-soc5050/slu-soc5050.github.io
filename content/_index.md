@@ -5,10 +5,6 @@ type: index
 weight: 1
 ---
 
-{{< warning title="Enrollment Open" >}}
-SOC 4015 & 5050 is Saint Louis University Sociology's undergraduate and graduate introductory statistics course, which is currently being offered during the Fall 2018 semester. Enrollment is now closed.
-{{< /warning >}}
-
 {{< warning title="Updates in Progress" >}}
 Minor revisions to the curriculum are in progress for the next edition of the course. General topics will remain the same, but repos will be re-organized and additional resources will be provided. Existing resources should not be considered current if their date is for 2017.
 {{< /warning >}}
