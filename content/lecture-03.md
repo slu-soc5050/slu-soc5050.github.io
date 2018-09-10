@@ -18,6 +18,7 @@ weight: 22
 [{{< package name="janitor" >}}](/topic-index/#i-l)
 [{{< keyword name="Model fit" >}}](/topic-index/#m-p)
 [{{< package name="reprex" >}}](/topic-index/#q-t)
+[{{< keyword name="Reproduciblity" >}}](/topic-index/#q-t)
 [{{< keyword name="Reproducible examples" >}}](/topic-index/#q-t)
 [{{< package name="skmir" >}}](/topic-index/#q-t)
 [{{< package name="stats" >}}](/topic-index/#q-t)
