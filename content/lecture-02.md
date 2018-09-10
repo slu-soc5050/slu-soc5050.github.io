@@ -37,34 +37,42 @@ The lectures are dated for 2017 but not updates are planned to the videos or sli
 
 ## Lecture 02a - Introducing `ggplot2`
 ### Slides
+<p> </p>
 {{< speakerdeck 235fdb303a2e40f4a24f9961f166cbea >}}
 
 ### Video Lecture
+<p> </p>
 {{< youtube eT_6tw4fWRE >}}
 
 ## Lecture 02b - Grammar of Graphics
 ### Slides
+<p> </p>
 {{< speakerdeck 8c95934676fe4601bcadcfd45011632c >}}
 
 ### Video Lecture
+<p> </p>
 {{< youtube EHZ2JtVCDCQ >}}
 
 ## Lecture 02c - Verbs for Cleaning Data
 *Note:* The video is titled "Lecture 3" - this is not a mixup, just a holdover from a past semester!
 
 ### Slides
+<p> </p>
 {{< speakerdeck cc90cd776dbb49c5a285aaa464abc4a8 >}}
 
 ### Video Lecture
+<p> </p>
 {{< youtube txSNKb6Akgs >}}
 
 ## Lecture 02d - Structuring Notebooks
 *Note:* The video is titled "Lecture 4" - this is not a mixup, just a holdover from a past semester!
 
 ### Slides
+<p> </p>
 {{< speakerdeck eda0ada395544af7bb08b271ce7dbf67 >}}
 
 ### Video Lecture
+<p> </p>
 {{< youtube Rb1jsVRsnbk >}}
 
 ## Slack Discussions <i class="fab fa-slack"></i>
