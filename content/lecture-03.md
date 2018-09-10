@@ -16,17 +16,25 @@ weight: 22
 [{{< keyword name="Exploratory data analysis" >}}](/topic-index/#e-h)
 [{{< package name="ggplot2" >}}](/topic-index/#e-h)
 [{{< package name="janitor" >}}](/topic-index/#i-l)
+[{{< keyword name="Model fit" >}}](/topic-index/#m-p)
 [{{< package name="reprex" >}}](/topic-index/#q-t)
 [{{< keyword name="Reproducible examples" >}}](/topic-index/#q-t)
 [{{< package name="skmir" >}}](/topic-index/#q-t)
 [{{< package name="stats" >}}](/topic-index/#q-t)
+[{{< keyword name="Summation notation" >}}](/topic-index/#q-t)
 
 ## Resources
 
 {{< syllabus "slu-soc5050" "lecture-03-describing-distributions" >}}
 {{< github "slu-soc5050" "lecture-03" >}}
+{{< button "Equations" "https://github.com/slu-soc5050/lecture-03/blob/master/handouts/lecture-03-equations.pdf" >}}
+{{< button "Functions" "https://github.com/slu-soc5050/lecture-03/blob/master/handouts/lecture-03-functions.pdf" >}}
+{{< button "Lab 02" "https://github.com/slu-soc5050/lecture-03/blob/master/assignments/lab-02.pdf" >}}
 {{< button "Lecture Prep 03" "https://github.com/slu-soc5050/lecture-03/blob/master/assignments/lp-03.pdf" >}}
 {{< button "Lecture Prep 03 Submission" "https://goo.gl/forms/3ApfuAJCl3EafEJT2" >}}
+{{< button "Workflow - Git/Github" "https://github.com/slu-soc5050/lecture-03/blob/master/handouts/workflowGit.pdf" >}}
+{{< button "Workflow - Projects" "https://github.com/slu-soc5050/lecture-03/blob/master/handouts/workflowProject.pdf" >}}
+{{< button "Workflow - Reproducible Examples" "https://github.com/slu-soc5050/lecture-03/blob/master/handouts/workflowReprex.pdf" >}}
 
 ## Lecture Slides
 <p> </p>
