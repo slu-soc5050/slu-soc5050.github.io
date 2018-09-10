@@ -117,9 +117,8 @@ A Quick Note The lectures are dated for 2017 but not updates are planned to the 
       
       <guid>/lecture-03/</guid>
       <description>Meta 
-Key Topics  Analysis development   Anscombe&amp;#39;s quartet   base  Degrees of freedom   Descriptive statistics   Exploratory data analysis   ggplot2  janitor  reprex  Reproducible examples   skmir  stats
-Resources Open on &amp;ensp;  Open on &amp;ensp;  Lecture Prep 03  Lecture Prep 03 Submission 
-Lecture Slides   Using LaTeX in R Notebooks If you check out the replication notebook for this week&amp;rsquo;s lab, you will notice dollar signs used around references to particular variables like this - $x_1$.</description>
+Key Topics  Analysis development   Anscombe&amp;#39;s quartet   base  Degrees of freedom   Descriptive statistics   Exploratory data analysis   ggplot2  janitor  Model fit   reprex  Reproducible examples   skmir  stats  Summation notation 
+Resources Open on &amp;ensp;  Open on &amp;ensp;  Equations  Functions  Lab 02  Lecture Prep 03  Lecture Prep 03 Submission  Workflow - Git/Github  Workflow - Projects  Workflow - Reproducible Examples</description>
     </item>
     
     <item>
