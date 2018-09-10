@@ -7,6 +7,20 @@ weight: 22
 ## Meta
 ![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-lecture-orange.svg) [![](https://img.shields.io/badge/last%20update-2018--09--10-brightgreen.svg)](https://github.com/slu-soc5050/lecture-02/blob/master/NEWS_SITE.md)
 
+## Key Topics
+[{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
+[{{< keyword name="Anscombe's quartet" >}}](/topic-index/#a-d)
+[{{< package name="base" >}}](/topic-index/#a-d)
+[{{< keyword name="Degrees of freedom" >}}](/topic-index/#a-d)
+[{{< keyword name="Descriptive statistics" >}}](/topic-index/#a-d)
+[{{< keyword name="Exploratory data analysis" >}}](/topic-index/#e-h)
+[{{< package name="ggplot2" >}}](/topic-index/#e-h)
+[{{< package name="janitor" >}}](/topic-index/#i-l)
+[{{< package name="reprex" >}}](/topic-index/#q-t)
+[{{< keyword name="Reproducible examples" >}}](/topic-index/#q-t)
+[{{< package name="skmir" >}}](/topic-index/#q-t)
+[{{< package name="stats" >}}](/topic-index/#q-t)
+
 ## Resources
 
 {{< syllabus "slu-soc5050" "lecture-03-describing-distributions" >}}
