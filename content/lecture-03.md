@@ -28,6 +28,7 @@ weight: 22
 
 {{< syllabus "slu-soc5050" "lecture-03-describing-distributions" >}}
 {{< github "slu-soc5050" "lecture-03" >}}
+{{< lecture "https://slu.tegrity.com/#/recording/a6486ab8-c0ba-437e-9065-eaa82d647c7c" >}}
 {{< button "Equations" "https://github.com/slu-soc5050/lecture-03/blob/master/handouts/lecture-03-equations.pdf" >}}
 {{< button "Functions" "https://github.com/slu-soc5050/lecture-03/blob/master/handouts/lecture-03-functions.pdf" >}}
 {{< button "Lab 02" "https://github.com/slu-soc5050/lecture-03/blob/master/assignments/lab-02.pdf" >}}
