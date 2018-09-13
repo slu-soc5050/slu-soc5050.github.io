@@ -5,7 +5,7 @@ weight: 22
 ---
 
 ## Meta
-![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-lecture-orange.svg) [![](https://img.shields.io/badge/last%20update-2018--09--10-brightgreen.svg)](https://github.com/slu-soc5050/lecture-02/blob/master/NEWS_SITE.md)
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2018--09--12-brightgreen.svg)](https://github.com/slu-soc5050/lecture-02/blob/master/NEWS_SITE.md)
 
 ## Key Topics
 [{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
