@@ -34,9 +34,8 @@ weight: 22
 {{< button "Lab 02" "https://github.com/slu-soc5050/lecture-03/blob/master/assignments/lab-02.pdf" >}}
 {{< button "Lecture Prep 03" "https://github.com/slu-soc5050/lecture-03/blob/master/assignments/lp-03.pdf" >}}
 {{< button "Lecture Prep 03 Submission" "https://goo.gl/forms/3ApfuAJCl3EafEJT2" >}}
-{{< button "Workflow - Git/Github" "https://github.com/slu-soc5050/lecture-03/blob/master/handouts/workflowGit.pdf" >}}
-{{< button "Workflow - Projects" "https://github.com/slu-soc5050/lecture-03/blob/master/handouts/workflowProject.pdf" >}}
-{{< button "Workflow - Reproducible Examples" "https://github.com/slu-soc5050/lecture-03/blob/master/handouts/workflowReprex.pdf" >}}
+{{< button "Problem Set 01" "https://github.com/slu-soc5050/lecture-03/blob/master/assignments/lp-03.pdf" >}}
+{{< button "Workflow Handouts" "https://github.com/slu-soc5050/lecture-03/blob/master/handouts/" >}}
 
 ## Lecture Slides
 <p> </p>
