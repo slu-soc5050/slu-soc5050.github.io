@@ -5,7 +5,7 @@ weight: 22
 ---
 
 ## Meta
-![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2018--09--12-brightgreen.svg)](https://github.com/slu-soc5050/lecture-02/blob/master/NEWS_SITE.md)
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-full-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2018--09--14-brightgreen.svg)](https://github.com/slu-soc5050/lecture-02/blob/master/NEWS_SITE.md)
 
 ## Key Topics
 [{{< keyword name="Analysis development" >}}](/topic-index/#a-d)
@@ -34,7 +34,7 @@ weight: 22
 {{< button "Lab 02" "https://github.com/slu-soc5050/lecture-03/blob/master/assignments/lab-02.pdf" >}}
 {{< button "Lecture Prep 03" "https://github.com/slu-soc5050/lecture-03/blob/master/assignments/lp-03.pdf" >}}
 {{< button "Lecture Prep 03 Submission" "https://goo.gl/forms/3ApfuAJCl3EafEJT2" >}}
-{{< button "Problem Set 01" "https://github.com/slu-soc5050/lecture-03/blob/master/assignments/lp-03.pdf" >}}
+{{< button "Problem Set 01" "https://github.com/slu-soc5050/lecture-03/blob/master/assignments/ps-01.pdf" >}}
 {{< button "Workflow Handouts" "https://github.com/slu-soc5050/lecture-03/blob/master/handouts/" >}}
 
 ## Lecture Slides
