@@ -3,27 +3,26 @@ date: 2016-03-08T21:07:13+01:00
 title: Week 04 - Probability and Bayes' Theorem
 weight: 23
 ---
-![](https://img.shields.io/badge/semester-Fall%2C%202017-blue.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) 
 
-## Handouts
+## Meta
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-lp%20only-red.svg) [![](https://img.shields.io/badge/last%20update-2018--09--14-brightgreen.svg)](https://github.com/slu-soc5050/lecture-03/blob/master/NEWS_SITE.md)
 
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-04/blob/master/Equations/week-04-equations.pdf" target="_blank"> Equations </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-04/blob/master/Lab/week-04-lab.pdf" target="_blank"> Lab </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-04/blob/master/PS-03/ps-03.pdf" target="_blank"> Problem Set 02 </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-04/blob/master/WeeklyPrep/week-04-prep.pdf" target="_blank"> Weekly Prep </a>
+## Resources
 
-## Lecture Slides
-{{< speakerdeck 59a8b1282ccb4338a982fe9eeaceec69 >}}
+{{< syllabus "slu-soc5050" "lecture-04-probability" >}}
+{{< github "slu-soc5050" "lecture-04" >}}
+{{< button "Lecture Prep 04" "https://github.com/slu-soc5050/lecture-04/blob/master/assignments/lp-04.pdf" >}}
 
-## Weekly Prep
-### Instructions
-I've posted the first weekly prep of the semester. The instructions are available in the [`Week-04` GitHub repository](https://github.com/slu-soc5050/Week-04/blob/master/WeeklyPrep/week-04-prep.pdf). Make sure you submit your work and answers by the beginning of class on Monday!
-
-### Replication
+## Weekly Prep Replication
+<p> </p>
 {{< youtube POctIQWrqsE >}}
 
+## Lecture Slides
+<p> </p>
+{{< speakerdeck 59a8b1282ccb4338a982fe9eeaceec69 >}}
+
 ## Probability in the News
-[FiveThirtyEight](https://fivethirtyeight.com/) just published a great article on the use [probability in news media coverage](https://fivethirtyeight.com/features/the-media-has-a-probability-problem/). The article raises important points about how error in public polling is communicated:
+[FiveThirtyEight](https://fivethirtyeight.com/) published a great article on the use [probability in news media coverage](https://fivethirtyeight.com/features/the-media-has-a-probability-problem/) in 2017. The article raises important points about how error in public polling is communicated:
 
 > As I’ve documented throughout this series, polls and other data did not support the exceptionally high degree of confidence that news organizations such as The New York Times regularly expressed about Hillary Clinton’s chances.
 
@@ -34,13 +33,7 @@ One of the key takeaways for me was this line:
 When we talk about the likelihood of an event, we are really trying to summarize a range of possible outcomes. Keep that in mind as we progress through the semester!
 
 ## John Edmund Kerrich
-One of the important statisticians we discussed this week was [John Edmund Kerrich](https://en.wikipedia.org/wiki/John_Edmund_Kerrich). I've added a data set to the `testDriveR` package with the first 2,000 flips from his experiments if you are interested in checking the data out. You'll have to update `testDriveR` on your computer:
-
-```r
-devtools::install_github("chris-prener/testDriveR")
-```
-
-Once you have the package downloaded and installed, you can load and explore Kerrich's data:
+One of the important statisticians we discussed this week was [John Edmund Kerrich](https://en.wikipedia.org/wiki/John_Edmund_Kerrich). You can explore Kerrich's data using `testDriveR`:
 
 ```r
 library(testDriveR)
@@ -54,7 +47,7 @@ ggplot(data = coinFlips) +
 ```
 ![kerrichPlot](https://raw.githubusercontent.com/slu-soc5050/Core-Documents/sources/Week-04/kerrichPlot.png)
 
-The `ggplot2` syntax above adds only a slight increase in complexity from your previous plots. We've added a second geom that is layered under the primary `geom_line()` that we discussed during Week 02. This `geom_hline()` allows us to add a horizontal line at `y = .5`, which is the predicted probability of either outcome of a fair coin flip. We've also modified the y-axis so that it runs from 0 to 1, covering the full range of possible probabilities.
+The `ggplot2` syntax above adds only a slight increase in complexity from your previous plots. We've added a second geom that is layered under the primary `geom_line()` that we discussed during Lecture 02. This `geom_hline()` allows us to add a horizontal line at `y = .5`, which is the predicted probability of either outcome of a fair coin flip. We've also modified the y-axis so that it runs from 0 to 1, covering the full range of possible probabilities.
 
 ## Extra Information
 This week, I mentioned a number of important statisticians. If you want more information, you can check out these Wikipedia pages:
