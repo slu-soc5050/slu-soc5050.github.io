@@ -13,7 +13,7 @@ weight: 23
 {{< github "slu-soc5050" "lecture-04" >}}
 {{< button "Lecture Prep 04" "https://github.com/slu-soc5050/lecture-04/blob/master/assignments/lp-04.pdf" >}}
 
-## Weekly Prep Replication
+## Lecture Prep Replication
 <p> </p>
 {{< youtube POctIQWrqsE >}}
 
