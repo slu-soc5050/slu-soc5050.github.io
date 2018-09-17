@@ -5,12 +5,25 @@ weight: 23
 ---
 
 ## Meta
-![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-lp%20only-red.svg) [![](https://img.shields.io/badge/last%20update-2018--09--14-brightgreen.svg)](https://github.com/slu-soc5050/lecture-03/blob/master/NEWS_SITE.md)
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-lecture-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2018--09--17-brightgreen.svg)](https://github.com/slu-soc5050/lecture-03/blob/master/NEWS_SITE.md)
+
+## Key Topics
+[{{< keyword name="Bayes' Theorem" >}}](/topic-index/#a-d)
+[{{< keyword name="Data cleaning" >}}](/topic-index/#a-d)
+[{{< package name="dplyr" >}}](/topic-index/#a-d)
+[{{< tool name="Git" >}}](/topic-index/#e-h)
+[{{< tool name="GitHub" >}}](/topic-index/#e-h)
+[{{< keyword name="Probability" >}}](/topic-index/#m-p)
+[{{< keyword name="Probability operations" >}}](/topic-index/#m-p)
+[{{< tool name="R" >}}](/topic-index/#q-t)
+[{{< keyword name="Reproducible examples" >}}](/topic-index/#q-t)
 
 ## Resources
 
 {{< syllabus "slu-soc5050" "lecture-04-probability" >}}
 {{< github "slu-soc5050" "lecture-04" >}}
+{{< button "Lab 03" "https://github.com/slu-soc5050/lecture-04/blob/master/assignments/lab-03.pdf" >}}
+{{< button "Lab 03 Replication" "https://github.com/slu-soc5050/lecture-04/tree/master/assignments/lab-03-replication.pdf" >}}
 {{< button "Lecture Prep 04" "https://github.com/slu-soc5050/lecture-04/blob/master/assignments/lp-04.pdf" >}}
 
 ## Lecture Prep Replication

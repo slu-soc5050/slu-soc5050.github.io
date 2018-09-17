@@ -27,8 +27,7 @@ All students will select a set of variables from a data set and perform an origi
 
 The final project instructions include "waypoints" - designated check-in times for students to ensure that everyone continues to make consistent forward progress throughout the semester (see the <a href="https://slu-soc5050.github.io/syllabus" target="_blank">**Syllabus**</a> and the <a href="https://slu-soc5050.github.io/final-project" target="_blank">**Directions**</a>). The next waypoint will be highlighted with **bold** font throughout the semester.
 
--   **Lecture-03 (September 10th) - Topic Memo from each student due as a GitHub issue in each student's final project repository**
--   Lecture-05 (September 24th) - Progress report from each student due as a GitHub issue in each student's final project repository
+-   **Lecture-05 (September 24th) - Progress report from each student due as a GitHub issue in each student's final project repository**
 -   Lecture-08 (October 15th) - Progress report from each student due as a GitHub issue in each student's final project repository
 -   Lecture-11 (November 5th) - Draft slides and handout due in each student's final project repository
 -   Lecture-12 (November 12th) - Peer reviews due to group members as a GitHub issue in each student's final project repository
