@@ -3,25 +3,35 @@ date: 2016-03-08T21:07:13+01:00
 title: Week 05 - The Distribution of Random Variables
 weight: 24
 ---
-![](https://img.shields.io/badge/semester-Fall%2C%202017-blue.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) 
 
-## Handouts
+## Meta
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-lecture-brightgreen.svg) [![](https://img.shields.io/badge/last%20update-2018--09--24-brightgreen.svg)](https://github.com/slu-soc5050/lecture-03/blob/master/NEWS_SITE.md)
 
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-05/blob/master/Equations/week-05-equations.pdf" target="_blank"> Equations </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-05/blob/master/Functions/week-05-rQuickRef.pdf" target="_blank"> Functions </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-05/blob/master/Lab/week-05-lab.pdf" target="_blank"> Lab </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-05/blob/master/PS-04/ps-04.pdf" target="_blank"> Problem Set 04 </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-05/blob/master/WeeklyPrep/week-05-prep.pdf" target="_blank"> Weekly Prep </a>
+## Key Topics
+[{{< keyword name="Binomial distribution" >}}](/topic-index/#a-d)
+[{{< keyword name="Gaussian distribution" >}}](/topic-index/#e-h)
+[{{< package name="ggplot2" >}}](/topic-index/#e-h)
+[{{< package name="moments" >}}](/topic-index/#m-p)
+[{{< keyword name="Normality testing" >}}](/topic-index/#m-p)
+[{{< package name="nortest" >}}](/topic-index/#m-p)
+[{{< keyword name="Poisson distribution" >}}](/topic-index/#m-p)
+[{{< tool name="R" >}}](/topic-index/#q-t)
+[{{< keyword name="Random variables" >}}](/topic-index/#q-t)
+[{{< keyword name="Statistical significance" >}}](/topic-index/#q-t)
+[{{< package name="stats" >}}](/topic-index/#q-t)
+
+## Resources
+
+{{< syllabus "slu-soc5050" "lecture-05-the-distribution-of-random-variables" >}}
+{{< github "slu-soc5050" "lecture-05" >}}
+{{< button "Equations" "https://github.com/slu-soc5050/lecture-05/blob/master/handouts/lecture-05-equations.pdf" >}}
+{{< button "Functions" "https://github.com/slu-soc5050/lecture-05/blob/master/handouts/lecture-05-functions.pdf" >}}
+{{< button "Lab 04" "https://github.com/slu-soc5050/lecture-05/blob/master/assignments/lab-04.pdf" >}}
+{{< button "Problem Set 02" "https://github.com/slu-soc5050/lecture-05/blob/master/assignments/ps-02.pdf" >}}
 
 ## Lecture Slides
+<p> </p>
 {{< speakerdeck c497c75aad794d199096758b6050c489 >}}
-
-## Weekly Prep
-### Instructions
-The instructions for this week's weekly prep are available in the [`Week-05` GitHub repository](https://github.com/slu-soc5050/Week-05/blob/master/WeeklyPrep/week-05-prep.pdf). Make sure you submit your work and answers by the beginning of class on Monday!
-
-### Replication
-{{< youtube Tt2rErvCdO0 >}}
 
 ## Grappling with p-values
 Here are a couple of links for digging further into what p-values are and how we explain them:
@@ -46,41 +56,6 @@ ggplot(data = mpg, mapping = aes(hwy)) +
     args=list(mean=mean(mpg$hwy), sd=sd(mpg$hwy)))
 ```
 ![histogramNormal.png](https://raw.githubusercontent.com/slu-soc5050/Core-Documents/sources/Week-05/histogramNormal.png)
-
-## Q-Q Plots in `ggplot2`
-We discussed quantile-quantile plots this week as a way to diagnose asymmetry in distributions. We made these plots using base `R` rather than `ggplot2` because the syntax is far simpler in base `R` and we do not typically produce q-q plots for presentation or publication. However, there may come a time when you'd like to show off a q-q plot, and it is *possible* to do it using `ggplot2`. The syntax below comes from [Manuel Gimmond](http://mgimond.github.io/ES218/Week06a.html), a research scientist a Colby College.
-
-`ggplot2` does have a built-in function for plotting your data relative to the normal distribution. You need to specify your variable of interest using `sample` in the aesthetic mapping. You also include the aesthetic mapping in the initial `ggplot()` function and then add the comparison with the standard normal using `stat_qq()`:
-```r
-ggplot(data = mpg, mapping = aes(sample = hwy)) +
-  stat_qq(distribution = qnorm)
-```
-![ggplotQQ1.png](https://raw.githubusercontent.com/slu-soc5050/Core-Documents/sources/Week-05/ggplotQQ1.png)
-
-The complexity of using `ggplot2` comes from the fact that there is no built-in functionality for calculating the slope and intercept of the q-q plot line in the package. We therefore need to calculate those values ourselves:
-```r
-# Identify the 1st and 3rd quartiles
-y     <- quantile(mpg$hwy, c(0.25, 0.75))
-
-# Identify the 1st and 3rd quartiles of the standard normal
-x     <- qnorm(c(0.25, 0.75))
-
-# Compute the slope of the line
-slope <- diff(y) / diff(x)
-
-# Compute the lintercept of the line
-int   <- y[1] - slope * x[1]
-```
-
-Once we have the slope and the intercept of the line caluclated, we can add it to our previous plot using the `geom_abline()` function:
-```r
-ggplot(data = mpg, mapping = aes(sample = hwy)) +
-  geom_abline(intercept = int, slope = slope, color = "red") +
-  stat_qq(distribution = qnorm)
-```
-![ggplotQQ2.png](https://raw.githubusercontent.com/slu-soc5050/Core-Documents/sources/Week-05/ggplotQQ2.png)
-
-For those of you in it for the long haul, it looks like the next public release of `ggplot2()` will correct this. There is a new function called `geom_qq_line()` that will remove the need to manually calculate the slope and intercept. If you want to use this now, you need to install the [development version of `ggplot2` from GitHub using the `devtools::install_github()` function]. This is **not** required, however!
 
 ## Performing Calculations
 During class this week, I briefly described how to perform calculations and save results in `R`. You can use standard mathematical operators `+`, `-`, `/`, and `*` to add, subtract, divide, and multiply (respectively). These are reviewed in the `week-02-lecture-03-rQuickref.pdf` file in the [`Week-02` repo on GitHub](https://github.com/slu-soc5050/Week-02/blob/master/Functions/week-02-lecture-03-rQuickref.pdf). Quickly, we can calculate a value like lambda within `R`, save it as an object, and reference the object in later calculations:
