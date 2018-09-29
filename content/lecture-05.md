@@ -24,9 +24,11 @@ weight: 24
 
 {{< syllabus "slu-soc5050" "lecture-05-the-distribution-of-random-variables" >}}
 {{< github "slu-soc5050" "lecture-05" >}}
+{{< lecture "https://slu.tegrity.com/#/recording/a3589505-ed8c-4b4f-9694-e4640d0a01a1" >}}
 {{< button "Equations" "https://github.com/slu-soc5050/lecture-05/blob/master/handouts/lecture-05-equations.pdf" >}}
 {{< button "Functions" "https://github.com/slu-soc5050/lecture-05/blob/master/handouts/lecture-05-functions.pdf" >}}
 {{< button "Lab 04" "https://github.com/slu-soc5050/lecture-05/blob/master/assignments/lab-04.pdf" >}}
+{{< button "Lab 04 Replication" "https://github.com/slu-soc5050/lecture-05/blob/master/assignments/lab-04-replication/" >}}
 {{< button "Problem Set 02" "https://github.com/slu-soc5050/lecture-05/blob/master/assignments/ps-02.pdf" >}}
 
 ## Lecture Slides

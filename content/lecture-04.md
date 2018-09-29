@@ -22,6 +22,7 @@ weight: 23
 
 {{< syllabus "slu-soc5050" "lecture-04-probability" >}}
 {{< github "slu-soc5050" "lecture-04" >}}
+{{< lecture "https://slu.tegrity.com/#/recording/a2dff38e-9e6e-4877-8f7a-5e93ae439727" >}}
 {{< button "Equations" "https://github.com/slu-soc5050/lecture-04/blob/master/handouts/lecture-04-equations.pdf" >}}
 {{< button "Lab 03" "https://github.com/slu-soc5050/lecture-04/blob/master/assignments/lab-03.pdf" >}}
 {{< button "Lab 03 Replication" "https://github.com/slu-soc5050/lecture-04/tree/master/assignments/lab-03-replication.pdf" >}}
