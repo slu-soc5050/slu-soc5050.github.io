@@ -1,6 +1,6 @@
 ---
 date: 2016-03-08T21:07:13+01:00
-title: Week 03 - Describing Distributions
+title: Lecture 03 - Describing Distributions
 weight: 22
 ---
 

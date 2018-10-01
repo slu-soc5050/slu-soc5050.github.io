@@ -1,6 +1,6 @@
 ---
 date: 2016-03-08T21:07:13+01:00
-title: Week 02 - Working with Data
+title: Lecture 02 - Working with Data
 weight: 21
 ---
 

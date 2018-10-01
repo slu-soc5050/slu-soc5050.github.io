@@ -1,6 +1,6 @@
 ---
 date: 2016-03-08T21:07:13+01:00
-title: Week 05 - The Distribution of Random Variables
+title: Lectue 05 - The Distribution of Random Variables
 weight: 24
 ---
 
@@ -10,6 +10,7 @@ weight: 24
 ## Key Topics
 [{{< keyword name="Binomial distribution" >}}](/topic-index/#a-d)
 [{{< keyword name="Gaussian distribution" >}}](/topic-index/#e-h)
+[{{< keyword name="Hypothesis testing" >}}](/topic-index/#e-h)
 [{{< package name="ggplot2" >}}](/topic-index/#e-h)
 [{{< package name="moments" >}}](/topic-index/#m-p)
 [{{< keyword name="Normality testing" >}}](/topic-index/#m-p)
