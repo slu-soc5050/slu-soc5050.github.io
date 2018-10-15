@@ -7,6 +7,11 @@ weight: 26
 ## Meta
 ![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-lecture-orange.svg) [![](https://img.shields.io/badge/last%20update-2018--10--12-brightgreen.svg)](https://github.com/slu-soc5050/lecture-06/blob/master/NEWS_SITE.md)
 
+## Key Topics
+[{{< keyword name="Cohen's D" >}}](/topic-index/#a-d)
+[{{< keyword name="Difference of Mean Tests" >}}](/topic-index/#a-d)
+[{{< package name="Reshaping Data" >}}](/topic-index/#q-t)
+
 ## Resources
 
 {{< syllabus "slu-soc5050" "lecture-07-difference-of-means-part-1" >}}
@@ -17,6 +22,7 @@ weight: 26
 {{< button "Functions" "https://github.com/slu-soc5050/lecture-07/blob/master/handouts/lecture-07-functions.pdf" >}}
 {{< button "Lab-06" "https://github.com/slu-soc5050/lecture-07/blob/master/assignments/lab-06.pdf" >}}
 {{< button "LP-07" "https://github.com/slu-soc5050/lecture-07/blob/master/assignments/lp-07.pdf" >}}
+{{< button "T-test Workflow" "https://github.com/slu-soc5050/lecture-07/blob/master/handouts/t-test_workflow.pdf" >}}
 
 ## Lecture Slides
 <p> </p>
