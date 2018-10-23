@@ -9,18 +9,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Lecture 08 - Difference of Means (Part 2) - SOC 4015 &amp; SOC 5050</title>
+    <title>Lecture 09 - Factors - SOC 4015 &amp; SOC 5050</title>
     <meta name="generator" content="Hugo 0.48" />
 
     
     <meta name="description" content="SOC 4015 &amp; SOC 5050: Quantiative Analysis - Applied Inferential Statistics">
     
-    <link rel="canonical" href="/lecture-08/">
+    <link rel="canonical" href="/lecture-09/">
     
     <meta name="author" content="Christopher Prener, Ph.D.">
     
 
-    <meta property="og:url" content="/lecture-08/">
+    <meta property="og:url" content="/lecture-09/">
     <meta property="og:title" content="SOC 4015 &amp; SOC 5050">
     <meta property="og:image" content="/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="SOC 4015 &amp; SOC 5050">
@@ -101,7 +101,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Lecture 08 - Difference of Means (Part 2)
+        Lecture 09 - Factors
       </div>
     </div>
 
@@ -394,14 +394,11 @@
 
 
 
-<a class="current" title="Lecture 08 - Mean Difference (2)" href="/lecture-08/">
+<a  title="Lecture 08 - Mean Difference (2)" href="/lecture-08/">
 	
 	Lecture 08 - Mean Difference (2)
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -415,11 +412,14 @@
 
 
 
-<a  title="Lecture 09 - Factors" href="/lecture-09/">
+<a class="current" title="Lecture 09 - Factors" href="/lecture-09/">
 	
 	Lecture 09 - Factors
 </a>
 
+
+<ul id="scrollspy">
+</ul>
 
 
   
@@ -660,65 +660,37 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>Lecture 08 - Difference of Means (Part 2) </h1>
+			<h1>Lecture 09 - Factors </h1>
 
 			
 
 <h2 id="meta">Meta</h2>
 
-<p><img src="https://img.shields.io/badge/semester-fall%202018-orange.svg" alt="" /> <img src="https://img.shields.io/badge/release-lecture-orange.svg" alt="" /> <a href="https://github.com/slu-soc5050/lecture-06/blob/master/NEWS_SITE.md"><img src="https://img.shields.io/badge/last%20update-2018--10--12-brightgreen.svg" alt="" /></a></p>
+<p><img src="https://img.shields.io/badge/semester-fall%202018-orange.svg" alt="" /> <img src="https://img.shields.io/badge/release-full-brightgreen.svg" alt="" /> <a href="https://github.com/slu-soc5050/lecture-09/blob/master/NEWS_SITE.md"><img src="https://img.shields.io/badge/last%20update-2018--10--23-brightgreen.svg" alt="" /></a></p>
 
 <h2 id="key-topics">Key Topics</h2>
 
-<p><a href="/topic-index/#a-d"><i class="package"><i class="fas fa-archive"></i> broom</i></a>
-<a href="/topic-index/#a-d"><i class="package"><i class="fas fa-archive"></i> car</i></a>
-<a href="/topic-index/#a-d"><i class="keyword"><i class="fas fa-tags"></i> Cohen&#39;s D</i> </a>
-<a href="/topic-index/#a-d"><i class="keyword"><i class="fas fa-tags"></i> Difference of Mean Tests</i> </a>
-<a href="/topic-index/#e-h"><i class="package"><i class="fas fa-archive"></i> effsize</i></a>
-<a href="/topic-index/#e-h"><i class="package"><i class="fas fa-archive"></i> ggplot2</i></a>
-<a href="/topic-index/#e-h"><i class="package"><i class="fas fa-archive"></i> ggridges</i></a>
-<a href="/topic-index/#e-h"><i class="package"><i class="fas fa-archive"></i> ggstatsplot</i></a>
-<a href="/topic-index/#m-p"><i class="keyword"><i class="fas fa-tags"></i> Power Analyses</i> </a>
-<a href="/topic-index/#m-p"><i class="package"><i class="fas fa-archive"></i> pwr</i></a>
-<a href="/topic-index/#q-t"><i class="tool"><i class="fas fa-desktop"></i> R</i></a>
-<a href="/topic-index/#q-t"><i class="package"><i class="fas fa-archive"></i> readr</i></a>
-<a href="/topic-index/#q-t"><i class="package"><i class="fas fa-archive"></i> Reshaping Data</i></a>
-<a href="/topic-index/#q-t"><i class="package"><i class="fas fa-archive"></i> stats</i></a>
-<a href="/topic-index/#q-t"><i class="package"><i class="fas fa-archive"></i> tidyr</i></a></p>
+<p><a href="/topic-index/#a-d"><i class="package"><i class="fas fa-archive"></i> dplyr</i></a>
+<a href="/topic-index/#e-h"><i class="keyword"><i class="fas fa-tags"></i> Factors</i> </a>
+<a href="/topic-index/#e-h"><i class="package"><i class="fas fa-archive"></i> forcats</i></a>
+<a href="/topic-index/#i-l"><i class="package"><i class="fas fa-archive"></i> janitor</i></a></p>
 
 <h2 id="resources">Resources</h2>
 
-<p><a class="btn btn-primary btn-outline btn-xs" href="https://slu-soc5050.github.io/syllabus/lecture-08-difference-of-means-part-2.html" target="_blank"> Open on &ensp;<i class="fas fa-book fa-lg"></i> </a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-08" target="_blank"> Open on &ensp;<i class="fab fa-github fa-lg"></i> </a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-08/blob/master/handouts/lecture-08-functions.pdf" target="_blank"> Functions </a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-08/blob/master/assignments/lab-07.pdf" target="_blank"> Lab-07 </a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-08/blob/master/assignments/lp-08.pdf" target="_blank"> LP-08 </a></p>
+<p><a class="btn btn-primary btn-outline btn-xs" href="https://slu-soc5050.github.io/syllabus/lecture-09-working-with-factors.html" target="_blank"> Open on &ensp;<i class="fas fa-book fa-lg"></i> </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-09" target="_blank"> Open on &ensp;<i class="fab fa-github fa-lg"></i> </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-09/blob/master/handouts/lecture-09-functions.pdf" target="_blank"> Functions </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-09/blob/master/assignments/lab-08.pdf" target="_blank"> Lab-08 </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/slu-soc5050/lecture-09/blob/master/assignments/lab-08-replication/" target="_blank"> Lab-08 Replication </a></p>
 
-<h2 id="lecture-slides">Lecture Slides</h2>
+<h2 id="lecture-video">Lecture Video</h2>
 
-<script async class="speakerdeck-embed" data-id="6f5a77f5d7144394b05b2f08f6e0d844" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<p><p> </p>
 
-
-<h2 id="tips-for-working-with-paired-data">Tips for Working with Paired Data</h2>
-
-<p>The lab and the problem set for this week both include paired data, and you may run into a couple of issues that I want to hight.</p>
-
-<h3 id="issues-with-plots">Issues with Plots</h3>
-
-<p>The first issue that may arise is related to plotting data that are long. Following the examples from class, you may be tempted to use the <code>year</code> variable, unedited, to your plot. It will produce the following plot:
-<img src="/images/week-08-img01.png" alt="image" /></p>
-
-<p>Even those we specified that <code>year</code> should be the <code>x</code> variable, it does not provide two boxes on the plot. This ibecause the <code>x</code> variable, <code>year</code> in this case, is numeric. To do this correctly, we need toeither (a) include a third option in our aesthetic mapping called <code>group</code> that is set equal to our <code>year</code> variable or (b) convert <code>year</code> to a factor or a string. Once we do, <code>ggplot2</code> will produce the following plot:
-<img src="/images/week-08-img03.png" alt="image" /></p>
-
-<h3 id="issues-with-variable-names">Issues with Variable Names</h3>
-
-<p>When we convert <code>incomeLong</code> to <code>incomeWide</code>, the variable names become <code>2010</code> and <code>2015</code>. Trying to call a function with these variable names (like <code>mean(incomeWide$2010)</code>) will produce an error. You must wrap numeric variable names in back ticks, like so:</p>
-
-<pre><code class="language-r">mean(incomeWide$`2010`)
-</code></pre>
-
-<p>This will allow the code to execute properly.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/_VD0hSUjNPs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
 
 
 			<aside class="copyright" role="note">
@@ -737,7 +709,7 @@
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="/lecture-07/" title="Lecture 07 - Difference of Means (Part 1)">
+      <a href="/lecture-08/" title="Lecture 08 - Difference of Means (Part 2)">
         <span class="direction">
           Previous
         </span>
@@ -747,7 +719,7 @@
           </div>
           <div class="stretch">
             <div class="title">
-              Lecture 07 - Difference of Means (Part 1)
+              Lecture 08 - Difference of Means (Part 2)
             </div>
           </div>
         </div>
@@ -757,14 +729,14 @@
 
   <div class="next">
   
-      <a href="/lecture-09/" title="Lecture 09 - Factors">
+      <a href="/lecture-10/" title="Week 10 - Correlation (Part 1)">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Lecture 09 - Factors
+              Week 10 - Correlation (Part 1)
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
