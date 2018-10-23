@@ -1,7 +1,7 @@
 ---
 date: 2016-03-08T21:07:13+01:00
 title: Week 14 - Multiple Regression (2)
-weight: 32
+weight: 33
 ---
 ![](https://img.shields.io/badge/semester-Fall%2C%202017-blue.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) 
 
