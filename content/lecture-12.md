@@ -1,6 +1,6 @@
 ---
 date: 2016-03-08T21:07:13+01:00
-title: Week 12 - Bivarite Regression
+title: Lecture 12 - OLS Regression (1)
 weight: 31
 ---
 ## Meta

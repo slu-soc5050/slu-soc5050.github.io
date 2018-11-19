@@ -1,26 +1,28 @@
 ---
 date: 2016-03-08T21:07:13+01:00
-title: Week 13 - Multiple Regression (1)
+title: Lecture 13 - OLS Regression (2)
 weight: 32
 ---
-![](https://img.shields.io/badge/semester-Fall%2C%202017-blue.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) 
 
-## Handouts
+## Meta
+![](https://img.shields.io/badge/semester-fall%202018-orange.svg) ![](https://img.shields.io/badge/release-lecture-orange.svg) [![](https://img.shields.io/badge/last%20update-2018--11--19-brightgreen.svg)](https://github.com/slu-soc5050/lecture-09/blob/master/NEWS_SITE.md)
 
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-13/blob/master/Functions/week-13-r.pdf" target="_blank"> Functions </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-13/blob/master/Lab/week-13-lab.pdf" target="_blank"> Lab </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-13/blob/master/LaTeX/week-13-latex.pdf" target="_blank"> LaTeX </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-13/blob/master/Workflow/week-13-workflow.pdf" target="_blank"> Workflow </a>
-<a class="btn btn-primary btn-outline btn-xs{{end}}" href="https://github.com/slu-soc5050/Week-13/blob/master/WeeklyPrep/week-13-prep.pdf" target="_blank"> Weekly Prep </a>
+## Key Topics
+[{{< package name="base" >}}](/topic-index/#a-d)
+[{{< tool name="R" >}}](/topic-index/#q-t)
+[{{< keyword name="Regression" >}}](/topic-index/#q-t)
+[{{< package name="stargazer" >}}](/topic-index/#q-t)
+[{{< package name="stats" >}}](/topic-index/#q-t)
+[{{< keyword name="Tables" >}}](/topic-index/#q-t)
+
+## Resources
+
+{{< syllabus "slu-soc5050" "lecture-13-ols-regression-part-2" >}}
+{{< github "slu-soc5050" "lecture-13" >}}
+{{< button "Functions" "https://github.com/slu-soc5050/lecture-13/blob/master/handouts/lecture-13-functions.pdf" >}}
+{{< button "Lab-12" "https://github.com/slu-soc5050/lecture-13/blob/master/assignments/lab-12.pdf" >}}
+{{< button "Workflow" "https://github.com/slu-soc5050/lecture-13/blob/master/handouts/lecture-13-workflow.pdf" >}}
 
 ## Lecture Slides
+<p> </p>
 {{< speakerdeck 03f31eaca678478ebcd3027780c59776 >}}
-
-## Some Example LaTeX Syntax for Class
-### Bibliography File
-
-<script data-gist-id="92379631f15264a5ee6211f36ac0d54c"></script>
-
-### LaTeX Source
-
-<script data-gist-id="5eb0d80f7cc29a85ccdd82ae5c3abe28"></script>
